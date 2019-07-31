@@ -1,0 +1,32 @@
+.left-box{
+    width: 40%;
+    float: left;
+    border: dashed 1px blue;
+}
+
+.right-box{
+    width: 55%;
+    float: right;
+    border: dashed 1px blue;
+}
+
+nav ul{
+    text-align: center;
+    border: dashed 1px gray;
+    margin: 0px;
+    padding: 10px 0px;
+}
+
+nav li{
+    font-size: 80%;
+    display: inline-block;
+
+}
+
+.end-juxtapose{
+    clear: both;
+}
+
+.tweet-block{
+    border: dashed 1px gray;
+}

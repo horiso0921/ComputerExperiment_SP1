@@ -1,0 +1,71 @@
+Script started on Thu 23 May 2019 02:19:19 PM JST
+[root@icesc12 ~]# dig httpbin.org
+
+; <<>> DiG 9.9.4-RedHat-9.9.4-73.el7_6 <<>> httpbin.org
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 18702
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 4, ADDITIONAL: 5
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;httpbin.org.           IN  A
+
+;; ANSWER SECTION:
+httpbin.org.        27  IN  A   3.213.232.135
+httpbin.org.        27  IN  A   52.20.9.77
+
+;; AUTHORITY SECTION:
+httpbin.org.        86367   IN  NS  ns-884.awsdns-46.net.
+httpbin.org.        86367   IN  NS  ns-1053.awsdns-03.org.
+httpbin.org.        86367   IN  NS  ns-173.awsdns-21.com.
+httpbin.org.        86367   IN  NS  ns-1555.awsdns-02.co.uk.
+
+;; ADDITIONAL SECTION:
+ns-1053.awsdns-03.org.  86367   IN  A   205.251.196.29
+ns-1555.awsdns-02.co.uk. 66745  IN  A   205.251.198.19
+ns-173.awsdns-21.com.   156252  IN  A   205.251.192.173
+ns-884.awsdns-46.net.   89223   IN  A   205.251.195.116
+
+;; Query time: 2 msec
+;; SERVER: 10.10.1.2#53(10.10.1.2)
+;; WHEN: Thu May 23 14:19:23 JST 2019
+;; MSG SIZE  rcvd: 273
+
+[root@icesc12 ~]# curl http://httpbin.org/get
+{
+  "args": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Host": "httpbin.org", 
+    "User-Agent": "curl/7.29.0"
+  }, 
+  "origin": "133.6.202.11, 133.6.202.11", 
+  "url": "https://httpbin.org/get"
+}
+[root@icesc12 ~]# curl https://httpbin.org/get
+{
+  "args": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Host": "httpbin.org", 
+    "User-Agent": "curl/7.29.0"
+  }, 
+  "origin": "133.6.202.11, 133.6.202.11", 
+  "url": "https://httpbin.org/get"
+}
+[root@icesc12 ~]# ping -c 5 www.google.co.jp
+PING www.google.co.jp (172.217.161.227) 56(84) bytes of data.
+64 bytes from kix06s05-in-f3.1e100.net (172.217.161.227): icmp_seq=1 ttl=53 time=4.92 ms
+64 bytes from kix06s05-in-f3.1e100.net (172.217.161.227): icmp_seq=2 ttl=53 time=5.35 ms
+64 bytes from kix06s05-in-f3.1e100.net (172.217.161.227): icmp_seq=3 ttl=53 time=4.81 ms
+64 bytes from kix06s05-in-f3.1e100.net (172.217.161.227): icmp_seq=4 ttl=53 time=4.95 ms
+64 bytes from kix06s05-in-f3.1e100.net (172.217.161.227): icmp_seq=5 ttl=53 time=4.74 ms
+
+--- www.google.co.jp ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4007ms
+rtt min/avg/max/mdev = 4.745/4.960/5.358/0.217 ms
+[root@icesc12 ~]# exit
+
+Script done on Thu 23 May 2019 02:20:01 PM JST

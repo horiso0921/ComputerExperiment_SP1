@@ -1,0 +1,22 @@
+Script started on Thu 16 May 2019 02:03:15 PM JST
+[root@www2 ~]# cat /etc/sysconfig/selinux 
+
+# This file controls the state of SELinux on the system.
+# SELINUX= can take one of these three values:
+#     enforcing - SELinux security policy is enforced.
+#     permissive - SELinux prints warnings instead of enforcing.
+#     disabled - No SELinux policy is loaded.
+SELINUX=enforcing
+# SELINUXTYPE= can take one of three two values:
+#     targeted - Targeted processes are protected,
+#     minimum - Modification of targeted policy. Only selected processes are protected. 
+#     mls - Multi Level Security protection.
+SELINUXTYPE=targeted 
+
+
+[root@www2 ~]# getenforce 
+Enforcing
+[root@www2 ~]# setenforce 0
+[root@www2 ~]# exit
+
+Script done on Thu 16 May 2019 02:03:32 PM JST

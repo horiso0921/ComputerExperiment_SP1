@@ -1,0 +1,27 @@
+スクリプトは 2019年05月23日 14時34分03秒
+ に開始しました[ice@icesc00 machine3]$ ssh root@192.168.150.2
+The authenticity of host '192.168.150.2 (192.168.150.2)' can't be established.
+ECDSA key fingerprint is SHA256:rxmwTrxtAwG47YxzlCpzNkAIfoQXpONXvYqe5pIhcB4.
+ECDSA key fingerprint is MD5:49:7c:ba:38:39:e2:71:90:8f:cf:9b:de:f0:48:47:ae.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.150.2' (ECDSA) to the list of known hosts.
+root@192.168.150.2's password: 
+Last login: Thu May 23 14:20:15 2019
+[root@www2 ~]# ログアウト
+Connection to 192.168.150.2 closed.
+[ice@icesc00 machine3]$ ping -c 5 192.168.200.1
+PING 192.168.200.1 (192.168.200.1) 56(84) bytes of data.
+64 bytes from 192.168.200.1: icmp_seq=1 ttl=64 time=0.659 ms
+64 bytes from 192.168.200.1: icmp_seq=2 ttl=64 time=0.609 ms
+64 bytes from 192.168.200.1: icmp_seq=3 ttl=64 time=0.577 ms
+64 bytes from 192.168.200.1: icmp_seq=4 ttl=64 time=0.639 ms
+64 bytes from 192.168.200.1: icmp_seq=5 ttl=64 time=0.591 ms
+
+--- 192.168.200.1 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4001ms
+rtt min/avg/max/mdev = 0.577/0.615/0.659/0.030 ms
+[ice@icesc00 machine3]$ exit
+
+スクリプトは 2019年05月23日 14時34分40秒
+ に終了しました
+ z

@@ -1,0 +1,84 @@
+スクリプトは 2019年05月23日 14時28分02秒
+ に開始しました]777;notify;Command completed;dig httpbin.org]0;ice@icesc00:~/machine3]7;file://icesc00.ice.nuie.nagoya-u.ac.jp/home/ice/machine3[?1034h[ice@icesc00 machine3]$ dig httpbin.org
+
+; <<>> DiG 9.9.4-RedHat-9.9.4-61.el7 <<>> httpbin.org
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 19851
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 4, ADDITIONAL: 5
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;httpbin.org.			IN	A
+
+;; ANSWER SECTION:
+httpbin.org.		35	IN	A	52.20.9.77
+httpbin.org.		35	IN	A	3.213.232.135
+
+;; AUTHORITY SECTION:
+httpbin.org.		85830	IN	NS	ns-1053.awsdns-03.org.
+httpbin.org.		85830	IN	NS	ns-884.awsdns-46.net.
+httpbin.org.		85830	IN	NS	ns-1555.awsdns-02.co.uk.
+httpbin.org.		85830	IN	NS	ns-173.awsdns-21.com.
+
+;; ADDITIONAL SECTION:
+ns-1053.awsdns-03.org.	85830	IN	A	205.251.196.29
+ns-1555.awsdns-02.co.uk. 66208	IN	A	205.251.198.19
+ns-173.awsdns-21.com.	155715	IN	A	205.251.192.173
+ns-884.awsdns-46.net.	88686	IN	A	205.251.195.116
+
+;; Query time: 5 msec
+;; SERVER: 10.10.1.2#53(10.10.1.2)
+;; WHEN: 木  5月 23 14:28:13 JST 2019
+;; MSG SIZE  rcvd: 273
+
+]777;notify;Command completed;dig httpbin.org]0;ice@icesc00:~/machine3]7;file://icesc00.ice.nuie.nagoya-u.ac.jp/home/ice/machine3[ice@icesc00 machine3]$ curl http://httpbin.org/get
+{
+  "args": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Host": "httpbin.org", 
+    "User-Agent": "curl/7.29.0"
+  }, 
+  "origin": "133.6.202.11, 133.6.202.11", 
+  "url": "https://httpbin.org/get"
+}
+]777;notify;Command completed;curl http://httpbin.org/get]0;ice@icesc00:~/machine3]7;file://icesc00.ice.nuie.nagoya-u.ac.jp/home/ice/machine3[ice@icesc00 machine3]$ curl https://httpbin.r[Korg/get
+{
+  "args": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Host": "httpbin.org", 
+    "User-Agent": "curl/7.29.0"
+  }, 
+  "origin": "133.6.202.11, 133.6.202.11", 
+  "url": "https://httpbin.org/get"
+}
+]777;notify;Command completed;curl https://httpbin.org/get]0;ice@icesc00:~/machine3]7;file://icesc00.ice.nuie.nagoya-u.ac.jp/home/ice/machine3[ice@icesc00 machine3]$ ping -c www.google.co.jp
+ping: bad number of packets to transmit.
+]777;notify;Command completed;ping -c www.google.co.jp]0;ice@icesc00:~/machine3]7;file://icesc00.ice.nuie.nagoya-u.ac.jp/home/ice/machine3[ice@icesc00 machine3]$ ping -c www.google.co.jp5www.google.co.jp www.google.co.jp
+PING www.google.co.jp (172.217.161.227) 56(84) bytes of data.
+64 bytes from kix06s05-in-f3.1e100.net (172.217.161.227): icmp_seq=1 ttl=52 time=5.75 ms
+64 bytes from kix06s05-in-f3.1e100.net (172.217.161.227): icmp_seq=2 ttl=52 time=5.84 ms
+64 bytes from kix06s05-in-f3.1e100.net (172.217.161.227): icmp_seq=3 ttl=52 time=5.24 ms
+64 bytes from kix06s05-in-f3.1e100.net (172.217.161.227): icmp_seq=4 ttl=52 time=5.22 ms
+64 bytes from kix06s05-in-f3.1e100.net (172.217.161.227): icmp_seq=5 ttl=52 time=5.19 ms
+
+--- www.google.co.jp ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+rtt min/avg/max/mdev = 5.197/5.452/5.848/0.293 ms
+]777;notify;Command completed;ping -c 5 www.google.co.jp]0;ice@icesc00:~/machine3]7;file://icesc00.ice.nuie.nagoya-u.ac.jp/home/ice/machine3[ice@icesc00 machine3]$ ssh kw0791974[K5@ssh.ice.nuie.nagoya-u.ac.jp
+The authenticity of host 'ssh.ice.nuie.nagoya-u.ac.jp (10.11.1.12)' can't be established.
+RSA key fingerprint is SHA256:+TozKde2CBNcFKMvOG26EQ+IYfSz1kT3i4uIx2hIxSY.
+RSA key fingerprint is MD5:71:49:d0:01:1b:11:5c:2e:06:81:3d:92:65:01:3f:a3.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'ssh.ice.nuie.nagoya-u.ac.jp,10.11.1.12' (RSA) to the list of known hosts.
+kw0791975@ssh.ice.nuie.nagoya-u.ac.jp's password: 
+Last login: Tue May 21 23:08:23 2019 from 123.48.70.177
+[?1034hbash-4.1$ logout
+Connection to ssh.ice.nuie.nagoya-u.ac.jp closed.
+]777;notify;Command completed;ssh kw0791975@ssh.ice.nuie.nagoya-u.ac.jp]0;ice@icesc00:~/machine3]7;file://icesc00.ice.nuie.nagoya-u.ac.jp/home/ice/machine3[ice@icesc00 machine3]$ exit
+
+スクリプトは 2019年05月23日 14時29分17秒
+ に終了しました

@@ -1,0 +1,13 @@
+Script started on Thu 23 May 2019 02:09:37 PM JST
+[root@icesc12 machine1_2]# scp kw0791975@ssh.nuie[K[K[K[Kice.nuie.nagoya0-[K[K-u.ac.jp:/pb[Kub/[K1/jikken/cs-net/iptables-sample.sh ~
+The authenticity of host 'ssh.ice.nuie.nagoya-u.ac.jp (10.11.1.12)' can't be established.
+RSA key fingerprint is SHA256:+TozKde2CBNcFKMvOG26EQ+IYfSz1kT3i4uIx2hIxSY.
+RSA key fingerprint is MD5:71:49:d0:01:1b:11:5c:2e:06:81:3d:92:65:01:3f:a3.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'ssh.ice.nuie.nagoya-u.ac.jp,10.11.1.12' (RSA) to the list of known hosts.
+kw0791975@ssh.ice.nuie.nagoya-u.ac.jp's password: 
+iptables-sample.sh                                                                                                              0%    0     0.0KB/s   --:-- ETAiptables-sample.sh                                                                                                            100% 3700   916.1KB/s   00:00    
+[root@icesc12 machine1_2]# sh ~/iptables-sample.sh 
+[root@icesc12 machine1_2]# exit
+
+Script done on Thu 23 May 2019 02:10:25 PM JST

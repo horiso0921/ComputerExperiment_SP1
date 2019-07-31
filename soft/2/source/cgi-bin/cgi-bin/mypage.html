@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="userpage.css">
+    <title>${username}のページ</title>
+</head>
+
+<body>
+    <div class="left-box">
+        <nav>
+            <ul>
+                <li>マイページ</li>
+                <li>
+                    <a href="/timeline">タイムライン</a>
+                </li>
+                <li>
+                    <a href="/logout">ログアウト</a>
+                </li>
+            </ul>
+        </nav>
+        <h1>${username}</h1>
+        <ul>
+            <li>
+                <a href="/userlist">フォロー</a> $followee</li>
+            <li>
+                <a href="/userlist">フォロワー</a> $follower</li>
+        </ul>
+        <form action="/userpage" method="POST">
+            <textarea name="tweet_content" cols="28" rows="5"></textarea>
+            <button type="submit">ツイート</button>
+        </form>
+    </div>
+
+    <div class="right-box">
+        $tweet_blocks
+    </div>
+
+    <div class="end-juxtapose"></div>
+</body>
+
+</html>

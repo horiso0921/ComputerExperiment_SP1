@@ -1,0 +1,8 @@
+Script started on Thu 23 May 2019 02:59:44 PM JST
+[root@icesc12 ~]# iptables-save > /etc/sysconfig/iptables
+[root@icesc12 ~]# scp /etc/sysconfig/iptables kw0791975@ssh.ice.nuie.nagoya-u.ac.jp:/pub1/jikken/cs-net/students/group12
+kw0791975@ssh.ice.nuie.nagoya-u.ac.jp's password: 
+scp: /pub1/jikken/cs-net/students/group12: Permission denied
+[root@icesc12 ~]# exit
+
+Script done on Thu 23 May 2019 03:00:50 PM JST

@@ -1,0 +1,6 @@
+Script started on Thu 23 May 2019 03:17:44 PM JST
+[root@www2 machine2_2]# systemctl enable httpd
+Created symlink from /etc/systemd/system/multi-user.target.wants/httpd.service to /usr/lib/systemd/system/httpd.service.
+[root@www2 machine2_2]# exit
+
+Script done on Thu 23 May 2019 03:17:52 PM JST

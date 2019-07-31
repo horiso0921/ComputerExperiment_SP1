@@ -1,0 +1,22 @@
+Script started on Thu 23 May 2019 02:57:19 PM JST
+[root@www2 machine2_2]# nmcli con down enp3s0
+Connection 'enp3s0' successfully deactivated (D-Bus active path: /org/freedesktop/NetworkManager/ActiveConnection/1)
+[root@www2 machine2_2]# nmcli con up enps[K3s0
+Connection successfully activated (D-Bus active path: /org/freedesktop/NetworkManager/ActiveConnection/2)
+[root@www2 machine2_2]# firewa--[K[Kll-cmd --permanent --add-service=dhcpv6-client
+[91mWarning: ALREADY_ENABLED: dhcpv6-client[00m
+success
+[root@www2 machine2_2]# firewall-cmd --permanent -add-service=http
+usage: see firewall-cmd man page
+firewall-cmd: error: unrecognized arguments: -add-service=http
+[root@www2 machine2_2]# firewall-cmd --permanent -add-service=http[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kfirewall-cmd --permanent -add-service=http-add-service=http
+success
+[root@www2 machine2_2]# firewall-cmd --permanent --add-service=https
+success
+[root@www2 machine2_2]# firewall-cmd reload
+usage: see firewall-cmd man page
+firewall-cmd: error: unrecognized arguments: reload
+[root@www2 machine2_2]# systemctl restart firewalld
+[root@www2 machine2_2]# exit
+
+Script done on Thu 23 May 2019 02:59:01 PM JST

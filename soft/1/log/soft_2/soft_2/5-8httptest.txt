@@ -1,0 +1,4 @@
+machine3から
+		192.168.150.2で接続成功
+外部(ice端末)から
+		https://icesc12.ice.nuie.nagoya-u.ac.jp/で接続成功

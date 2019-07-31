@@ -1,0 +1,11 @@
+Script started on 2019-05-23 05:45:58+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="60" LINES="41"]
+
+[sk2818690: ~]$ ssh root@icesc12
+root@icesc12's password: 
+Last login: Thu May 23 14:30:11 2019 from 192.168.200.100
+[root@icesc12 ~]# ログアウト
+Connection to icesc12 closed.
+
+[sk2818690: ~]$ exit
+
+Script done on 2019-05-23 05:46:38+00:00 [COMMAND_EXIT_CODE="0"]

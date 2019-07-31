@@ -1,0 +1,199 @@
+Script started on Thu 16 May 2019 02:37:15 PM JST
+[root@icesc12 ~]# systemctl list-units --type=service
+  UNIT                                            LOAD   ACTIVE SUB     DESCRIPTION
+  auditd.service                                  loaded active running Security Auditing Service
+  crond.service                                   loaded active running Command Scheduler
+  dbus.service                                    loaded active running D-Bus System Message Bus
+  firewalld.service                               loaded active running firewalld - dynamic firewall daemon
+  getty@tty1.service                              loaded active running Getty on tty1
+  irqbalance.service                              loaded active running irqbalance daemon
+  kdump.service                                   loaded active exited  Crash recovery kernel arming
+  kmod-static-nodes.service                       loaded active exited  Create list of required static device nodes for the current kernel
+  lvm2-lvmetad.service                            loaded active running LVM2 metadata daemon
+  lvm2-monitor.service                            loaded active exited  Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling
+  lvm2-pvscan@8:2.service                         loaded active exited  LVM2 PV scan on device 8:2
+  network.service                                 loaded active exited  LSB: Bring up/down networking
+● NetworkManager-wait-online.service              loaded failed failed  Network Manager Wait Online
+  NetworkManager.service                          loaded active running Network Manager
+  polkit.service                                  loaded active running Authorization Manager
+  postfix.service                                 loaded active running Postfix Mail Transport Agent
+  rhel-dmesg.service                              loaded active exited  Dump dmesg to /var/log/dmesg
+  rhel-domainname.service                         loaded active exited  Read and set NIS domainname from /etc/sysconfig/network
+  rhel-import-state.service                       loaded active exited  Import network configuration from initramfs
+  rhel-readonly.service                           loaded active exited  Configure read-only root support
+  rsyslog.service                                 loaded active running System Logging Service
+  sshd.service                                    loaded active running OpenSSH server daemon
+  systemd-backlight@backlight:acpi_video0.service loaded active exited  Load/Save Screen Backlight Brightness of backlight:acpi_video0
+  systemd-journal-flush.service                   loaded active exited  Flush Journal to Persistent Storage
+  systemd-journald.service                        loaded active running Journal Service
+  systemd-logind.service                          loaded active running Login Service
+  systemd-random-seed.service                     loaded active exited  Load/Save Random Seed
+  systemd-readahead-collect.service               loaded active exited  Collect Read-Ahead Data
+  systemd-readahead-replay.service                loaded active exited  Replay Read-Ahead Data
+  systemd-remount-fs.service                      loaded active exited  Remount Root and Kernel File Systems
+  systemd-sysctl.service                          loaded active exited  Apply Kernel Variables
+  systemd-tmpfiles-setup-dev.service              loaded active exited  Create Static Device Nodes in /dev
+  systemd-tmpfiles-setup.service                  loaded active exited  Create Volatile Files and Directories
+  systemd-udev-trigger.service                    loaded active exited  udev Coldplug all Devices
+  systemd-udevd.service                           loaded active running udev Kernel Device Manager
+  systemd-update-utmp.service                     loaded active exited  Update UTMP about System Boot/Shutdown
+  systemd-user-sessions.service                   loaded active exited  Permit User Sessions
+  systemd-vconsole-setup.service                  loaded active exited  Setup Virtual Console
+  tuned.service                                   loaded active running Dynamic System Tuning Daemon
+
+LOAD   = Reflects whether the unit definition was properly loaded.
+ACTIVE = The high-level unit activation state, i.e. generalization of SUB.
+SUB    = The low-level unit activation state, values depend on unit type.
+
+39 loaded units listed. Pass --all to see loaded but inactive units, too.
+To show all installed unit files use 'systemctl list-unit-files'.
+[root@icesc12 ~]# systemctl stop firewalld
+[root@icesc12 ~]# systemctl status firewalld
+● firewalld.service - firewalld - dynamic firewall daemon
+   Loaded: loaded (/usr/lib/systemd/system/firewalld.service; enabled; vendor preset: enabled)
+   Active: inactive (dead) since Thu 2019-05-16 14:37:59 JST; 6s ago
+     Docs: man:firewalld(1)
+  Process: 706 ExecStart=/usr/sbin/firewalld --nofork --nopid $FIREWALLD_ARGS (code=exited, status=0/SUCCESS)
+ Main PID: 706 (code=exited, status=0/SUCCESS)
+
+May 16 14:25:52 icesc12.ice.nuie.nagoya-u.ac.jp systemd[1]: Starting firewalld - dynamic firewall daemon...
+May 16 14:25:53 icesc12.ice.nuie.nagoya-u.ac.jp systemd[1]: Started firewalld - dynamic firewall daemon.
+May 16 14:37:58 icesc12.ice.nuie.nagoya-u.ac.jp systemd[1]: Stopping firewalld - dynamic firewall daemon...
+May 16 14:37:59 icesc12.ice.nuie.nagoya-u.ac.jp systemd[1]: Stopped firewalld - dynamic firewall daemon.
+[root@icesc12 ~]# yum list dhcp-\*
+Loaded plugins: fastestmirror
+Determining fastest mirrors
+ * base: ftp.jaist.ac.jp
+ * extras: ftp.jaist.ac.jp
+ * updates: ftp.jaist.ac.jp
+base                                                                                                                                     | 3.6 kB  00:00:00     
+extras                                                                                                                                   | 3.4 kB  00:00:00     
+updates                                                                                                                                  | 3.4 kB  00:00:00     
+(1/4): base/7/x86_64/group_gz                                                                                                            | 166 kB  00:00:00     
+(2/4): extras/7/x86_64/primary_db                                                                                                        | 201 kB  00:00:00     
+(4/4): updates/7/x86_64/primary_db                                3% [=-        (3/4): updates/7/x86_64/primary_db                                                                                                       | 5.0 MB  00:00:00     
+(4/4): base/7/x86_64/primary_db                                   48% [=========(4/4): base/7/x86_64/primary_db                                                                                                          | 6.0 MB  00:00:01     
+Installed Packages
+dhcp-common.x86_64                                                      12:4.2.5-68.el7.centos                                                         @anaconda
+dhcp-libs.x86_64                                                        12:4.2.5-68.el7.centos                                                         @anaconda
+Available Packages
+dhcp.x86_64                                                             12:4.2.5-68.el7.centos.1                                                       base     
+dhcp-common.x86_64                                                      12:4.2.5-68.el7.centos.1                                                       base     
+dhcp-devel.i686                                                         12:4.2.5-68.el7.centos.1                                                       base     
+dhcp-devel.x86_64                                                       12:4.2.5-68.el7.centos.1                                                       base     
+dhcp-libs.i686                                                          12:4.2.5-68.el7.centos.1                                                       base     
+dhcp-libs.x86_64                                                        12:4.2.5-68.el7.centos.1                                                       base     
+[root@icesc12 ~]# yum info dhcp
+Loaded plugins: fastestmirror
+Loading mirror speeds from cached hostfile
+ * base: ftp.jaist.ac.jp
+ * extras: ftp.jaist.ac.jp
+ * updates: ftp.jaist.ac.jp
+Available Packages
+Name        : dhcp
+Arch        : x86_64
+Epoch       : 12
+Version     : 4.2.5
+Release     : 68.el7.centos.1
+Size        : 513 k
+Repo        : base/7/x86_64
+Summary     : Dynamic host configuration protocol software
+URL         : http://isc.org/products/DHCP/
+License     : ISC
+Description : DHCP (Dynamic Host Configuration Protocol) is a protocol which allows
+            : individual devices on an IP network to get their own network
+            : configuration information (IP address, subnetmask, broadcast address,
+            : etc.) from a DHCP server. The overall purpose of DHCP is to make it
+            : easier to administer a large network.
+            : 
+            : To use DHCP on your network, install a DHCP service (or relay agent),
+            : and on clients run a DHCP client daemon.  The dhcp package provides
+            : the ISC DHCP service and relay agent.
+
+[root@icesc12 ~]# yum install dhcp
+Loaded plugins: fastestmirror
+Loading mirror speeds from cached hostfile
+ * base: ftp.jaist.ac.jp
+ * extras: ftp.jaist.ac.jp
+ * updates: ftp.jaist.ac.jp
+Resolving Dependencies
+--> Running transaction check
+---> Package dhcp.x86_64 12:4.2.5-68.el7.centos.1 will be installed
+--> Processing Dependency: dhcp-libs(x86-64) = 12:4.2.5-68.el7.centos.1 for package: 12:dhcp-4.2.5-68.el7.centos.1.x86_64
+--> Processing Dependency: dhcp-common = 12:4.2.5-68.el7.centos.1 for package: 12:dhcp-4.2.5-68.el7.centos.1.x86_64
+--> Running transaction check
+---> Package dhcp-common.x86_64 12:4.2.5-68.el7.centos will be updated
+--> Processing Dependency: dhcp-common = 12:4.2.5-68.el7.centos for package: 12:dhclient-4.2.5-68.el7.centos.x86_64
+---> Package dhcp-common.x86_64 12:4.2.5-68.el7.centos.1 will be an update
+---> Package dhcp-libs.x86_64 12:4.2.5-68.el7.centos will be updated
+---> Package dhcp-libs.x86_64 12:4.2.5-68.el7.centos.1 will be an update
+--> Running transaction check
+---> Package dhclient.x86_64 12:4.2.5-68.el7.centos will be updated
+---> Package dhclient.x86_64 12:4.2.5-68.el7.centos.1 will be an update
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================================================================================================
+ Package                               Arch                             Version                                            Repository                      Size
+================================================================================================================================================================
+Installing:
+ dhcp                                  x86_64                           12:4.2.5-68.el7.centos.1                           base                           513 k
+Updating for dependencies:
+ dhclient                              x86_64                           12:4.2.5-68.el7.centos.1                           base                           284 k
+ dhcp-common                           x86_64                           12:4.2.5-68.el7.centos.1                           base                           175 k
+ dhcp-libs                             x86_64                           12:4.2.5-68.el7.centos.1                           base                           131 k
+
+Transaction Summary
+================================================================================================================================================================
+Install  1 Package
+Upgrade             ( 3 Dependent packages)
+
+Total download size: 1.1 M
+Is this ok [y/d/N]: y
+Downloading packages:
+Delta RPMs disabled because /usr/bin/applydeltarpm not installed.
+warning: /var/cache/yum/x86_64/7/base/packages/dhclient-4.2.5-68.el7.centos.1.x86_64.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY
+Public key for dhclient-4.2.5-68.el7.centos.1.x86_64.rpm is not installed
+(1/4): dhclient-4.2.5-68.el7.centos.1.x86_64.rpm                                                                                         | 284 kB  00:00:00     
+(2/4): dhcp-common-4.2.5-68.el7.centos.1.x86_64.rpm                                                                                      | 175 kB  00:00:00     
+(3/4): dhcp-4.2.5-68.el7.centos.1.x86_64.rpm                                                                                             | 513 kB  00:00:00     
+(4/4): dhcp-libs-4.2.5-68.el7.centos.1.x86_64.rpm                                                                                        | 131 kB  00:00:00     
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Total                                                                                                                           3.0 MB/s | 1.1 MB  00:00:00     
+Retrieving key from file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+Importing GPG key 0xF4A80EB5:
+ Userid     : "CentOS-7 Key (CentOS 7 Official Signing Key) <security@centos.org>"
+ Fingerprint: 6341 ab27 53d7 8a78 a7c2 7bb1 24c6 a8a7 f4a8 0eb5
+ Package    : centos-release-7-5.1804.el7.centos.x86_64 (@anaconda)
+ From       : /etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+Is this ok [y/N]: y
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Updating   : 12:dhcp-libs-4.2.5-68.el7.centos.1.x86_64 [                        Updating   : 12:dhcp-libs-4.2.5-68.el7.centos.1.x86_64 [###############         Updating   : 12:dhcp-libs-4.2.5-68.el7.centos.1.x86_64 [######################  Updating   : 12:dhcp-libs-4.2.5-68.el7.centos.1.x86_64 [######################  Updating   : 12:dhcp-libs-4.2.5-68.el7.centos.1.x86_64                                                                                                    1/7 
+  Updating   : 12:dhcp-common-4.2.5-68.el7.centos.1.x86_64 [                      Updating   : 12:dhcp-common-4.2.5-68.el7.centos.1.x86_64 [###########           Updating   : 12:dhcp-common-4.2.5-68.el7.centos.1.x86_64 [####################  Updating   : 12:dhcp-common-4.2.5-68.el7.centos.1.x86_64 [####################  Updating   : 12:dhcp-common-4.2.5-68.el7.centos.1.x86_64 [####################  Updating   : 12:dhcp-common-4.2.5-68.el7.centos.1.x86_64 [####################  Updating   : 12:dhcp-common-4.2.5-68.el7.centos.1.x86_64 [####################  Updating   : 12:dhcp-common-4.2.5-68.el7.centos.1.x86_64 [####################  Updating   : 12:dhcp-common-4.2.5-68.el7.centos.1.x86_64                                                                                                  2/7 
+  Installing : 12:dhcp-4.2.5-68.el7.centos.1.x86_64 [                             Installing : 12:dhcp-4.2.5-68.el7.centos.1.x86_64 [#                            Installing : 12:dhcp-4.2.5-68.el7.centos.1.x86_64 [######                       Installing : 12:dhcp-4.2.5-68.el7.centos.1.x86_64 [##########                   Installing : 12:dhcp-4.2.5-68.el7.centos.1.x86_64 [###############              Installing : 12:dhcp-4.2.5-68.el7.centos.1.x86_64 [###################          Installing : 12:dhcp-4.2.5-68.el7.centos.1.x86_64 [######################       Installing : 12:dhcp-4.2.5-68.el7.centos.1.x86_64 [###########################  Installing : 12:dhcp-4.2.5-68.el7.centos.1.x86_64 [###########################  Installing : 12:dhcp-4.2.5-68.el7.centos.1.x86_64 [###########################  Installing : 12:dhcp-4.2.5-68.el7.centos.1.x86_64 [###########################  Installing : 12:dhcp-4.2.5-68.el7.centos.1.x86_64 [###########################  Installing : 12:dhcp-4.2.5-68.el7.centos.1.x86_64 [###########################  Installing : 12:dhcp-4.2.5-68.el7.centos.1.x86_64 [###########################  Installing : 12:dhcp-4.2.5-68.el7.centos.1.x86_64 [###########################  Installing : 12:dhcp-4.2.5-68.el7.centos.1.x86_64 [###########################  Installing : 12:dhcp-4.2.5-68.el7.centos.1.x86_64 [###########################  Installing : 12:dhcp-4.2.5-68.el7.centos.1.x86_64 [###########################  Installing : 12:dhcp-4.2.5-68.el7.centos.1.x86_64 [###########################  Installing : 12:dhcp-4.2.5-68.el7.centos.1.x86_64 [###########################  Installing : 12:dhcp-4.2.5-68.el7.centos.1.x86_64 [###########################  Installing : 12:dhcp-4.2.5-68.el7.centos.1.x86_64 [###########################  Installing : 12:dhcp-4.2.5-68.el7.centos.1.x86_64 [###########################  Installing : 12:dhcp-4.2.5-68.el7.centos.1.x86_64 [###########################  Installing : 12:dhcp-4.2.5-68.el7.centos.1.x86_64 [###########################  Installing : 12:dhcp-4.2.5-68.el7.centos.1.x86_64 [###########################  Installing : 12:dhcp-4.2.5-68.el7.centos.1.x86_64 [###########################  Installing : 12:dhcp-4.2.5-68.el7.centos.1.x86_64 [###########################  Installing : 12:dhcp-4.2.5-68.el7.centos.1.x86_64 [###########################  Installing : 12:dhcp-4.2.5-68.el7.centos.1.x86_64 [###########################  Installing : 12:dhcp-4.2.5-68.el7.centos.1.x86_64                                                                                                         3/7 
+  Updating   : 12:dhclient-4.2.5-68.el7.centos.1.x86_64 [                         Updating   : 12:dhclient-4.2.5-68.el7.centos.1.x86_64 [#############            Updating   : 12:dhclient-4.2.5-68.el7.centos.1.x86_64 [#######################  Updating   : 12:dhclient-4.2.5-68.el7.centos.1.x86_64 [#######################  Updating   : 12:dhclient-4.2.5-68.el7.centos.1.x86_64 [#######################  Updating   : 12:dhclient-4.2.5-68.el7.centos.1.x86_64 [#######################  Updating   : 12:dhclient-4.2.5-68.el7.centos.1.x86_64 [#######################  Updating   : 12:dhclient-4.2.5-68.el7.centos.1.x86_64 [#######################  Updating   : 12:dhclient-4.2.5-68.el7.centos.1.x86_64 [#######################  Updating   : 12:dhclient-4.2.5-68.el7.centos.1.x86_64 [#######################  Updating   : 12:dhclient-4.2.5-68.el7.centos.1.x86_64 [#######################  Updating   : 12:dhclient-4.2.5-68.el7.centos.1.x86_64 [#######################  Updating   : 12:dhclient-4.2.5-68.el7.centos.1.x86_64                                                                                                     4/7 
+  Cleanup    : 12:dhclient-4.2.5-68.el7.centos.x86_64                                                                                                       5/7 
+  Cleanup    : 12:dhcp-common-4.2.5-68.el7.centos.x86_64                                                                                                    6/7 
+  Cleanup    : 12:dhcp-libs-4.2.5-68.el7.centos.x86_64                                                                                                      7/7 
+  Verifying  : 12:dhcp-4.2.5-68.el7.centos.1.x86_64                                                                                                         1/7 
+  Verifying  : 12:dhcp-common-4.2.5-68.el7.centos.1.x86_64                                                                                                  2/7 
+  Verifying  : 12:dhclient-4.2.5-68.el7.centos.1.x86_64                                                                                                     3/7 
+  Verifying  : 12:dhcp-libs-4.2.5-68.el7.centos.1.x86_64                                                                                                    4/7 
+  Verifying  : 12:dhcp-common-4.2.5-68.el7.centos.x86_64                                                                                                    5/7 
+  Verifying  : 12:dhclient-4.2.5-68.el7.centos.x86_64                                                                                                       6/7 
+  Verifying  : 12:dhcp-libs-4.2.5-68.el7.centos.x86_64                                                                                                      7/7 
+
+Installed:
+  dhcp.x86_64 12:4.2.5-68.el7.centos.1                                                                                                                          
+
+Dependency Updated:
+  dhclient.x86_64 12:4.2.5-68.el7.centos.1           dhcp-common.x86_64 12:4.2.5-68.el7.centos.1           dhcp-libs.x86_64 12:4.2.5-68.el7.centos.1          
+
+Complete!
+[root@icesc12 ~]# exit
+
+Script done on Thu 16 May 2019 02:39:33 PM JST

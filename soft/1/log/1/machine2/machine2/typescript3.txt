@@ -1,0 +1,42 @@
+Script started on Thu 16 May 2019 02:06:24 PM JST
+[root@www2 ~]# nmcli device status
+DEVICE  TYPE      STATE         CONNECTION 
+enp3s0  ethernet  disconnected  --         
+lo      loopback  unmanaged     --         
+wlp2s0  wifi      unmanaged     --         
+[root@www2 ~]# nmcli device show
+GENERAL.DEVICE:                         enp3s0
+GENERAL.TYPE:                           ethernet
+GENERAL.HWADDR:                         94:C6:91:A8:C6:B9
+GENERAL.MTU:                            1500
+GENERAL.STATE:                          30 (disconnected)
+GENERAL.CONNECTION:                     --
+GENERAL.CON-PATH:                       --
+WIRED-PROPERTIES.CARRIER:               on
+
+GENERAL.DEVICE:                         lo
+GENERAL.TYPE:                           loopback
+GENERAL.HWADDR:                         00:00:00:00:00:00
+GENERAL.MTU:                            65536
+GENERAL.STATE:                          10 (unmanaged)
+GENERAL.CONNECTION:                     --
+GENERAL.CON-PATH:                       --
+IP4.ADDRESS[1]:                         127.0.0.1/8
+IP4.GATEWAY:                            --
+IP6.ADDRESS[1]:                         ::1/128
+IP6.GATEWAY:                            --
+
+GENERAL.DEVICE:                         wlp2s0
+GENERAL.TYPE:                           wifi
+GENERAL.HWADDR:                         18:56:80:A9:5C:5E
+GENERAL.MTU:                            1500
+GENERAL.STATE:                          10 (unmanaged)
+GENERAL.CONNECTION:                     --
+GENERAL.CON-PATH:                       --
+IP4.GATEWAY:                            --
+IP6.GATEWAY:                            --
+[root@www2 ~]# nmcli connection show --active
+NAME  UUID  TYPE  DEVICE 
+[root@www2 ~]# exit
+
+Script done on Thu 16 May 2019 02:06:45 PM JST

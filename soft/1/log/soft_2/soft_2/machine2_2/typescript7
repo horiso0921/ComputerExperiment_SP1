@@ -1,0 +1,5 @@
+Script started on Thu 23 May 2019 03:11:00 PM JST
+[root@www2 machine2_2]# systemctl restart httpd
+[root@www2 machine2_2]# exit
+
+Script done on Thu 23 May 2019 03:11:06 PM JST

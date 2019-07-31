@@ -1,0 +1,2610 @@
+Script started on Thu 23 May 2019 05:16:54 PM JST
+[root@localhost ~]# ssh -l mg573328[K68 ssh.ice.nuie.nagoya-u.ac.jp
+The authenticity of host 'ssh.ice.nuie.nagoya-u.ac.jp (10.11.1.12)' can't be established.
+RSA key fingerprint is SHA256:+TozKde2CBNcFKMvOG26EQ+IYfSz1kT3i4uIx2hIxSY.
+RSA key fingerprint is MD5:71:49:d0:01:1b:11:5c:2e:06:81:3d:92:65:01:3f:a3.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'ssh.ice.nuie.nagoya-u.ac.jp,10.11.1.12' (RSA) to the list of known hosts.
+
+mg5733268@ssh.ice.nuie.nagoya-u.ac.jp's password: 
+Permission denied, please try again.
+
+mg5733268@ssh.ice.nuie.nagoya-u.ac.jp's password: 
+Last login: Thu May 23 17:14:42 2019 from 10.10.1.246
+
+#----------------------------------------------
+New system is available
+#----------------------------------------------
+ssh.ice.nuie.nagoya-u.ac.jp{mg5733268}30: exit
+
+logout
+Connection to ssh.ice.nuie.nagoya-u.ac.jp closed.
+
+[root@localhost ~]# lynx www[K[K[Khttp://www.google.com/
+bash: lynx: command not found
+[root@localhost ~]# lynx http://www.google.com/[1P[1P[1P[1P http://www.google.com/
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Phttp://www.google.com/
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pttp://www.google.com/[C[1Pp://www.google.com/[1Pp://www.google.com/[1P://www.google.com/[1P//www.google.com/[C[1Pwww.google.com/[1Pwww.google.com/[C[C[1P.google.com/[C[1P.google.com/[1P.google.com/[1Pgoogle.com/[1Poogle.com/[C[1Pgle.com/[1Pgle.com/[1Ple.com/[1Pe.com/[1P.com/[1Pcom/[1Pom/[1Pm/[1P/[Kpimg www.micoro[K[K[Krosoft,[K.com
+bash: pimg: command not found
+[root@localhost ~]# pimg www.microsoft.com[C[1P[1@n
+PING e13678.dspb.akamaiedge.net (23.41.22.6) 56(84) bytes of data.
+64 bytes from a23-41-22-6.deploy.static.akamaitechnologies.com (23.41.22.6): icmp_seq=1 ttl=55 time=5.18 ms
+64 bytes from a23-41-22-6.deploy.static.akamaitechnologies.com (23.41.22.6): icmp_seq=2 ttl=55 time=5.05 ms
+64 bytes from a23-41-22-6.deploy.static.akamaitechnologies.com (23.41.22.6): icmp_seq=3 ttl=55 time=4.59 ms
+64 bytes from a23-41-22-6.deploy.static.akamaitechnologies.com (23.41.22.6): icmp_seq=4 ttl=55 time=4.52 ms
+64 bytes from a23-41-22-6.deploy.static.akamaitechnologies.com (23.41.22.6): icmp_seq=5 ttl=55 time=4.63 ms
+64 bytes from a23-41-22-6.deploy.static.akamaitechnologies.com (23.41.22.6): icmp_seq=6 ttl=55 time=4.50 ms
+64 bytes from a23-41-22-6.deploy.static.akamaitechnologies.com (23.41.22.6): icmp_seq=7 ttl=55 time=4.68 ms
+^C
+--- e13678.dspb.akamaiedge.net ping statistics ---
+7 packets transmitted, 7 received, 0% packet loss, time 6009ms
+rtt min/avg/max/mdev = 4.506/4.740/5.188/0.262 ms
+[root@localhost ~]# nslookup www.mir[Kcrosoft.com
+bash: nslookup: command not found
+[root@localhost ~]# nslookup www.microsoft.com[1P www.microsoft.com[1P www.microsoft.com[1P www.microsoft.com[1P www.microsoft.com[1P www.microsoft.com[1P www.microsoft.com[1P www.microsoft.com[1P www.microsoft.comd www.microsoft.comi www.microsoft.comg www.microsoft.com
+bash: dig: command not found
+[root@localhost ~]# yum info lynx
+Loaded plugins: fastestmirror
+Determining fastest mirrors
+ * base: mirrors.cat.net
+ * extras: mirrors.cat.net
+ * updates: mirrors.cat.net
+
+base                                                                                                     | 3.6 kB  00:00:00     
+
+extras                                                                                                   | 3.4 kB  00:00:00     
+
+updates                                                                                                  | 3.4 kB  00:00:00     
+
+(1/4): base/7/x86_64/group_gz                                                                            | 166 kB  00:00:00     
+
+(2/4): extras/7/x86_64/primary_db                                                                        | 201 kB  00:00:00     
+
+(4/4): updates/7/x86_64/primary_db                27% [==========-                            ]  0.0 B/s | 3.2 MB  --:--:-- ETA 
+
+(3/4): base/7/x86_64/primary_db                                                                          | 6.0 MB  00:00:00     
+
+(4/4): updates/7/x86_64/primary_db                64% [=========================              ] 4.7 MB/s | 7.3 MB  00:00:00 ETA 
+
+(4/4): updates/7/x86_64/primary_db                94% [====================================-  ] 5.1 MB/s |  11 MB  00:00:00 ETA 
+
+(4/4): updates/7/x86_64/primary_db                                                                       | 5.0 MB  00:00:01     
+Available Packages
+Name        : lynx
+Arch        : x86_64
+Version     : 2.8.8
+Release     : 0.3.dev15.el7
+Size        : 1.4 M
+Repo        : base/7/x86_64
+Summary     : A text-based Web browser
+URL         : http://lynx.isc.org/
+License     : GPLv2
+Description : Lynx is a text-based Web browser. Lynx does not display any images,
+            : but it does support frames, tables, and most other HTML tags. One
+            : advantage Lynx has over graphical browsers is speed; Lynx starts and
+            : exits quickly and swiftly displays web pages.
+
+[root@localhost ~]# yy[Ku, [K[Km install lynx
+Loaded plugins: fastestmirror
+Loading mirror speeds from cached hostfile
+ * base: mirrors.cat.net
+ * extras: mirrors.cat.net
+ * updates: mirrors.cat.net
+Resolving Dependencies
+--> Running transaction check
+---> Package lynx.x86_64 0:2.8.8-0.3.dev15.el7 will be installed
+--> Processing Dependency: redhat-indexhtml for package: lynx-2.8.8-0.3.dev15.el7.x86_64
+--> Running transaction check
+---> Package centos-indexhtml.noarch 0:7-9.el7.centos will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================================================================
+ Package                            Arch                     Version                               Repository              Size
+================================================================================================================================
+Installing:
+ lynx                               x86_64                   2.8.8-0.3.dev15.el7                   base                   1.4 M
+Installing for dependencies:
+ centos-indexhtml                   noarch                   7-9.el7.centos                        base                    92 k
+
+Transaction Summary
+================================================================================================================================
+Install  1 Package (+1 Dependent package)
+
+Total download size: 1.5 M
+Installed size: 5.4 M
+Is this ok [y/d/N]: y
+Downloading packages:
+warning: /var/cache/yum/x86_64/7/base/packages/centos-indexhtml-7-9.el7.centos.noarch.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY
+Public key for centos-indexhtml-7-9.el7.centos.noarch.rpm is not installed
+
+(1/2): centos-indexhtml-7-9.el7.centos.noarch.rpm                                                        |  92 kB  00:00:00     
+
+(2/2): lynx-2.8.8-0.3.dev15.el7.x86_64.rpm                                                               | 1.4 MB  00:00:00     
+--------------------------------------------------------------------------------------------------------------------------------
+Total                                                                                           4.0 MB/s | 1.5 MB  00:00:00     
+Retrieving key from file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+Importing GPG key 0xF4A80EB5:
+ Userid     : "CentOS-7 Key (CentOS 7 Official Signing Key) <security@centos.org>"
+ Fingerprint: 6341 ab27 53d7 8a78 a7c2 7bb1 24c6 a8a7 f4a8 0eb5
+ Package    : centos-release-7-5.1804.el7.centos.x86_64 (@anaconda)
+ From       : /etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+Is this ok [y/N]: y
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+
+  Installing : centos-indexhtml-7-9.el7.centos.noarch [                                                                   ] 1/2
+  Installing : centos-indexhtml-7-9.el7.centos.noarch [##                                                                 ] 1/2
+  Installing : centos-indexhtml-7-9.el7.centos.noarch [################################################                   ] 1/2
+  Installing : centos-indexhtml-7-9.el7.centos.noarch [#############################################################      ] 1/2
+  Installing : centos-indexhtml-7-9.el7.centos.noarch [##############################################################     ] 1/2
+  Installing : centos-indexhtml-7-9.el7.centos.noarch [################################################################## ] 1/2
+  Installing : centos-indexhtml-7-9.el7.centos.noarch                                                                       1/2 
+
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [                                                                          ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [#                                                                         ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [##                                                                        ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [###                                                                       ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [####                                                                      ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [#####                                                                     ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [######                                                                    ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [#######                                                                   ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [########                                                                  ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [#########                                                                 ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [##########                                                                ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [###########                                                               ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [############                                                              ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [##############                                                            ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [###############                                                           ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [################                                                          ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [#################                                                         ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [###################                                                       ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [####################                                                      ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [#####################                                                     ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [######################                                                    ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [#######################                                                   ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [########################                                                  ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [#########################                                                 ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [##########################                                                ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [###########################                                               ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [############################                                              ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [#############################                                             ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [##############################                                            ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [###############################                                           ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [################################                                          ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [#################################                                         ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [##################################                                        ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [###################################                                       ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [####################################                                      ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [#####################################                                     ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [######################################                                    ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [#######################################                                   ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [########################################                                  ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [##########################################                                ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [###########################################                               ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [############################################                              ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [#############################################                             ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [##############################################                            ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [################################################                          ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [#################################################                         ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [##################################################                        ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [###################################################                       ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [####################################################                      ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [#####################################################                     ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [######################################################                    ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [#######################################################                   ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [########################################################                  ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [#########################################################                 ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [##########################################################                ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [###########################################################               ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [#############################################################             ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [##############################################################            ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [###############################################################           ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [################################################################          ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [#################################################################         ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [##################################################################        ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [###################################################################       ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [####################################################################      ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [#####################################################################     ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [######################################################################    ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [#######################################################################   ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [########################################################################  ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64 [######################################################################### ] 2/2
+  Installing : lynx-2.8.8-0.3.dev15.el7.x86_64                                                                              2/2 
+
+  Verifying  : lynx-2.8.8-0.3.dev15.el7.x86_64                                                                              1/2 
+
+  Verifying  : centos-indexhtml-7-9.el7.centos.noarch                                                                       2/2 
+
+Installed:
+  lynx.x86_64 0:2.8.8-0.3.dev15.el7                                                                                             
+
+Dependency Installed:
+  centos-indexhtml.noarch 0:7-9.el7.centos                                                                                      
+
+Complete!
+[root@localhost ~]# yum info bind-y[Kutils
+Loaded plugins: fastestmirror
+Loading mirror speeds from cached hostfile
+ * base: mirrors.cat.net
+ * extras: mirrors.cat.net
+ * updates: mirrors.cat.net
+Available Packages
+Name        : bind-utils
+Arch        : x86_64
+Epoch       : 32
+Version     : 9.9.4
+Release     : 73.el7_6
+Size        : 206 k
+Repo        : updates/7/x86_64
+Summary     : Utilities for querying DNS name servers
+URL         : http://www.isc.org/products/BIND/
+License     : ISC
+Description : Bind-utils contains a collection of utilities for querying DNS (Domain
+            : Name System) name servers to find out information about Internet
+            : hosts. These tools will provide you with the IP addresses for given
+            : host names, as well as other information about registered domains and
+            : network addresses.
+            : 
+            : You should install bind-utils if you need to get information from DNS name
+            : servers.
+
+[root@localhost ~]# yum install bind-utils
+Loaded plugins: fastestmirror
+Loading mirror speeds from cached hostfile
+ * base: mirrors.cat.net
+ * extras: mirrors.cat.net
+ * updates: mirrors.cat.net
+Resolving Dependencies
+--> Running transaction check
+---> Package bind-utils.x86_64 32:9.9.4-73.el7_6 will be installed
+--> Processing Dependency: bind-libs = 32:9.9.4-73.el7_6 for package: 32:bind-utils-9.9.4-73.el7_6.x86_64
+--> Processing Dependency: liblwres.so.90()(64bit) for package: 32:bind-utils-9.9.4-73.el7_6.x86_64
+--> Processing Dependency: libisccfg.so.90()(64bit) for package: 32:bind-utils-9.9.4-73.el7_6.x86_64
+--> Processing Dependency: libisccc.so.90()(64bit) for package: 32:bind-utils-9.9.4-73.el7_6.x86_64
+--> Processing Dependency: libisc.so.95()(64bit) for package: 32:bind-utils-9.9.4-73.el7_6.x86_64
+--> Processing Dependency: libdns.so.100()(64bit) for package: 32:bind-utils-9.9.4-73.el7_6.x86_64
+--> Processing Dependency: libbind9.so.90()(64bit) for package: 32:bind-utils-9.9.4-73.el7_6.x86_64
+--> Running transaction check
+---> Package bind-libs.x86_64 32:9.9.4-73.el7_6 will be installed
+--> Processing Dependency: bind-license = 32:9.9.4-73.el7_6 for package: 32:bind-libs-9.9.4-73.el7_6.x86_64
+--> Running transaction check
+---> Package bind-license.noarch 32:9.9.4-61.el7 will be updated
+--> Processing Dependency: bind-license = 32:9.9.4-61.el7 for package: 32:bind-libs-lite-9.9.4-61.el7.x86_64
+---> Package bind-license.noarch 32:9.9.4-73.el7_6 will be an update
+--> Running transaction check
+---> Package bind-libs-lite.x86_64 32:9.9.4-61.el7 will be updated
+---> Package bind-libs-lite.x86_64 32:9.9.4-73.el7_6 will be an update
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================================================================
+ Package                          Arch                     Version                              Repository                 Size
+================================================================================================================================
+Installing:
+ bind-utils                       x86_64                   32:9.9.4-73.el7_6                    updates                   206 k
+Installing for dependencies:
+ bind-libs                        x86_64                   32:9.9.4-73.el7_6                    updates                   1.0 M
+Updating for dependencies:
+ bind-libs-lite                   x86_64                   32:9.9.4-73.el7_6                    updates                   741 k
+ bind-license                     noarch                   32:9.9.4-73.el7_6                    updates                    87 k
+
+Transaction Summary
+================================================================================================================================
+Install  1 Package  (+1 Dependent package)
+Upgrade             ( 2 Dependent packages)
+
+Total download size: 2.0 M
+Is this ok [y/d/N]: y
+Downloading packages:
+Delta RPMs disabled because /usr/bin/applydeltarpm not installed.
+
+(1/4): bind-license-9.9.4-73.el7_6.noarch.rpm                                                            |  87 kB  00:00:00     
+
+(2/4): bind-libs-9.9.4-73.el7_6.x86_64.rpm                                                               | 1.0 MB  00:00:00     
+
+(3/4): bind-libs-lite-9.9.4-73.el7_6.x86_64.rpm                                                          | 741 kB  00:00:00     
+
+(4/4): bind-utils-9.9.4-73.el7_6.x86_64.rpm                                                              | 206 kB  00:00:00     
+--------------------------------------------------------------------------------------------------------------------------------
+Total                                                                                           4.3 MB/s | 2.0 MB  00:00:00     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+
+  Updating   : 32:bind-license-9.9.4-73.el7_6.noarch [                                                                    ] 1/6
+  Updating   : 32:bind-license-9.9.4-73.el7_6.noarch [################################################################### ] 1/6
+  Updating   : 32:bind-license-9.9.4-73.el7_6.noarch                                                                        1/6 
+
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [                                                                       ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [#                                                                      ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [##                                                                     ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [####                                                                   ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [######                                                                 ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [#######                                                                ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [#########                                                              ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [###########                                                            ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [############                                                           ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [##############                                                         ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [################                                                       ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [##################                                                     ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [###################                                                    ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [#####################                                                  ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [#######################                                                ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [########################                                               ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [##########################                                             ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [############################                                           ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [##############################                                         ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [###############################                                        ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [#################################                                      ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [###################################                                    ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [####################################                                   ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [#######################################                                ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [########################################                               ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [#########################################                              ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [############################################                           ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [#############################################                          ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [###############################################                        ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [################################################                       ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [##################################################                     ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [###################################################                    ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [#####################################################                  ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [#######################################################                ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [#########################################################              ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [##########################################################             ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [############################################################           ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [##############################################################         ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [###############################################################        ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [################################################################       ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [##################################################################     ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [####################################################################   ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64 [###################################################################### ] 2/6
+  Installing : 32:bind-libs-9.9.4-73.el7_6.x86_64                                                                           2/6 
+
+  Installing : 32:bind-utils-9.9.4-73.el7_6.x86_64 [                                                                      ] 3/6
+  Installing : 32:bind-utils-9.9.4-73.el7_6.x86_64 [##########                                                            ] 3/6
+  Installing : 32:bind-utils-9.9.4-73.el7_6.x86_64 [####################                                                  ] 3/6
+  Installing : 32:bind-utils-9.9.4-73.el7_6.x86_64 [##############################                                        ] 3/6
+  Installing : 32:bind-utils-9.9.4-73.el7_6.x86_64 [######################################                                ] 3/6
+  Installing : 32:bind-utils-9.9.4-73.el7_6.x86_64 [################################################                      ] 3/6
+  Installing : 32:bind-utils-9.9.4-73.el7_6.x86_64 [########################################################              ] 3/6
+  Installing : 32:bind-utils-9.9.4-73.el7_6.x86_64 [##################################################################    ] 3/6
+  Installing : 32:bind-utils-9.9.4-73.el7_6.x86_64 [###################################################################   ] 3/6
+  Installing : 32:bind-utils-9.9.4-73.el7_6.x86_64 [####################################################################  ] 3/6
+  Installing : 32:bind-utils-9.9.4-73.el7_6.x86_64 [##################################################################### ] 3/6
+  Installing : 32:bind-utils-9.9.4-73.el7_6.x86_64                                                                          3/6 
+
+  Updating   : 32:bind-libs-lite-9.9.4-73.el7_6.x86_64 [                                                                  ] 4/6
+  Updating   : 32:bind-libs-lite-9.9.4-73.el7_6.x86_64 [#                                                                 ] 4/6
+  Updating   : 32:bind-libs-lite-9.9.4-73.el7_6.x86_64 [####                                                              ] 4/6
+  Updating   : 32:bind-libs-lite-9.9.4-73.el7_6.x86_64 [######                                                            ] 4/6
+  Updating   : 32:bind-libs-lite-9.9.4-73.el7_6.x86_64 [#########                                                         ] 4/6
+  Updating   : 32:bind-libs-lite-9.9.4-73.el7_6.x86_64 [###########                                                       ] 4/6
+  Updating   : 32:bind-libs-lite-9.9.4-73.el7_6.x86_64 [#############                                                     ] 4/6
+  Updating   : 32:bind-libs-lite-9.9.4-73.el7_6.x86_64 [################                                                  ] 4/6
+  Updating   : 32:bind-libs-lite-9.9.4-73.el7_6.x86_64 [##################                                                ] 4/6
+  Updating   : 32:bind-libs-lite-9.9.4-73.el7_6.x86_64 [#####################                                             ] 4/6
+  Updating   : 32:bind-libs-lite-9.9.4-73.el7_6.x86_64 [#######################                                           ] 4/6
+  Updating   : 32:bind-libs-lite-9.9.4-73.el7_6.x86_64 [#########################                                         ] 4/6
+  Updating   : 32:bind-libs-lite-9.9.4-73.el7_6.x86_64 [###########################                                       ] 4/6
+  Updating   : 32:bind-libs-lite-9.9.4-73.el7_6.x86_64 [##############################                                    ] 4/6
+  Updating   : 32:bind-libs-lite-9.9.4-73.el7_6.x86_64 [#################################                                 ] 4/6
+  Updating   : 32:bind-libs-lite-9.9.4-73.el7_6.x86_64 [##################################                                ] 4/6
+  Updating   : 32:bind-libs-lite-9.9.4-73.el7_6.x86_64 [#####################################                             ] 4/6
+  Updating   : 32:bind-libs-lite-9.9.4-73.el7_6.x86_64 [#######################################                           ] 4/6
+  Updating   : 32:bind-libs-lite-9.9.4-73.el7_6.x86_64 [##########################################                        ] 4/6
+  Updating   : 32:bind-libs-lite-9.9.4-73.el7_6.x86_64 [############################################                      ] 4/6
+  Updating   : 32:bind-libs-lite-9.9.4-73.el7_6.x86_64 [##############################################                    ] 4/6
+  Updating   : 32:bind-libs-lite-9.9.4-73.el7_6.x86_64 [################################################                  ] 4/6
+  Updating   : 32:bind-libs-lite-9.9.4-73.el7_6.x86_64 [##################################################                ] 4/6
+  Updating   : 32:bind-libs-lite-9.9.4-73.el7_6.x86_64 [####################################################              ] 4/6
+  Updating   : 32:bind-libs-lite-9.9.4-73.el7_6.x86_64 [######################################################            ] 4/6
+  Updating   : 32:bind-libs-lite-9.9.4-73.el7_6.x86_64 [#########################################################         ] 4/6
+  Updating   : 32:bind-libs-lite-9.9.4-73.el7_6.x86_64 [############################################################      ] 4/6
+  Updating   : 32:bind-libs-lite-9.9.4-73.el7_6.x86_64 [##############################################################    ] 4/6
+  Updating   : 32:bind-libs-lite-9.9.4-73.el7_6.x86_64 [###############################################################   ] 4/6
+  Updating   : 32:bind-libs-lite-9.9.4-73.el7_6.x86_64 [################################################################# ] 4/6
+  Updating   : 32:bind-libs-lite-9.9.4-73.el7_6.x86_64                                                                      4/6 
+
+  Cleanup    : 32:bind-libs-lite-9.9.4-61.el7.x86_64                                                                        5/6 
+
+  Cleanup    : 32:bind-license-9.9.4-61.el7.noarch                                                                          6/6 
+
+  Verifying  : 32:bind-license-9.9.4-73.el7_6.noarch                                                                        1/6 
+
+  Verifying  : 32:bind-libs-9.9.4-73.el7_6.x86_64                                                                           2/6 
+
+  Verifying  : 32:bind-libs-lite-9.9.4-73.el7_6.x86_64                                                                      3/6 
+
+  Verifying  : 32:bind-utils-9.9.4-73.el7_6.x86_64                                                                          4/6 
+
+  Verifying  : 32:bind-libs-lite-9.9.4-61.el7.x86_64                                                                        5/6 
+
+  Verifying  : 32:bind-license-9.9.4-61.el7.noarch                                                                          6/6 
+
+Installed:
+  bind-utils.x86_64 32:9.9.4-73.el7_6                                                                                           
+
+Dependency Installed:
+  bind-libs.x86_64 32:9.9.4-73.el7_6                                                                                            
+
+Dependency Updated:
+  bind-libs-lite.x86_64 32:9.9.4-73.el7_6                         bind-license.noarch 32:9.9.4-73.el7_6                        
+
+Complete!
+[root@localhost ~]# rpm -ql bimd[K[Knd-utils |grep/suer[K[K[K[Kusr/ni[K[Kbim[Kn[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pgrep/usr/bin grep/usr/bin[C| grep/usr/bin
+bash: grep/usr/bin: No such file or directory
+[root@localhost ~]# rpm -ql bind-utils | grep/usr/bin
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pyum install bind-utils[3Pfo[C[C[C[C[C[C[C[C[C[C[C[3Pstall lynx[3Pfo[C[C[C[C[Cdig www.microsoft.com[5@nslookup[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pping[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clynx http://www.google.com/
+[1;48r[0;10m[4l[?7h[39;49m[39;49m[315m[40m[H[J[37m[40m[J[0;10m[39;49m[315m[40m[46d[0;10;1m[33m[44mGetting http://www.google.com/[K[0;10m[39;49m[315m[40m
+[0;10;1m[33m[44mLooking up www.google.com[K[0;10m[39;49m[315m[40m
+[0;10;1m[33m[44mMaking HTTP connection to www.google.com[0;10m[39;49m[315m[40m
+[0;10;1m[33m[44mSending HTTP request.[K[0;10m[39;49m[315m[40m
+[0;10;1m[33m[44mHTTP request sent; waiting for response.[0;10m[39;49m[315m[40m[5G[0;10;1m[33m[44m/1.0 200 OK[K[0;10m[39;49m[315m[40m
+[0;10;1m[33m[44mwww.google.com cookie: 1P_JAR=2019-05-23-08 Allow? (Y/N/Always/neVer)[0;10m[39;49m[315m[40m
+[0;10;1m[33m[44mAllowing this cookie.[K[0;10m[39;49m[315m[40m
+[0;10;1m[33m[44mwww.google.com cookie: N=184=l_TOFFwQCQkTrvDYrkJ1EjaFW5IL9gh9xlqAl8lShTJZXqvxaoWv_Fjm3SzXismljUqes5H Allow? (Y/N/Always/neVer)[0;10m[39;49m[315m[40m
+[0;10;1m[33m[44mAllowing this cookie.[K[0;10m[39;49m[315m[40m
+[0;10;1m[33m[44mRead 837 bytes of data, 193 bytes/sec.[0;10m[39;49m[315m[40m
+[0;10;1m[33m[44mData transfer complete[K[0;10m[39;49m[315m[40m[1;123H[35m[40mGoogle[3;4H[31m[40m検索[37m[40m [32m[40m画像[37m[40m [32m[40mマップ[37m[40m [32m[40mPlay[37m[40m [32m[40mYouTube[37m[40m [32m[40mニュース[37m[40m [32m[40mGmail[37m[40m [32m[40mドライブ[37m[40m [32m[40mもっと見る »
+[4Gウェブ履歴[37m[40m | [32m[40m設定[37m[40m | [32m[40mログイン
+
+[4G[33m[40mGoogle
+
+[4G[0;10;1m[37m[40m  _______________________________________________________
+[4GGoogle 検索  I'm Feeling Lucky    [0;10m[32m[40m検索オプション
+[4G[0;10;1m[37m[40m   [0;10m[32m[40m言語ツール
+
+[4G[37m[40mGoogle 検索は次の言語でもご利用いただけます: [32m[40mEnglish
+
+[4G広告掲載[37m[40m     [32m[40mビジネス ソリューション[37m[40m     [32m[40mGoogle について[37m[40m     [32m[40mGoogle.co.jp[16;49H[37m[40m© 2019 - [32m[40mプライバシー[37m[40m - [32m[40m規約[48;128H[0;10m[39;49m[315m[40m[47;3H[37m[40mArrow keys: Up and Down to move.  Right to follow a link; Left to go back.
+ H)elp O)ptions P)rint G)o M)ain screen Q)uit /=search [delete]=history list [0;10m[39;49m[315m[40m
+[46d[0;10;1m[33m[44m(NORMAL LINK) Use right-arrow or <return> to activate.[0;10m[39;49m[315m[40m[3;9H[0;10;1m[33m[40m画像[48;128H[0;10m[39;49m[315m[40m
+[37m[40m[J[0;10m[39;49m[315m[40m[39;49m[K[48;1H
+
+
+Exiting via interrupt: 2
+
+[root@localhost ~]# lynx http://www.google.com/
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crpm -ql bind-utils | grep/usr/bin
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pyum install bind-utils[3Pfo[C[C[C[C[C[C[C[C[C[C[C[3Pstall lynx[3Pfo[C[C[C[C[Cdig www.microsoft.com[5@nslookup[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Server:		10.10.1.2
+Address:	10.10.1.2#53
+
+Non-authoritative answer:
+www.microsoft.com	canonical name = www.microsoft.com-c-3.edgekey.net.
+www.microsoft.com-c-3.edgekey.net	canonical name = www.microsoft.com-c-3.edgekey.net.globalredir.akadns.net.
+www.microsoft.com-c-3.edgekey.net.globalredir.akadns.net	canonical name = e13678.dspb.akamaiedge.net.
+Name:	e13678.dspb.akamaiedge.net
+Address: 23.41.22.6
+
+[root@localhost ~]# ssh 192.168.200.1
+^C
+[root@localhost ~]# ssh enp2s0
+ssh: Could not resolve hostname enp2s0: Name or service not known
+
+[root@localhost ~]# ssh enp2s0[C[C[C[C[C[1Pp2s0mp2s0
+ssh: Could not resolve hostname emp2s0: Name or service not known
+
+[root@localhost ~]# ssh emp2s0np2s0192.168.200.1
+^C
+[root@localhost ~]# ip addr
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: enp3s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 94:c6:91:a8:c9:54 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.150.100/24 brd 192.168.150.255 scope global noprefixroute dynamic enp3s0
+       valid_lft 2076sec preferred_lft 2076sec
+    inet6 fe80::15b7:4ca2:a0f3:9ba3/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+3: wlp2s0: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/ether dc:8b:28:55:19:23 brd ff:ff:ff:ff:ff:ff
+[root@localhost ~]# ip addrssh 192.168.200.1[C[C[1P00.1[1P00.1100.1500.1.1500.1[C[C[C[C[C[1P1[1P1[C[K.100
+The authenticity of host '192.168.150.100 (192.168.150.100)' can't be established.
+ECDSA key fingerprint is SHA256:wMK7LqTajelGkHgjpgbwmZYXpbLSLUOiBBTgEghrTaU.
+ECDSA key fingerprint is MD5:20:6b:bb:31:66:e2:f5:dd:6e:e2:71:7d:b2:5a:37:03.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.150.100' (ECDSA) to the list of known hosts.
+
+root@192.168.150.100's password: 
+Permission denied, please try again.
+
+root@192.168.150.100's password: 
+Last failed login: Thu May 23 17:29:39 JST 2019 from 192.168.150.100 on ssh:notty
+There was 1 failed login attempt since the last successful login.
+Last login: Thu May 23 13:04:06 2019
+
+[root@localhost ~]# exit
+logout
+Connection to 192.168.150.100 closed.
+
+[root@localhost ~]# ip route
+default via 192.168.150.1 dev enp3s0 proto dhcp metric 100 
+192.168.150.0/24 dev enp3s0 proto kernel scope link src 192.168.150.100 metric 100 
+[root@localhost ~]# ip routessh 192.168.150.100[1P.100[1P.100[1P.1002.1000.1000.100[11Pip route[Kip routessh 192.168.200.100[12Pip addrssh 192.168.200.100[K[K
+^C
+[root@localhost ~]# ssh ice
+ssh: Could not resolve hostname ice: Name or service not known
+
+[root@localhost ~]# ssh ice192.168.200.1[9Pip routessh 192.168.150.100[12Pip addrssh 192.168.200.1[7Pemp2s0np2s0mp2s0[C[C[C[C[K[K[K[K[K[Kroot@www6
+ssh: Could not resolve hostname www6: Name or service not known
+
+[root@localhost ~]# ssh root@www6[6Pice192.168.200.1[9Pip routessh 192.168.150.100[12Pip addrssh 192.168.200.1[7Pemp2s0[K[K[K[K[Knp3s0
+ssh: Could not resolve hostname enp3s0: Name or service not known
+
+[root@localhost ~]# ssh enp3s0root@www6[K[K[K[K[K[K[K[K[K[K[K[K[Kssh [K[K[K[Ksystemctl status firewalld
+[1;32m●[0m firewalld.service - firewalld - dynamic firewall daemon
+   Loaded: loaded (/usr/lib/systemd/system/firewalld.service; enabled; vendor preset: enabled)
+   Active: [1;32mactive (running)[0m since Thu 2019-05-23 13:00:52 JST; 4h 49min ago
+     Docs: man:firewalld(1)
+ Main PID: 762 (firewalld)
+   CGroup: /system.slice/firewalld.service
+           └─762 /usr/bin/python -Es /usr/sbin/firewalld --nofork --nopid
+
+May 23 13:00:51 localhost.localdomain systemd[1]: Starting firewalld - dynamic firewall daemon...
+May 23 13:00:52 localhost.localdomain systemd[1]: Started firewalld - dynamic firewall daemon.
+[root@localhost ~]# firewalld-cmd -get-active-zones
+bash: firewalld-cmd: command not found
+[root@localhost ~]# firewalld-cmd -get-active-zones[C[1Pget-active-zones
+bash: firewalld-cmd: command not found
+[root@localhost ~]# firewalld-cmd get-active-zones- get-active-zones[Kfirewalld-cmd- get-active-zones[C[C[1Pget-active-zones
+bash: firewalld-cmd-get-active-zones: command not found
+[root@localhost ~]# firewalld-cmd-get-active-zones -get-active-zones
+bash: firewalld-cmd: command not found
+[root@localhost ~]# firewalld-cmd -get-active-zones- -get-active-zones[1P -get-active-zones[C -get-active-zones- -get-active-zones[C[1P-get-active-zones
+bash: firewalld-cmd: command not found
+[root@localhost ~]# firewalld-cmd --get-active-zones
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kfirewalld-cmd --get-active-zones[1P
+public
+  interfaces: enp3s0
+[root@localhost ~]# fireall[K[K[Kwall-cmd --add [K-service=dhcp6-client
+[91mError: INVALID_SERVICE: dhcp6-client[00m
+[root@localhost ~]# firewall-cmd --add-service=dhcp6-clientv6-client
+[91mWarning: ALREADY_ENABLED: 'dhcpv6-client' already in 'public'[00m
+success
+[root@localhost ~]# firewall-cmd --add-service=dhcpv6-client[K[K[K[K[K[K[K[K[K[K[K[K[Khttp
+success
+[root@localhost ~]# firewall-cmd --add-service=https
+success
+[root@localhost ~]# firewall-cmd --add-service=https[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Klist-all
+public (active)
+  target: default
+  icmp-block-inversion: no
+  interfaces: enp3s0
+  sources: 
+  services: ssh dhcpv6-client http https
+  ports: 
+  protocols: 
+  masquerade: no
+  forward-ports: 
+  source-ports: 
+  icmp-blocks: 
+  rich rules: 
+	
+[root@localhost ~]# lynx http://www.google.com/
+[1;48r[0;10m[4l[?7h[39;49m[39;49m[315m[40m[H[J[37m[40m[J[0;10m[39;49m[315m[40m[46d[0;10;1m[33m[44mGetting http://www.google.com/[K[0;10m[39;49m[315m[40m
+[0;10;1m[33m[44mLooking up www.google.com[K[0;10m[39;49m[315m[40m
+[0;10;1m[33m[44mMaking HTTP connection to www.google.com[0;10m[39;49m[315m[40m
+[0;10;1m[33m[44mSending HTTP request.[K[0;10m[39;49m[315m[40m
+[0;10;1m[33m[44mHTTP request sent; waiting for response.[0;10m[39;49m[315m[40m[5G[0;10;1m[33m[44m/1.0 200 OK[K[0;10m[39;49m[315m[40m
+[0;10;1m[33m[44mwww.google.com cookie: 1P_JAR=2019-05-23-08 Allow? (Y/N/Always/neVer)[0;10m[39;49m[315m[40m
+[0;10;1m[33m[44mAllowing this cookie.[K[0;10m[39;49m[315m[40m
+[0;10;1m[33m[44mwww.google.com cookie: N=184=m-SWxgULaIQ8njGaKt6LnUB4zw41Yk-WixG_DsJseTFSK-nFtlDok5nDSTB03W_QnO-BB91 Allow? (Y/N/Always/neVer)[0;10m[39;49m[315m[40m
+[0;10;1m[33m[44mAllowing this cookie.[K[0;10m[39;49m[315m[40m
+[0;10;1m[33m[44mRead 837 bytes of data, 141 bytes/sec.[0;10m[39;49m[315m[40m
+[0;10;1m[33m[44mData transfer complete[K[0;10m[39;49m[315m[40m[1;123H[35m[40mGoogle[3;4H[31m[40m検索[37m[40m [32m[40m画像[37m[40m [32m[40mマップ[37m[40m [32m[40mPlay[37m[40m [32m[40mYouTube[37m[40m [32m[40mニュース[37m[40m [32m[40mGmail[37m[40m [32m[40mドライブ[37m[40m [32m[40mもっと見る »
+[4Gウェブ履歴[37m[40m | [32m[40m設定[37m[40m | [32m[40mログイン
+
+[4G[33m[40mGoogle
+
+[4G[0;10;1m[37m[40m  _______________________________________________________
+[4GGoogle 検索  I'm Feeling Lucky    [0;10m[32m[40m検索オプション
+[4G[0;10;1m[37m[40m   [0;10m[32m[40m言語ツール
+
+[4G[37m[40mGoogle 検索は次の言語でもご利用いただけます: [32m[40mEnglish
+
+[4G広告掲載[37m[40m     [32m[40mビジネス ソリューション[37m[40m     [32m[40mGoogle について[37m[40m     [32m[40mGoogle.co.jp[16;49H[37m[40m© 2019 - [32m[40mプライバシー[37m[40m - [32m[40m規約[48;128H[0;10m[39;49m[315m[40m[47;3H[37m[40mArrow keys: Up and Down to move.  Right to follow a link; Left to go back.
+ H)elp O)ptions P)rint G)o M)ain screen Q)uit /=search [delete]=history list [0;10m[39;49m[315m[40m
+[46d[0;10;1m[33m[44m(NORMAL LINK) Use right-arrow or <return> to activate.[0;10m[39;49m[315m[40m[3;9H[0;10;1m[33m[40m画像[48;128H[0;10m[39;49m[315m[40m
+[37m[40m[J[0;10m[39;49m[315m[40m[39;49m[K[48;1H
+
+
+Exiting via interrupt: 2
+
+[root@localhost ~]# ping www.microsoft.com
+PING e13678.dspb.akamaiedge.net (23.41.22.6) 56(84) bytes of data.
+64 bytes from a23-41-22-6.deploy.static.akamaitechnologies.com (23.41.22.6): icmp_seq=1 ttl=55 time=5.58 ms
+64 bytes from a23-41-22-6.deploy.static.akamaitechnologies.com (23.41.22.6): icmp_seq=2 ttl=55 time=5.47 ms
+64 bytes from a23-41-22-6.deploy.static.akamaitechnologies.com (23.41.22.6): icmp_seq=3 ttl=55 time=5.12 ms
+64 bytes from a23-41-22-6.deploy.static.akamaitechnologies.com (23.41.22.6): icmp_seq=4 ttl=55 time=4.99 ms
+^C
+--- e13678.dspb.akamaiedge.net ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3004ms
+rtt min/avg/max/mdev = 4.999/5.296/5.583/0.246 ms
+[root@localhost ~]# ping ice@192.168.200.1
+ping: ice@192.168.200.1: Name or service not known
+[root@localhost ~]# ping ice@192.168.200.1[1P ice@192.168.200.1[1P ice@192.168.200.1[1P ice@192.168.200.1[1P ice@192.168.200.1s ice@192.168.200.1s ice@192.168.200.1h ice@192.168.200.1
+^C
+[root@localhost ~]# ssh ice@192.168.200.1[C[1P192.168.200.1[1P192.168.200.1[1P192.168.200.1[1P192.168.200.1
+^C
+[root@localhost ~]# ssh 192.168.200.1[1P 192.168.200.1[1P 192.168.200.1[1P 192.168.200.1p 192.168.200.1i 192.168.200.1n 192.168.200.1g 192.168.200.1
+PING 192.168.200.1 (192.168.200.1) 56(84) bytes of data.
+64 bytes from 192.168.200.1: icmp_seq=1 ttl=64 time=0.593 ms
+64 bytes from 192.168.200.1: icmp_seq=2 ttl=64 time=0.506 ms
+64 bytes from 192.168.200.1: icmp_seq=3 ttl=64 time=0.532 ms
+64 bytes from 192.168.200.1: icmp_seq=4 ttl=64 time=0.543 ms
+^C
+--- 192.168.200.1 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3000ms
+rtt min/avg/max/mdev = 0.506/0.543/0.593/0.039 ms
+[root@localhost ~]# firewall-cmd --pa[K[Kpermanent --add-service=dhcp6-client
+[91mError: INVALID_SERVICE: 'dhcp6-client' not among existing services[00m
+[root@localhost ~]# firewall-cmd --permanent --add-service=dhcp6-clientv6-client
+[91mWarning: ALREADY_ENABLED: dhcpv6-client[00m
+success
+[root@localhost ~]# firewall-cmd --permanent --add-service=dhcpv6-client[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[Khttp
+success
+[root@localhost ~]# firewall-cmd --permanent --add-service=https
+success
+[root@localhost ~]# firewall-cmd -relop[Kad
+usage: see firewall-cmd man page
+firewall-cmd: error: unrecognized arguments: -reload
+[root@localhost ~]# firewall-cmd -reload[1@d
+bash: firewalld-cmd: command not found
+[root@localhost ~]# firewalld-cmd -reload[C[C[C[C-reload
+bash: firewalld-cmd: command not found
+[root@localhost ~]# firewalld-cmd --reload[C[1P
+success
+[root@localhost ~]# systemctl stop firewalld
+[root@localhost ~]# yum info httpd
+Loaded plugins: fastestmirror
+Loading mirror speeds from cached hostfile
+ * base: mirrors.cat.net
+ * extras: mirrors.cat.net
+ * updates: mirrors.cat.net
+Available Packages
+Name        : httpd
+Arch        : x86_64
+Version     : 2.4.6
+Release     : 89.el7.centos
+Size        : 2.7 M
+Repo        : updates/7/x86_64
+Summary     : Apache HTTP Server
+URL         : http://httpd.apache.org/
+License     : ASL 2.0
+Description : The Apache HTTP Server is a powerful, efficient, and extensible
+            : web server.
+
+[root@localhost ~]# yum info mod\ssl[K[K[K[K_ssl
+Loaded plugins: fastestmirror
+Loading mirror speeds from cached hostfile
+ * base: mirrors.cat.net
+ * extras: mirrors.cat.net
+ * updates: mirrors.cat.net
+Available Packages
+Name        : mod_ssl
+Arch        : x86_64
+Epoch       : 1
+Version     : 2.4.6
+Release     : 89.el7.centos
+Size        : 112 k
+Repo        : updates/7/x86_64
+Summary     : SSL/TLS module for the Apache HTTP Server
+URL         : http://httpd.apache.org/
+License     : ASL 2.0
+Description : The mod_ssl module provides strong cryptography for the Apache Web
+            : server via the Secure Sockets Layer (SSL) and Transport Layer
+            : Security (TLS) protocols.
+
+[root@localhost ~]# yum istall[K[K[K[K[Knstall httpd
+Loaded plugins: fastestmirror
+Loading mirror speeds from cached hostfile
+ * base: mirrors.cat.net
+ * extras: mirrors.cat.net
+ * updates: mirrors.cat.net
+Resolving Dependencies
+--> Running transaction check
+---> Package httpd.x86_64 0:2.4.6-89.el7.centos will be installed
+--> Processing Dependency: httpd-tools = 2.4.6-89.el7.centos for package: httpd-2.4.6-89.el7.centos.x86_64
+--> Processing Dependency: /etc/mime.types for package: httpd-2.4.6-89.el7.centos.x86_64
+--> Processing Dependency: libaprutil-1.so.0()(64bit) for package: httpd-2.4.6-89.el7.centos.x86_64
+--> Processing Dependency: libapr-1.so.0()(64bit) for package: httpd-2.4.6-89.el7.centos.x86_64
+--> Running transaction check
+---> Package apr.x86_64 0:1.4.8-3.el7_4.1 will be installed
+---> Package apr-util.x86_64 0:1.5.2-6.el7 will be installed
+---> Package httpd-tools.x86_64 0:2.4.6-89.el7.centos will be installed
+---> Package mailcap.noarch 0:2.1.41-2.el7 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================================================================
+ Package                       Arch                     Version                                 Repository                 Size
+================================================================================================================================
+Installing:
+ httpd                         x86_64                   2.4.6-89.el7.centos                     updates                   2.7 M
+Installing for dependencies:
+ apr                           x86_64                   1.4.8-3.el7_4.1                         base                      103 k
+ apr-util                      x86_64                   1.5.2-6.el7                             base                       92 k
+ httpd-tools                   x86_64                   2.4.6-89.el7.centos                     updates                    90 k
+ mailcap                       noarch                   2.1.41-2.el7                            base                       31 k
+
+Transaction Summary
+================================================================================================================================
+Install  1 Package (+4 Dependent packages)
+
+Total download size: 3.0 M
+Installed size: 10 M
+Is this ok [y/d/N]: y
+Downloading packages:
+
+(1/5): apr-util-1.5.2-6.el7.x86_64.rpm                                                                   |  92 kB  00:00:00     
+
+(2/5): mailcap-2.1.41-2.el7.noarch.rpm                                                                   |  31 kB  00:00:00     
+
+(3/5): apr-1.4.8-3.el7_4.1.x86_64.rpm                                                                    | 103 kB  00:00:00     
+
+(4/5): httpd-tools-2.4.6-89.el7.centos.x86_64.rpm                                                        |  90 kB  00:00:00     
+
+(5/5): httpd-2.4.6-89.el7.centos.x86_64.rpm                                                              | 2.7 MB  00:00:00     
+--------------------------------------------------------------------------------------------------------------------------------
+Total                                                                                           4.9 MB/s | 3.0 MB  00:00:00     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+
+  Installing : apr-1.4.8-3.el7_4.1.x86_64 [                                                                               ] 1/5
+  Installing : apr-1.4.8-3.el7_4.1.x86_64 [######################                                                         ] 1/5
+  Installing : apr-1.4.8-3.el7_4.1.x86_64 [#############################################                                  ] 1/5
+  Installing : apr-1.4.8-3.el7_4.1.x86_64 [###################################################################            ] 1/5
+  Installing : apr-1.4.8-3.el7_4.1.x86_64 [####################################################################           ] 1/5
+  Installing : apr-1.4.8-3.el7_4.1.x86_64 [#######################################################################        ] 1/5
+  Installing : apr-1.4.8-3.el7_4.1.x86_64 [############################################################################## ] 1/5
+  Installing : apr-1.4.8-3.el7_4.1.x86_64                                                                                   1/5 
+
+  Installing : apr-util-1.5.2-6.el7.x86_64 [                                                                              ] 2/5
+  Installing : apr-util-1.5.2-6.el7.x86_64 [#########################                                                     ] 2/5
+  Installing : apr-util-1.5.2-6.el7.x86_64 [##################################################                            ] 2/5
+  Installing : apr-util-1.5.2-6.el7.x86_64 [###################################################################           ] 2/5
+  Installing : apr-util-1.5.2-6.el7.x86_64 [####################################################################          ] 2/5
+  Installing : apr-util-1.5.2-6.el7.x86_64 [############################################################################# ] 2/5
+  Installing : apr-util-1.5.2-6.el7.x86_64                                                                                  2/5 
+
+  Installing : httpd-tools-2.4.6-89.el7.centos.x86_64 [                                                                   ] 3/5
+  Installing : httpd-tools-2.4.6-89.el7.centos.x86_64 [####################                                               ] 3/5
+  Installing : httpd-tools-2.4.6-89.el7.centos.x86_64 [############################                                       ] 3/5
+  Installing : httpd-tools-2.4.6-89.el7.centos.x86_64 [##################################                                 ] 3/5
+  Installing : httpd-tools-2.4.6-89.el7.centos.x86_64 [##########################################                         ] 3/5
+  Installing : httpd-tools-2.4.6-89.el7.centos.x86_64 [##############################################                     ] 3/5
+  Installing : httpd-tools-2.4.6-89.el7.centos.x86_64 [###################################################                ] 3/5
+  Installing : httpd-tools-2.4.6-89.el7.centos.x86_64 [#############################################################      ] 3/5
+  Installing : httpd-tools-2.4.6-89.el7.centos.x86_64 [##############################################################     ] 3/5
+  Installing : httpd-tools-2.4.6-89.el7.centos.x86_64 [################################################################   ] 3/5
+  Installing : httpd-tools-2.4.6-89.el7.centos.x86_64 [#################################################################  ] 3/5
+  Installing : httpd-tools-2.4.6-89.el7.centos.x86_64 [################################################################## ] 3/5
+  Installing : httpd-tools-2.4.6-89.el7.centos.x86_64                                                                       3/5 
+
+  Installing : mailcap-2.1.41-2.el7.noarch [                                                                              ] 4/5
+  Installing : mailcap-2.1.41-2.el7.noarch [###############################################################               ] 4/5
+  Installing : mailcap-2.1.41-2.el7.noarch [################################################################              ] 4/5
+  Installing : mailcap-2.1.41-2.el7.noarch [########################################################################      ] 4/5
+  Installing : mailcap-2.1.41-2.el7.noarch [############################################################################# ] 4/5
+  Installing : mailcap-2.1.41-2.el7.noarch                                                                                  4/5 
+
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [                                                                         ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [#                                                                        ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [##                                                                       ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [###                                                                      ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [####                                                                     ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [#####                                                                    ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [######                                                                   ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [#######                                                                  ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [########                                                                 ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [#########                                                                ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [##########                                                               ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [###########                                                              ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [############                                                             ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [#############                                                            ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [##############                                                           ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [###############                                                          ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [################                                                         ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [#################                                                        ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [##################                                                       ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [###################                                                      ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [####################                                                     ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [#####################                                                    ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [######################                                                   ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [#######################                                                  ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [########################                                                 ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [#########################                                                ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [##########################                                               ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [###########################                                              ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [############################                                             ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [#############################                                            ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [##############################                                           ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [###############################                                          ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [################################                                         ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [#################################                                        ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [##################################                                       ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [###################################                                      ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [####################################                                     ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [#####################################                                    ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [######################################                                   ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [#######################################                                  ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [########################################                                 ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [#########################################                                ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [##########################################                               ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [###########################################                              ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [############################################                             ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [#############################################                            ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [##############################################                           ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [###############################################                          ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [################################################                         ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [#################################################                        ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [##################################################                       ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [###################################################                      ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [####################################################                     ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [#####################################################                    ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [######################################################                   ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [#######################################################                  ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [########################################################                 ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [#########################################################                ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [##########################################################               ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [###########################################################              ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [############################################################             ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [#############################################################            ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [##############################################################           ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [###############################################################          ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [################################################################         ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [#################################################################        ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [##################################################################       ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [###################################################################      ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [####################################################################     ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [#####################################################################    ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [######################################################################   ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [#######################################################################  ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64 [######################################################################## ] 5/5
+  Installing : httpd-2.4.6-89.el7.centos.x86_64                                                                             5/5 
+
+  Verifying  : httpd-tools-2.4.6-89.el7.centos.x86_64                                                                       1/5 
+
+  Verifying  : mailcap-2.1.41-2.el7.noarch                                                                                  2/5 
+
+  Verifying  : httpd-2.4.6-89.el7.centos.x86_64                                                                             3/5 
+
+  Verifying  : apr-1.4.8-3.el7_4.1.x86_64                                                                                   4/5 
+
+  Verifying  : apr-util-1.5.2-6.el7.x86_64                                                                                  5/5 
+
+Installed:
+  httpd.x86_64 0:2.4.6-89.el7.centos                                                                                            
+
+Dependency Installed:
+  apr.x86_64 0:1.4.8-3.el7_4.1          apr-util.x86_64 0:1.5.2-6.el7         httpd-tools.x86_64 0:2.4.6-89.el7.centos        
+  mailcap.noarch 0:2.1.41-2.el7        
+
+Complete!
+[root@localhost ~]# yum install mod\[K_ssl
+Loaded plugins: fastestmirror
+Loading mirror speeds from cached hostfile
+ * base: mirrors.cat.net
+ * extras: mirrors.cat.net
+ * updates: mirrors.cat.net
+Resolving Dependencies
+--> Running transaction check
+---> Package mod_ssl.x86_64 1:2.4.6-89.el7.centos will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================================================================
+ Package                    Arch                      Version                                  Repository                  Size
+================================================================================================================================
+Installing:
+ mod_ssl                    x86_64                    1:2.4.6-89.el7.centos                    updates                    112 k
+
+Transaction Summary
+================================================================================================================================
+Install  1 Package
+
+Total download size: 112 k
+Installed size: 224 k
+Is this ok [y/d/N]: y
+Downloading packages:
+
+mod_ssl-2.4.6-89.el7.centos.x86_64.rpm                                                                   | 112 kB  00:00:00     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+
+  Installing : 1:mod_ssl-2.4.6-89.el7.centos.x86_64 [                                                                     ] 1/1
+  Installing : 1:mod_ssl-2.4.6-89.el7.centos.x86_64 [##                                                                   ] 1/1
+  Installing : 1:mod_ssl-2.4.6-89.el7.centos.x86_64 [######################                                               ] 1/1
+  Installing : 1:mod_ssl-2.4.6-89.el7.centos.x86_64 [##########################################                           ] 1/1
+  Installing : 1:mod_ssl-2.4.6-89.el7.centos.x86_64 [#############################################################        ] 1/1
+  Installing : 1:mod_ssl-2.4.6-89.el7.centos.x86_64 [#################################################################### ] 1/1
+  Installing : 1:mod_ssl-2.4.6-89.el7.centos.x86_64                                                                         1/1 
+
+  Verifying  : 1:mod_ssl-2.4.6-89.el7.centos.x86_64                                                                         1/1 
+
+Installed:
+  mod_ssl.x86_64 1:2.4.6-89.el7.centos                                                                                          
+
+Complete!
+[root@localhost ~]# cd /etc\pki[K[K[K[K/pki/tls/certs
+[root@localhost certs]# p[Kopnssl[K[K[K[Kenssl gerrsa[K[K[K[Knrsa -aes128 1024 > server.key
+Generating RSA private key, 1024 bit long modulus
+...++++++
+...........................................................++++++
+e is 65537 (0x10001)
+Enter pass phrase:
+Verifying - Enter pass phrase:
+[root@localhost certs]# openssl req -utf8 -new -key server.key -p[Kout server.csr
+Enter pass phrase for server.key:
+You are about to be asked to enter information that will be incorporated
+into your certificate request.
+What you are about to enter is what is called a Distinguished Name or a DN.
+There are quite a few fields but you can leave some blank
+For some fields there will be a default value,
+If you enter '.', the field will be left blank.
+-----
+Country Name (2 letter code) [XX]:jp
+State or Province Name (full name) []:nagoya
+Locality Name (eg, city) [Default City]:nagoya
+Organization Name (eg, company) [Default Company Ltd]:nagoya univ
+Organizational Unit Name (eg, section) []:ji  jikken2 6
+Common Name (eg, your name or your server's hostname) []:jikken6
+Email Address []:shinji      umi.sea.        umi.sea.0315@icloud.com
+
+Please enter the following 'extra' attributes
+to be sent with your certificate request
+A challenge password []:1843
+An optional company name []:group6a
+[root@localhost certs]# openssl req -utf8 -new -key server.key [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kx509 -in server.csr -out server.crt -days 365 -req -signkey server.key
+Signature ok
+subject=/C=jp/ST=nagoya/L=nagoya/O=nagoya univ/OU=jikken6/CN=jikken6/emailAddress=umi.sea.0315@icloud.com
+Getting Private key
+Enter pass phrase for server.key:
+unable to load Private key
+139759775852432:error:06065064:digital envelope routines:EVP_DecryptFinal_ex:bad decrypt:evp_enc.c:592:
+139759775852432:error:0906A065:PEM routines:PEM_do_header:bad decrypt:pem_lib.c:488:
+[root@localhost certs]# openssl x509 -in server.csr -out server.crt -days 365 -req -signkey server.key
+Signature ok
+subject=/C=jp/ST=nagoya/L=nagoya/O=nagoya univ/OU=jikken6/CN=jikken6/emailAddress=umi.sea.0315@icloud.com
+Getting Private key
+Enter pass phrase for server.key:
+[root@localhost certs]# SSLProtocol +TLSv1.2
+bash: SSLProtocol: command not found
+[root@localhost certs]# SSLProtocol +TLSv1.2[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kvi /etc/httpd/conf.d/ssk[Kl/[K.conf
+[1;48r[?25h[?8c[?25h[?0c[27m[24m[0m[H[J[?25l[?1c[48;1H"/etc/httpd/conf.d/ssl.conf" 217L, 9443C[1;1H#
+# When we also provide SSL we have to listen to the
+# the HTTPS port in addition.
+#
+Listen 443 https
+
+##
+##  SSL Global Context
+##
+##  All SSL configuration in this context applies both to
+##  the main server and all SSL-enabled virtual hosts.
+##
+
+#   Pass Phrase Dialog:
+#   Configure the pass phrase gathering process.
+#   The filtering dialog program (`builtin' is a internal
+#   terminal dialog) has to provide the pass phrase on stdout.
+SSLPassPhraseDialog exec:/usr/libexec/httpd-ssl-pass-dialog
+
+#   Inter-Process Session Cache:
+#   Configure the SSL Session Cache: First the mechanism
+#   to use and second the expiring timeout (in seconds).
+SSLSessionCache[9Cshmcb:/run/httpd/sslcache(512000)
+SSLSessionCacheTimeout  300
+
+#   Pseudo Random Number Generator (PRNG):
+#   Configure one or more sources to seed the PRNG of the
+#   SSL library. The seed data should be of good random quality.
+#   WARNING! On some platforms /dev/random blocks if not enough entropy
+#   is available. This means you then cannot use the /dev/random device
+#   because it would lead to very long connection times (as long as
+#   it requires to make more entropy available). But usually those
+#   platforms additionally provide a /dev/urandom device which doesn't
+#   block. So, if available, use this one instead. Read the mod_ssl User
+#   Manual for more details.
+SSLRandomSeed startup file:/dev/urandom  256
+SSLRandomSeed connect builtin
+#SSLRandomSeed startup file:/dev/random  512
+#SSLRandomSeed connect file:/dev/random  512
+#SSLRandomSeed connect file:/dev/urandom 512
+
+#
+# Use "SSLCryptoDevice" to enable any supported hardware
+# accelerators. Use "openssl engine -v" to list supported
+# engine names.  NOTE: If you enable an accelerator and the
+# server does not start, consult the error logs and ensure
+# your accelerator is functioning properly.[1;1H[?25h[?0c[?25l[?1c[48;1H[1m-- INSERT --[0m[48;13H[K[1;1H[K[1;1H[?25h[?0c[?25l[?1cS[?25h[?0c[?25l[?1cS[?25h[?0c[?25l[?1cL[?25h[?0c[?25l[?1cP[?25h[?0c[?25l[?1cr[?25h[?0c[?25l[?1co[?25h[?0c[?25l[?1ct[?25h[?0c[?25l[?1cp[?25h[?0c[?25l[?1c[1;8H[K[1;8H[?25h[?0c[?25l[?1co[?25h[?0c[?25l[?1cc[?25h[?0c[?25l[?1co[?25h[?0c[?25l[?1cl[?25h[?0c[?25l[?1c [?25h[?0c[?25l[?1c+[?25h[?0c[?25l[?1cT[?25h[?0c[?25l[?1cL[?25h[?0c[?25l[?1cS[?25h[?0c[?25l[?1cv[?25h[?0c[?25l[?1c1[?25h[?0c[?25l[?1c.[?25h[?0c[?25l[?1c2[?25h[?0c[?25l[?1c[2;47r[2;1H[L[1;48r[2;1H[?25h[?0c[?25l[?1cS[?25h[?0c[?25l[?1cS[?25h[?0c[?25l[?1cL[?25h[?0c[?25l[?1cC[?25h[?0c[?25l[?1ce[?25h[?0c[?25l[?1cr[?25h[?0c[?25l[?1ct[?25h[?0c[?25l[?1ci[?25h[?0c[?25l[?1cf[?25h[?0c[?25l[?1ci[?25h[?0c[?25l[?1cc[?25h[?0c[?25l[?1ca[?25h[?0c[?25l[?1ct[?25h[?0c[?25l[?1ce[?25h[?0c[?25l[?1cF[?25h[?0c[?25l[?1ci[?25h[?0c[?25l[?1cl[?25h[?0c[?25l[?1ce[?25h[?0c[?25l[?1c [?25h[?0c[?25l[?1c/[?25h[?0c[?25l[?1ce[?25h[?0c[?25l[?1ct[?25h[?0c[?25l[?1cc[?25h[?0c[?25l[?1c/[?25h[?0c[?25l[?1cp[?25h[?0c[?25l[?1ck[?25h[?0c[?25l[?1ci[?25h[?0c[?25l[?1c/[?25h[?0c[?25l[?1ct[?25h[?0c[?25l[?1cl[?25h[?0c[?25l[?1cs[?25h[?0c[?25l[?1c/[?25h[?0c[?25l[?1cc[?25h[?0c[?25l[?1ce[?25h[?0c[?25l[?1cr[?25h[?0c[?25l[?1ct[?25h[?0c[?25l[?1cs[?25h[?0c[?25l[?1c/[?25h[?0c[?25l[?1cs[?25h[?0c[?25l[?1ce[?25h[?0c[?25l[?1cr[?25h[?0c[?25l[?1cv[?25h[?0c[?25l[?1ce[?25h[?0c[?25l[?1cr[?25h[?0c[?25l[?1c.[?25h[?0c[?25l[?1cc[?25h[?0c[?25l[?1cr[?25h[?0c[?25l[?1ct[?25h[?0c[?25l[?1c[3;47r[3;1H[L[1;48r[3;1H[?25h[?0c[?25l[?1cS[?25h[?0c[?25l[?1cS[?25h[?0c[?25l[?1cL[?25h[?0c[?25l[?1cC[?25h[?0c[?25l[?1ce[?25h[?0c[?25l[?1cr[?25h[?0c[?25l[?1ct[?25h[?0c[?25l[?1ci[?25h[?0c[?25l[?1cf[?25h[?0c[?25l[?1ci[?25h[?0c[?25l[?1cc[?25h[?0c[?25l[?1ca[?25h[?0c[?25l[?1ct[?25h[?0c[?25l[?1ce[?25h[?0c[?25l[?1cK[?25h[?0c[?25l[?1ce[?25h[?0c[?25l[?1cy[?25h[?0c[?25l[?1cF[?25h[?0c[?25l[?1ci[?25h[?0c[?25l[?1cl[?25h[?0c[?25l[?1ce[?25h[?0c[?25l[?1c [?25h[?0c[?25l[?1c/[?25h[?0c[?25l[?1ce[?25h[?0c[?25l[?1ct[?25h[?0c[?25l[?1cc[?25h[?0c[?25l[?1c/[?25h[?0c[?25l[?1cp[?25h[?0c[?25l[?1ck[?25h[?0c[?25l[?1ci[?25h[?0c[?25l[?1c/[?25h[?0c[?25l[?1ct[?25h[?0c[?25l[?1cl[?25h[?0c[?25l[?1cs[?25h[?0c[?25l[?1c/[?25h[?0c[?25l[?1cc[?25h[?0c[?25l[?1ce[?25h[?0c[?25l[?1cr[?25h[?0c[?25l[?1ct[?25h[?0c[?25l[?1cs[?25h[?0c[?25l[?1c/[?25h[?0c[?25l[?1cs[?25h[?0c[?25l[?1ce[?25h[?0c[?25l[?1cr[?25h[?0c[?25l[?1cv[?25h[?0c[?25l[?1ce[?25h[?0c[?25l[?1cr[?25h[?0c[?25l[?1c.[?25h[?0c[?25l[?1ck[?25h[?0c[?25l[?1ce[?25h[?0c[?25l[?1cy[?25h[?0c[48;1H[K[3;51H[?25l[?1c[?25h[?0c[?25l[?1c[48;1H:[?25h[?0cwq
+[?25l[?1c"/etc/httpd/conf.d/ssl.conf" 219L, 9563C written
+[?25h[?0c
+
+[root@localhost certs]# ServerName jikk[K[K[K[K[K group6a
+bash: ServerName: command not found
+[root@localhost certs]# vi /etc/httpd/conf/httpd.cond[Kf
+[1;48r[?25h[?8c[?25h[?0c[27m[24m[0m[H[J[?25l[?1c[48;1H"/etc/httpd/conf/httpd.conf" 353L, 11753C[1;1H#
+# This is the main Apache HTTP server configuration file.  It contains the
+# configuration directives that give the server its instructions.
+# See <URL:http://httpd.apache.org/docs/2.4/> for detailed information.
+# In particular, see
+# <URL:http://httpd.apache.org/docs/2.4/mod/directives.html>
+# for a discussion of each configuration directive.
+#
+# Do NOT simply read the instructions in here without understanding
+# what they do.  They're here only as hints or reminders.  If you are unsure
+# consult the online docs. You have been warned.
+#
+# Configuration and logfile names: If the filenames you specify for many
+# of the server's control files begin with "/" (or "drive:/" for Win32), the
+# server will use that explicit path.  If the filenames do *not* begin
+# with "/", the value of ServerRoot is prepended -- so 'log/access_log'
+# with ServerRoot set to '/www' will be interpreted by the
+# server as '/www/log/access_log', where as '/log/access_log' will be
+# interpreted as '/log/access_log'.
+
+#
+# ServerRoot: The top of the directory tree under which the server's
+# configuration, error, and log files are kept.
+#
+# Do not add a slash at the end of the directory path.  If you point
+# ServerRoot at a non-local disk, be sure to specify a local disk on the
+# Mutex directive, if file-based mutexes are used.  If you wish to share the
+# same ServerRoot for multiple httpd daemons, you will need to change at
+# least PidFile.
+#
+ServerRoot "/etc/httpd"
+
+#
+# Listen: Allows you to bind Apache to specific IP addresses and/or
+# ports, instead of the default. See also the <VirtualHost>
+# directive.
+#
+# Change this to Listen on specific IP addresses as shown below to
+# prevent Apache from glomming onto all bound IP addresses.
+#
+#Listen 12.34.56.78:80
+Listen 80
+
+#
+# Dynamic Shared Object (DSO) Support
+#
+# To be able to use the functionality of a module which was built as a DSO you[1;1H[?25h[?0c[?25l[?1c[48;1H[1m-- INSERT --[0m[48;13H[K[1;1H[?25h[?0c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l[?1c[1;47r[47;1H
+ # have to place corresponding `LoadModule' lines at this location so the
+ 
+ # directives contained in it are actually available _before_ they are used.
+ 
+ # Statically compiled modules (those listed by `httpd -l') do not need
+ 
+ # to be loaded here.
+ 
+ # 
+ # Example:
+ 
+ # LoadModule foo_module modules/mod_foo.so
+ 
+ # 
+ Include conf.modules.d/*.conf
+ 
+  
+ # 
+ # If you wish httpd to run as a different user or group, you must run
+ 
+ # httpd as root initially and it will switch.
+ 
+ # 
+ # User/Group: The name (or #number) of the user/group to run httpd as.
+ 
+ # It is usually good practice to create a dedicated user and group for
+ 
+ # running httpd, as with most system services.
+ 
+ # 
+ User apache
+ 
+ Group apache
+ 
+  
+ # 'Main' server configuration
+ 
+ # 
+ # The directives in this section set up the values used by the 'main'
+ 
+ # server, which responds to any requests that aren't handled by a
+ 
+ # <VirtualHost> definition.  These values also provide defaults for
+ 
+ # any <VirtualHost> containers you may define later in the file.
+ 
+ # 
+ # All of these directives may appear inside <VirtualHost> containers,
+ 
+ # in which case these default settings will be overridden for the
+ 
+ # virtual host being defined.
+ 
+ # 
+  
+ # 
+ # ServerAdmin: Your address, where problems with the server should be
+ 
+ # e-mailed.  This address appears on some server-generated pages, such
+ 
+ # as error documents.  e.g. admin@your-domain.com
+ 
+ # 
+ ServerAdmin root@localhost
+ 
+  
+ # 
+ # ServerName gives the name and port that the server uses to identify itself.
+ 
+ # This can often be determined automatically, but we recommend you specify
+ 
+ # it explicitly to prevent problems during startup.
+ 
+ # 
+ # If your host doesn't have a registered DNS name, enter its IP address here.
+ 
+ # 
+ #ServerName www.example.com:80
+ 
+  
+ # 
+ # Deny access to the entirety of your server's filesystem. You must
+ 
+ # explicitly permit access to web content directories in other
+[?25h[?0c[46;1H[45;1H[44;1H[43;1H[42;1H
+#[?25l[?1cServerName www.example.com:80[43;30H[K[43;1H[?25h[?0c[?25l[?1c#ServerName www.example.com:80
+#[?25h[?0c#[?25l[?1cServerName www.example.com:80[43;30H[K[43;1H[?25h[?0cServerName www.example.com:80[?25l[?1c[43;29H[K[43;29H[?25h[?0c[?25l[?1c[43;28H[K[43;28H[?25h[?0c[?25l[?1c[43;27H[K[43;27H[?25h[?0c[?25l[?1c[43;26H[K[43;26H[?25h[?0c[?25l[?1c[43;25H[K[43;25H[?25h[?0c[?25l[?1c[43;24H[K[43;24H[?25h[?0c[?25l[?1c[43;23H[K[43;23H[?25h[?0c[?25l[?1c[43;22H[K[43;22H[?25h[?0c[?25l[?1c[43;21H[K[43;21H[?25h[?0c[?25l[?1c[43;20H[K[43;20H[?25h[?0c[?25l[?1c[43;19H[K[43;19H[?25h[?0c[?25l[?1c[43;18H[K[43;18H[?25h[?0c[?25l[?1c[43;17H[K[43;17H[?25h[?0c[?25l[?1c[43;16H[K[43;16H[?25h[?0c[?25l[?1c[43;15H[K[43;15H[?25h[?0c[?25l[?1c[43;14H[K[43;14H[?25h[?0c[?25l[?1c[43;13H[K[43;13H[?25h[?0c[?25l[?1c[43;12H[K[43;12H[?25h[?0c[?25l[?1cg[?25h[?0c[?25l[?1cr[?25h[?0c[?25l[?1co[?25h[?0c[?25l[?1cu[?25h[?0c[?25l[?1cp[?25h[?0c[?25l[?1c6[?25h[?0c[?25l[?1ca[?25h[?0c[48;1H[K[43;18H[?25l[?1c[?25h[?0c[?25l[?1c[48;1H:[?25h[?0cwq
+[?25l[?1c"/etc/httpd/conf/httpd.conf" 353L, 11741C written
+[?25h[?0c
+
+[root@localhost certs]# system [Kctl restart httpd
+[root@localhost certs]# systemctl restart httpdvi /etc/httpd/conf/httpd.conf
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11PServerName group6avi /etc/httpd/conf/httpd.conf
+[1;48r[?25h[?8c[?25h[?0c[27m[24m[0m[H[J[?25l[?1c[48;1H"/etc/httpd/conf/httpd.conf" 353L, 11741C[1;1H#
+# This is the main Apache HTTP server configuration file.  It contains the
+# configuration directives that give the server its instructions.
+# See <URL:http://httpd.apache.org/docs/2.4/> for detailed information.
+# In particular, see
+# <URL:http://httpd.apache.org/docs/2.4/mod/directives.html>
+# for a discussion of each configuration directive.
+#
+# Do NOT simply read the instructions in here without understanding
+# what they do.  They're here only as hints or reminders.  If you are unsure
+# consult the online docs. You have been warned.
+#
+# Configuration and logfile names: If the filenames you specify for many
+# of the server's control files begin with "/" (or "drive:/" for Win32), the
+# server will use that explicit path.  If the filenames do *not* begin
+# with "/", the value of ServerRoot is prepended -- so 'log/access_log'
+# with ServerRoot set to '/www' will be interpreted by the
+# server as '/www/log/access_log', where as '/log/access_log' will be
+# interpreted as '/log/access_log'.
+
+#
+# ServerRoot: The top of the directory tree under which the server's
+# configuration, error, and log files are kept.
+#
+# Do not add a slash at the end of the directory path.  If you point
+# ServerRoot at a non-local disk, be sure to specify a local disk on the
+# Mutex directive, if file-based mutexes are used.  If you wish to share the
+# same ServerRoot for multiple httpd daemons, you will need to change at
+# least PidFile.
+#
+ServerRoot "/etc/httpd"
+
+#
+# Listen: Allows you to bind Apache to specific IP addresses and/or
+# ports, instead of the default. See also the <VirtualHost>
+# directive.
+#
+# Change this to Listen on specific IP addresses as shown below to
+# prevent Apache from glomming onto all bound IP addresses.
+#
+#Listen 12.34.56.78:80
+Listen 80
+
+#
+# Dynamic Shared Object (DSO) Support
+#
+# To be able to use the functionality of a module which was built as a DSO you[1;1H[?25h[?0c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l[?1c[1;47r[47;1H
+ # have to place corresponding `LoadModule' lines at this location so the[48;1H[K[47;1H 
+ # directives contained in it are actually available _before_ they are used.
+ 
+ # Statically compiled modules (those listed by `httpd -l') do not need
+ 
+ # to be loaded here.
+ 
+ # 
+ # Example:
+ 
+ # LoadModule foo_module modules/mod_foo.so
+ 
+ # 
+ Include conf.modules.d/*.conf
+ 
+  
+ # 
+ # If you wish httpd to run as a different user or group, you must run
+ 
+ # httpd as root initially and it will switch.
+ 
+ # 
+ # User/Group: The name (or #number) of the user/group to run httpd as.
+ 
+ # It is usually good practice to create a dedicated user and group for
+ 
+ # running httpd, as with most system services.
+ 
+ # 
+ User apache
+ 
+ Group apache
+ 
+  
+ # 'Main' server configuration
+ 
+ # 
+ # The directives in this section set up the values used by the 'main'
+ 
+ # server, which responds to any requests that aren't handled by a
+ 
+ # <VirtualHost> definition.  These values also provide defaults for
+ 
+ # any <VirtualHost> containers you may define later in the file.
+ 
+ # 
+ # All of these directives may appear inside <VirtualHost> containers,
+ 
+ # in which case these default settings will be overridden for the
+ 
+ # virtual host being defined.
+ 
+ # 
+  
+ # 
+ # ServerAdmin: Your address, where problems with the server should be
+ 
+ # e-mailed.  This address appears on some server-generated pages, such
+ 
+ # as error documents.  e.g. admin@your-domain.com
+ 
+ # 
+ ServerAdmin root@localhost
+ 
+  
+ # 
+ # ServerName gives the name and port that the server uses to identify itself.
+ 
+ # This can often be determined automatically, but we recommend you specify
+ 
+ # it explicitly to prevent problems during startup.
+ 
+ #[?25h[?0c[46;1H
+[?25l[?1c[1;47r[47;1H
+ # If your host doesn't have a registered DNS name, enter its IP address here.
+ 
+ # 
+ ServerName group6a
+ 
+  
+ # 
+ # Deny access to the entirety of your server's filesystem. You must
+ 
+ # explicitly permit access to web content directories in other
+ 
+ # <Directory> blocks below.
+[?25h[?0c[46;1H[45;1H[44;1H[43;1H[42;1H[41;1H
+[?25l[?1c[48;1H?\<ServerName\>
+[36;3H[?25h[?0c[?25l[?1c[48;1H[1m-- INSERT --[0m[48;13H[K[36;3H[?25h[?0c
+# 
+# 
+#
+# 
+#
+Se[?25l[?1c#ServerName group6a
+#[?25h[?0c[48;1H[K[42;1H[?25l[?1c[?25h[?0c[?25l[?1c[48;1H:[?25h[?0cwq
+[?25l[?1c"/etc/httpd/conf/httpd.conf" 353L, 11742C written
+[?25h[?0c
+
+[root@localhost certs]# vi /etc/httpd/conf/httpd.conf
+[1;48r[?25h[?8c[?25h[?0c[27m[24m[0m[H[J[?25l[?1c[48;1H"/etc/httpd/conf/httpd.conf" 353L, 11742C[1;1H#
+# This is the main Apache HTTP server configuration file.  It contains the
+# configuration directives that give the server its instructions.
+# See <URL:http://httpd.apache.org/docs/2.4/> for detailed information.
+# In particular, see
+# <URL:http://httpd.apache.org/docs/2.4/mod/directives.html>
+# for a discussion of each configuration directive.
+#
+# Do NOT simply read the instructions in here without understanding
+# what they do.  They're here only as hints or reminders.  If you are unsure
+# consult the online docs. You have been warned.
+#
+# Configuration and logfile names: If the filenames you specify for many
+# of the server's control files begin with "/" (or "drive:/" for Win32), the
+# server will use that explicit path.  If the filenames do *not* begin
+# with "/", the value of ServerRoot is prepended -- so 'log/access_log'
+# with ServerRoot set to '/www' will be interpreted by the
+# server as '/www/log/access_log', where as '/log/access_log' will be
+# interpreted as '/log/access_log'.
+
+#
+# ServerRoot: The top of the directory tree under which the server's
+# configuration, error, and log files are kept.
+#
+# Do not add a slash at the end of the directory path.  If you point
+# ServerRoot at a non-local disk, be sure to specify a local disk on the
+# Mutex directive, if file-based mutexes are used.  If you wish to share the
+# same ServerRoot for multiple httpd daemons, you will need to change at
+# least PidFile.
+#
+ServerRoot "/etc/httpd"
+
+#
+# Listen: Allows you to bind Apache to specific IP addresses and/or
+# ports, instead of the default. See also the <VirtualHost>
+# directive.
+#
+# Change this to Listen on specific IP addresses as shown below to
+# prevent Apache from glomming onto all bound IP addresses.
+#
+#Listen 12.34.56.78:80
+Listen 80
+
+#
+# Dynamic Shared Object (DSO) Support
+#
+# To be able to use the functionality of a module which was built as a DSO you[1;1H[?25h[?0c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l[?1c[1;47r[47;1H
+ # have to place corresponding `LoadModule' lines at this location so the[48;1H[K[47;1H 
+ # directives contained in it are actually available _before_ they are used.
+ 
+ # Statically compiled modules (those listed by `httpd -l') do not need
+ 
+ # to be loaded here.
+ 
+ # 
+ # Example:
+ 
+ # LoadModule foo_module modules/mod_foo.so
+ 
+ # 
+ Include conf.modules.d/*.conf
+ 
+  
+ # 
+ # If you wish httpd to run as a different user or group, you must run
+ 
+ # httpd as root initially and it will switch.
+ 
+ # 
+ # User/Group: The name (or #number) of the user/group to run httpd as.
+ 
+ # It is usually good practice to create a dedicated user and group for
+ 
+ # running httpd, as with most system services.
+ 
+ # 
+ User apache
+ 
+ Group apache
+ 
+  
+ # 'Main' server configuration
+ 
+ # 
+ # The directives in this section set up the values used by the 'main'
+ 
+ # server, which responds to any requests that aren't handled by a
+ 
+ # <VirtualHost> definition.  These values also provide defaults for
+ 
+ # any <VirtualHost> containers you may define later in the file.
+ 
+ # 
+ # All of these directives may appear inside <VirtualHost> containers,
+ 
+ # in which case these default settings will be overridden for the
+ 
+ # virtual host being defined.
+ 
+ # 
+  
+ # 
+ # ServerAdmin: Your address, where problems with the server should be
+ 
+ # e-mailed.  This address appears on some server-generated pages, such
+ 
+ # as error documents.  e.g. admin@your-domain.com
+ 
+ # 
+ ServerAdmin root@localhost
+ 
+  
+ # 
+ # ServerName gives the name and port that the server uses to identify itself.
+ 
+ # This can often be determined automatically, but we recommend you specify
+ 
+ # it explicitly to prevent problems during startup.
+ 
+ # 
+ # If your host doesn't have a registered DNS name, enter its IP address here.
+ 
+ #[?25h[?0c[46;1H[45;1H[44;1H[43;1H[42;1H[41;1H[40;1H
+
+
+
+
+
+
+[?25l[?1c[1;47r[47;1H
+ #ServerName group6a
+ 
+  
+ # 
+ # Deny access to the entirety of your server's filesystem. You must
+ 
+ # explicitly permit access to web content directories in other
+[?25h[?0c[46;1H[45;1H[44;1H[43;1H#ServerName group6p6[?25l[?1c[48;1H[1m-- INSERT --[43;19H[?25h[?0c[0ma[?25l[?1c[43;19H[K[43;19H[?25h[?0c[?25l[?1c[43;18H[K[43;18H[?25h[?0c[?25l[?1c[43;17H[K[43;17H[?25h[?0c[?25l[?1c[43;16H[K[43;16H[?25h[?0c[?25l[?1c[43;15H[K[43;15H[?25h[?0c[?25l[?1c[43;14H[K[43;14H[?25h[?0c[?25l[?1c[43;13H[K[43;13H[?25h[?0c[?25l[?1cw[?25h[?0c[?25l[?1cw[?25h[?0c[?25l[?1cw[?25h[?0c[?25l[?1c.[?25h[?0c[?25l[?1cg[?25h[?0c[?25l[?1cr[?25h[?0c[?25l[?1cp[?25h[?0c[?25l[?1c[43;19H[K[43;19H[?25h[?0c[?25l[?1co[?25h[?0c[?25l[?1cu[?25h[?0c[?25l[?1cp[?25h[?0c[?25l[?1c6[?25h[?0c[?25l[?1ca[?25h[?0c[?25l[?1c.[?25h[?0c[?25l[?1cc[?25h[?0c[?25l[?1co[?25h[?0c[?25l[?1cm[?25h[?0c[?25l[?1c:[?25h[?0c[?25l[?1c8[?25h[?0c[?25l[?1c0[?25h[?0c[48;1H[K[43;30H[?25l[?1c[?25h[?0c[?25l[?1c[48;1H:[?25h[?0cwq
+[?25l[?1c"/etc/httpd/conf/httpd.conf" 353L, 11753C written
+[?25h[?0c
+
+[root@localhost certs]# vi /etc/httpd/conf/httpd.conf
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Psystemctl restart httpdvi /etc/httpd/conf/httpd.conf
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kvi /etc/httpd/conf/httpd.conf
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Psystemctl restart httpdvi /etc/httpd/conf/httpd.conf
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11PServerName group6avi /etc/httpd/conf.d/ssl.conf
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9PSSLProtocol +TLSv1.2vi /etc/httpd/conf.d/ssl.conf
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11PServerName group6avi /etc/httpd/conf/httpd.conf
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Psystemctl restart httpdvi /etc/httpd/conf/httpd.conf
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kvi /etc/httpd/conf/httpd.conf
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Psystemctl restart httpd
+[root@localhost certs]# 3
+bash: 3: command not found
+[root@localhost certs]# 3
+bash: 3: command not found
+[root@localhost certs]# sysctl [K[K[K[Ktemctrl [K[K[Kl status httpd
+[1;32m●[0m httpd.service - The Apache HTTP Server
+   Loaded: loaded (/usr/lib/systemd/system/httpd.service; disabled; vendor preset: disabled)
+   Active: [1;32mactive (running)[0m since Thu 2019-05-23 18:47:35 JST; 10min ago
+     Docs: man:httpd(8)
+           man:apachectl(8)
+  Process: 3034 ExecStop=/bin/kill -WINCH ${MAINPID} (code=exited, status=0/SUCCESS)
+ Main PID: 3042 (httpd)
+   Status: "Total requests: 0; Current requests/sec: 0; Current traffic:   0 B/sec"
+   CGroup: /system.slice/httpd.service
+           ├─3042 /usr/sbin/httpd -DFOREGROUND
+           ├─3043 /usr/sbin/httpd -DFOREGROUND
+           ├─3044 /usr/sbin/httpd -DFOREGROUND
+           ├─3045 /usr/sbin/httpd -DFOREGROUND
+           ├─3046 /usr/sbin/httpd -DFOREGROUND
+           └─3047 /usr/sbin/httpd -DFOREGROUND
+
+May 23 18:47:35 localhost.localdomain systemd[1]: Starting The Apache HTTP Server...
+May 23 18:47:35 localhost.localdomain httpd[3042]: AH00558: httpd: Could not reliably determine the server's fully quali...ssage
+May 23 18:47:35 localhost.localdomain systemd[1]: Started The Apache HTTP Server.
+Hint: Some lines were ellipsized, use -l to show in full.
+[root@localhost certs]# sys[K[K[Klimks [K[K[K[Knks [K[K[K[K[K[Klynx localhost
+[1;48r[0;10m[4l[?7h[39;49m[39;49m[315m[40m[H[J[37m[40m[J[0;10m[39;49m[315m[40m[46d[0;10;1m[33m[44mLooking up localhost first[K[0;10m[39;49m[315m[40m
+[0;10;1m[33m[44mGetting http://localhost/[K[0;10m[39;49m[315m[40m
+[0;10;1m[33m[44mLooking up localhost[K[0;10m[39;49m[315m[40m
+[0;10;1m[33m[44mMaking HTTP connection to localhost[0;10m[39;49m[315m[40m
+[0;10;1m[33m[44mSending HTTP request.[K[0;10m[39;49m[315m[40m
+[0;10;1m[33m[44mHTTP request sent; waiting for response.[0;10m[39;49m[315m[40m
+[0;10;1m[33m[41mAlert!: HTTP/1.1 403 Forbidden[K[0;10m[39;49m[315m[40m
+[0;10;1m[33m[44mRead 1.2 KiB of data, 414 bytes/sec.[K[0;10m[39;49m[315m[40m[1;73H[35m[40mApache HTTP Server Test Page powered by CentOS (p1 of 2)[2;1H[0;10;1m[33m[44mTesting 123..
+
+[4G[0;10m[37m[40mThis page is used to test the proper operation of the [32m[40mApache HTTP server[37m[40m after it has been installed. If you can read
+   this page it means that this site is working properly. This server is powered by [32m[40mCentOS[37m[40m.
+
+Just visiting?
+
+   The website you just visited is either experiencing problems or is undergoing routine maintenance.
+
+   If you would like to let the administrators of this website know that you've seen this page instead of the page you
+   expected, you should send them e-mail. In general, mail sent to the name "webmaster" and directed to the website's
+   domain should reach the appropriate person.
+
+   For example, if you experienced problems while visiting www.example.com, you should send e-mail to
+   "webmaster@example.com".
+
+Are you the Administrator?
+
+   You should add your website content to the directory [0;10;1m[35m[40m/var/www/html/[0;10m[37m[40m.
+
+   To prevent this page from ever being used, follow the instructions in the file [0;10;1m[35m[40m/etc/httpd/conf.d/welcome.conf[0;10m[37m[40m.
+
+Promoting Apache and CentOS
+
+   You are free to use the images below on Apache and CentOS Linux powered HTTP servers. Thanks for using Apache and
+   CentOS!
+
+   [33m[40m[ Powered by Apache ] [ Powered by CentOS Linux ]
+
+[37m[40mImportant note:
+
+   The CentOS Project has nothing to do with this website or its content, it just provides the software that makes the
+   website run.
+
+   If you have issues with the content of this site, contact the owner of the domain, not the CentOS project. Unless you
+   intended to visit CentOS.org, the CentOS Project does not have anything to do with this website, the content or the
+   lack of it.
+
+   For example, if this website is www.example.com, you would find the owner of the example.com domain at the following
+   WHOIS server:
+
+   [32m[40mhttp://www.internic.net/whois.html
+
+[37m[40mThe CentOS Project
+[0;10m[39;49m[315m[40m[0;10;1m[33m[44mData transfer complete[K[0;10m[39;49m[315m[40m
+[3G[37m[40mArrow keys: Up and Down to move.  Right to follow a link; Left to go back.
+ H)elp O)ptions P)rint G)o M)ain screen Q)uit /=search [delete]=history list [0;10m[39;49m[315m[40m
+[46d[0;10;1m[33m[44m-- press space for next page --[0;10m[39;49m[315m[40m[4;58H[0;10;1m[33m[40mApache HTTP server[48;128H[0;10m[39;49m[315m[40m
+[46d[0;10;1m[33m[44mAre you sure you want to quit? (y) [0;10m[39;49m[315m[40m
+
+[37m[40m[J[0;10m[39;49m[315m[40m[39;49m[K[48;1H
+[root@localhost certs]# 
+[root@localhost certs]# ip addr
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: enp3s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 94:c6:91:a8:c9:54 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.150.100/24 brd 192.168.150.255 scope global noprefixroute dynamic enp3s0
+       valid_lft 2496sec preferred_lft 2496sec
+    inet6 fe80::15b7:4ca2:a0f3:9ba3/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+3: wlp2s0: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/ether dc:8b:28:55:19:23 brd ff:ff:ff:ff:ff:ff
+[root@localhost certs]# ip addr
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: enp3s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 94:c6:91:a8:c9:54 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.150.100/24 brd 192.168.150.255 scope global noprefixroute dynamic enp3s0
+       valid_lft 2241sec preferred_lft 2241sec
+    inet6 fe80::15b7:4ca2:a0f3:9ba3/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+3: wlp2s0: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/ether dc:8b:28:55:19:23 brd ff:ff:ff:ff:ff:ff
+[root@localhost certs]# nmcli con down enp3s0
+Error: 'enp3s0' is not an active connection.
+Error: no active connection provided.
+[root@localhost certs]# nmcli con down enp3s0[C[1P enp3s0[1P enp3s0[1P enp3s0[1P enp3s0u enp3s0p enp3s0
+Error: unknown connection 'enp3s0'.
+[root@localhost certs]# nucli d^[[2~[K[K[K[K[K[K[K[K[K[Kmcli d
+
+DEVICE  TYPE      STATE      CONNECTION         [m
+[32menp3s0[0m  [32methernet[0m  [32mconnected[0m  [32mWired connection 1[0m [m
+[2mlo[0m      [2mloopback[0m  [2munmanaged[0m  [2m--[0m                 [m
+[2mwlp2s0[0m  [2mwifi[0m      [2munmanaged[0m  [2m--[0m                 [m
+
+[K[root@localhost certs]# systemctl restart network
+[root@localhost certs]# ip addr
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: enp3s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 94:c6:91:a8:c9:54 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.150.100/24 brd 192.168.150.255 scope global noprefixroute dynamic enp3s0
+       valid_lft 2135sec preferred_lft 2135sec
+    inet6 fe80::15b7:4ca2:a0f3:9ba3/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+3: wlp2s0: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/ether dc:8b:28:55:19:23 brd ff:ff:ff:ff:ff:ff
+[root@localhost certs]# ip addrsystemctl restart networknmcli d[Kcon up enp3s0[K[K[K[K[K[K"Wired connection 1"
+Connection successfully activated (D-Bus active path: /org/freedesktop/NetworkManager/ActiveConnection/6)
+[root@localhost certs]# nmcli con up "Wired connection 1"[1P[1P[1@d[1@o[1@w[1@n
+Connection 'Wired connection 1' successfully deactivated (D-Bus active path: /org/freedesktop/NetworkManager/ActiveConnection/6)
+[root@localhost certs]# nmcli con down "Wired connection 1"[1P[1P[1P[1P[1@u[1@p
+Connection successfully activated (D-Bus active path: /org/freedesktop/NetworkManager/ActiveConnection/7)
+[root@localhost certs]# nmcli con up "Wired connection 1"[2@down[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pup[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cip addr[K
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: enp3s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 94:c6:91:a8:c9:54 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.150.2/24 brd 192.168.150.255 scope global noprefixroute dynamic enp3s0
+       valid_lft 3597sec preferred_lft 3597sec
+    inet6 fe80::15b7:4ca2:a0f3:9ba3/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+3: wlp2s0: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/ether dc:8b:28:55:19:23 brd ff:ff:ff:ff:ff:ff
+[root@localhost certs]# ec[Ktccetcdetc etc[C/etc[C[C[C/httpd
+[root@localhost httpd]# ls
+[0m[01;34mconf[0m  [01;34mconf.d[0m  [01;34mconf.modules.d[0m  [01;36mlogs[0m  [01;36mmodules[0m  [01;36mrun[0m
+[root@localhost httpd]# cd c[Kconf.d
+[root@localhost conf.d]# ls
+autoindex.conf  README  ssl.conf  userdir.conf  welcome.conf
+[root@localhost conf.d]# cat ssl.conf
+SSLProtocol +TLSv1.2
+SSLCertificateFile /etc/pki/tls/certs/server.crt
+SSLCertificateKeyFile /etc/pki/tls/certs/server.key
+# When we also provide SSL we have to listen to the 
+# the HTTPS port in addition.
+#
+Listen 443 https
+
+##
+##  SSL Global Context
+##
+##  All SSL configuration in this context applies both to
+##  the main server and all SSL-enabled virtual hosts.
+##
+
+#   Pass Phrase Dialog:
+#   Configure the pass phrase gathering process.
+#   The filtering dialog program (`builtin' is a internal
+#   terminal dialog) has to provide the pass phrase on stdout.
+SSLPassPhraseDialog exec:/usr/libexec/httpd-ssl-pass-dialog
+
+#   Inter-Process Session Cache:
+#   Configure the SSL Session Cache: First the mechanism 
+#   to use and second the expiring timeout (in seconds).
+SSLSessionCache         shmcb:/run/httpd/sslcache(512000)
+SSLSessionCacheTimeout  300
+
+#   Pseudo Random Number Generator (PRNG):
+#   Configure one or more sources to seed the PRNG of the 
+#   SSL library. The seed data should be of good random quality.
+#   WARNING! On some platforms /dev/random blocks if not enough entropy
+#   is available. This means you then cannot use the /dev/random device
+#   because it would lead to very long connection times (as long as
+#   it requires to make more entropy available). But usually those
+#   platforms additionally provide a /dev/urandom device which doesn't
+#   block. So, if available, use this one instead. Read the mod_ssl User
+#   Manual for more details.
+SSLRandomSeed startup file:/dev/urandom  256
+SSLRandomSeed connect builtin
+#SSLRandomSeed startup file:/dev/random  512
+#SSLRandomSeed connect file:/dev/random  512
+#SSLRandomSeed connect file:/dev/urandom 512
+
+#
+# Use "SSLCryptoDevice" to enable any supported hardware
+# accelerators. Use "openssl engine -v" to list supported
+# engine names.  NOTE: If you enable an accelerator and the
+# server does not start, consult the error logs and ensure
+# your accelerator is functioning properly. 
+#
+SSLCryptoDevice builtin
+#SSLCryptoDevice ubsec
+
+##
+## SSL Virtual Host Context
+##
+
+<VirtualHost _default_:443>
+
+# General setup for the virtual host, inherited from global configuration
+#DocumentRoot "/var/www/html"
+#ServerName www.example.com:443
+
+# Use separate log files for the SSL virtual host; note that LogLevel
+# is not inherited from httpd.conf.
+ErrorLog logs/ssl_error_log
+TransferLog logs/ssl_access_log
+LogLevel warn
+
+#   SSL Engine Switch:
+#   Enable/Disable SSL for this virtual host.
+SSLEngine on
+
+#   SSL Protocol support:
+# List the enable protocol levels with which clients will be able to
+# connect.  Disable SSLv2 access by default:
+SSLProtocol all -SSLv2 -SSLv3
+
+#   SSL Cipher Suite:
+#   List the ciphers that the client is permitted to negotiate.
+#   See the mod_ssl documentation for a complete list.
+SSLCipherSuite HIGH:3DES:!aNULL:!MD5:!SEED:!IDEA
+
+#   Speed-optimized SSL Cipher configuration:
+#   If speed is your main concern (on busy HTTPS servers e.g.),
+#   you might want to force clients to specific, performance
+#   optimized ciphers. In this case, prepend those ciphers
+#   to the SSLCipherSuite list, and enable SSLHonorCipherOrder.
+#   Caveat: by giving precedence to RC4-SHA and AES128-SHA
+#   (as in the example below), most connections will no longer
+#   have perfect forward secrecy - if the server's key is
+#   compromised, captures of past or future traffic must be
+#   considered compromised, too.
+#SSLCipherSuite RC4-SHA:AES128-SHA:HIGH:MEDIUM:!aNULL:!MD5
+#SSLHonorCipherOrder on 
+
+#   Server Certificate:
+# Point SSLCertificateFile at a PEM encoded certificate.  If
+# the certificate is encrypted, then you will be prompted for a
+# pass phrase.  Note that a kill -HUP will prompt again.  A new
+# certificate can be generated using the genkey(1) command.
+SSLCertificateFile /etc/pki/tls/certs/localhost.crt
+
+#   Server Private Key:
+#   If the key is not combined with the certificate, use this
+#   directive to point at the key file.  Keep in mind that if
+#   you've both a RSA and a DSA private key you can configure
+#   both in parallel (to also allow the use of DSA ciphers, etc.)
+SSLCertificateKeyFile /etc/pki/tls/private/localhost.key
+
+#   Server Certificate Chain:
+#   Point SSLCertificateChainFile at a file containing the
+#   concatenation of PEM encoded CA certificates which form the
+#   certificate chain for the server certificate. Alternatively
+#   the referenced file can be the same as SSLCertificateFile
+#   when the CA certificates are directly appended to the server
+#   certificate for convinience.
+#SSLCertificateChainFile /etc/pki/tls/certs/server-chain.crt
+
+#   Certificate Authority (CA):
+#   Set the CA certificate verification path where to find CA
+#   certificates for client authentication or alternatively one
+#   huge file containing all of them (file must be PEM encoded)
+#SSLCACertificateFile /etc/pki/tls/certs/ca-bundle.crt
+
+#   Client Authentication (Type):
+#   Client certificate verification type and depth.  Types are
+#   none, optional, require and optional_no_ca.  Depth is a
+#   number which specifies how deeply to verify the certificate
+#   issuer chain before deciding the certificate is not valid.
+#SSLVerifyClient require
+#SSLVerifyDepth  10
+
+#   Access Control:
+#   With SSLRequire you can do per-directory access control based
+#   on arbitrary complex boolean expressions containing server
+#   variable checks and other lookup directives.  The syntax is a
+#   mixture between C and Perl.  See the mod_ssl documentation
+#   for more details.
+#<Location />
+#SSLRequire (    %{SSL_CIPHER} !~ m/^(EXP|NULL)/ \
+#            and %{SSL_CLIENT_S_DN_O} eq "Snake Oil, Ltd." \
+#            and %{SSL_CLIENT_S_DN_OU} in {"Staff", "CA", "Dev"} \
+#            and %{TIME_WDAY} >= 1 and %{TIME_WDAY} <= 5 \
+#            and %{TIME_HOUR} >= 8 and %{TIME_HOUR} <= 20       ) \
+#           or %{REMOTE_ADDR} =~ m/^192\.76\.162\.[0-9]+$/
+#</Location>
+
+#   SSL Engine Options:
+#   Set various options for the SSL engine.
+#   o FakeBasicAuth:
+#     Translate the client X.509 into a Basic Authorisation.  This means that
+#     the standard Auth/DBMAuth methods can be used for access control.  The
+#     user name is the `one line' version of the client's X.509 certificate.
+#     Note that no password is obtained from the user. Every entry in the user
+#     file needs this password: `xxj31ZMTZzkVA'.
+#   o ExportCertData:
+#     This exports two additional environment variables: SSL_CLIENT_CERT and
+#     SSL_SERVER_CERT. These contain the PEM-encoded certificates of the
+#     server (always existing) and the client (only existing when client
+#     authentication is used). This can be used to import the certificates
+#     into CGI scripts.
+#   o StdEnvVars:
+#     This exports the standard SSL/TLS related `SSL_*' environment variables.
+#     Per default this exportation is switched off for performance reasons,
+#     because the extraction step is an expensive operation and is usually
+#     useless for serving static content. So one usually enables the
+#     exportation for CGI and SSI requests only.
+#   o StrictRequire:
+#     This denies access when "SSLRequireSSL" or "SSLRequire" applied even
+#     under a "Satisfy any" situation, i.e. when it applies access is denied
+#     and no other module can change it.
+#   o OptRenegotiate:
+#     This enables optimized SSL connection renegotiation handling when SSL
+#     directives are used in per-directory context. 
+#SSLOptions +FakeBasicAuth +ExportCertData +StrictRequire
+<Files ~ "\.(cgi|shtml|phtml|php3?)$">
+    SSLOptions +StdEnvVars
+</Files>
+<Directory "/var/www/cgi-bin">
+    SSLOptions +StdEnvVars
+</Directory>
+
+#   SSL Protocol Adjustments:
+#   The safe and default but still SSL/TLS standard compliant shutdown
+#   approach is that mod_ssl sends the close notify alert but doesn't wait for
+#   the close notify alert from client. When you need a different shutdown
+#   approach you can use one of the following variables:
+#   o ssl-unclean-shutdown:
+#     This forces an unclean shutdown when the connection is closed, i.e. no
+#     SSL close notify alert is send or allowed to received.  This violates
+#     the SSL/TLS standard but is needed for some brain-dead browsers. Use
+#     this when you receive I/O errors because of the standard approach where
+#     mod_ssl sends the close notify alert.
+#   o ssl-accurate-shutdown:
+#     This forces an accurate shutdown when the connection is closed, i.e. a
+#     SSL close notify alert is send and mod_ssl waits for the close notify
+#     alert of the client. This is 100% SSL/TLS standard compliant, but in
+#     practice often causes hanging connections with brain-dead browsers. Use
+#     this only for browsers where you know that their SSL implementation
+#     works correctly. 
+#   Notice: Most problems of broken clients are also related to the HTTP
+#   keep-alive facility, so you usually additionally want to disable
+#   keep-alive for those clients, too. Use variable "nokeepalive" for this.
+#   Similarly, one has to force some clients to use HTTP/1.0 to workaround
+#   their broken HTTP/1.1 implementation. Use variables "downgrade-1.0" and
+#   "force-response-1.0" for this.
+BrowserMatch "MSIE [2-5]" \
+         nokeepalive ssl-unclean-shutdown \
+         downgrade-1.0 force-response-1.0
+
+#   Per-Server Logging:
+#   The home of a custom SSL log file. Use this when you want a
+#   compact non-error SSL logfile on a virtual host basis.
+CustomLog logs/ssl_request_log \
+          "%t %h %{SSL_PROTOCOL}x %{SSL_CIPHER}x \"%r\" %b"
+
+</VirtualHost>                                  
+
+[root@localhost conf.d]# vi ssl.conf
+[1;48r[?25h[?8c[?25h[?0c[27m[24m[0m[H[J[?25l[?1c[48;1H"ssl.conf" 219L, 9563C[1;1HSSLProtocol +TLSv1.2
+SSLCertificateFile /etc/pki/tls/certs/server.crt
+SSLCertificateKeyFile /etc/pki/tls/certs/server.key
+# When we also provide SSL we have to listen to the
+# the HTTPS port in addition.
+#
+Listen 443 https
+
+##
+##  SSL Global Context
+##
+##  All SSL configuration in this context applies both to
+##  the main server and all SSL-enabled virtual hosts.
+##
+
+#   Pass Phrase Dialog:
+#   Configure the pass phrase gathering process.
+#   The filtering dialog program (`builtin' is a internal
+#   terminal dialog) has to provide the pass phrase on stdout.
+SSLPassPhraseDialog exec:/usr/libexec/httpd-ssl-pass-dialog
+
+#   Inter-Process Session Cache:
+#   Configure the SSL Session Cache: First the mechanism
+#   to use and second the expiring timeout (in seconds).
+SSLSessionCache[9Cshmcb:/run/httpd/sslcache(512000)
+SSLSessionCacheTimeout  300
+
+#   Pseudo Random Number Generator (PRNG):
+#   Configure one or more sources to seed the PRNG of the
+#   SSL library. The seed data should be of good random quality.
+#   WARNING! On some platforms /dev/random blocks if not enough entropy
+#   is available. This means you then cannot use the /dev/random device
+#   because it would lead to very long connection times (as long as
+#   it requires to make more entropy available). But usually those
+#   platforms additionally provide a /dev/urandom device which doesn't
+#   block. So, if available, use this one instead. Read the mod_ssl User
+#   Manual for more details.
+SSLRandomSeed startup file:/dev/urandom  256
+SSLRandomSeed connect builtin
+#SSLRandomSeed startup file:/dev/random  512
+#SSLRandomSeed connect file:/dev/random  512
+#SSLRandomSeed connect file:/dev/urandom 512
+
+#
+# Use "SSLCryptoDevice" to enable any supported hardware
+# accelerators. Use "openssl engine -v" to list supported
+# engine names.  NOTE: If you enable an accelerator and the[1;1H[?25h[?0c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[33;1H[32;1H[31;1H[30;1H[29;1H[28;1H[27;1H[26;1H[25;1H[24;1H[23;1H[22;1H[21;1H[20;1H[19;1H[18;1H[17;1H[16;1H[15;1H[14;1H[13;1H[12;1H[11;1H[10;1H[9;1H[8;1H[7;1H[6;1H[5;1H[4;1H[3;1H[2;1H[1;1H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l[?1c[1;47r[47;1H
+ # server does not start, consult the error logs and ensure[48;1H[K[47;1H 
+ # your accelerator is functioning properly.
+ 
+ # 
+ SSLCryptoDevice builtin
+ 
+ #SSLCryptoDevice ubsec
+ 
+  
+ ##
+ 
+ ## SSL Virtual Host Context
+ 
+ ##
+ 
+  
+ <VirtualHost _default_:443>
+ 
+  
+ # General setup for the virtual host, inherited from global configuration
+ 
+ #DocumentRoot "/var/www/html"
+ 
+ #ServerName www.example.com:443
+ 
+  
+ # Use separate log files for the SSL virtual host; note that LogLevel
+ 
+ # is not inherited from httpd.conf.
+ 
+ ErrorLog logs/ssl_error_log
+ 
+ TransferLog logs/ssl_access_log
+ 
+ LogLevel warn
+ 
+  
+ #   SSL Engine Switch:
+ 
+ #   Enable/Disable SSL for this virtual host.
+ 
+ SSLEngine on
+ 
+  
+ #   SSL Protocol support:
+ 
+ # List the enable protocol levels with which clients will be able to
+ 
+ # connect.  Disable SSLv2 access by default:
+ 
+ SSLProtocol all -SSLv2 -SSLv3
+ 
+  
+ #   SSL Cipher Suite:
+ 
+ #   List the ciphers that the client is permitted to negotiate.
+ 
+ #   See the mod_ssl documentation for a complete list.
+ 
+ SSLCipherSuite HIGH:3DES:!aNULL:!MD5:!SEED:!IDEA
+ 
+  
+ #   Speed-optimized SSL Cipher configuration:
+ 
+ #   If speed is your main concern (on busy HTTPS servers e.g.),
+ 
+ #   you might want to force clients to specific, performance
+ 
+ #   optimized ciphers. In this case, prepend those ciphers
+ 
+ #   to the SSLCipherSuite list, and enable SSLHonorCipherOrder.
+ 
+ #   Caveat: by giving precedence to RC4-SHA and AES128-SHA
+ 
+ #   (as in the example below), most connections will no longer
+ 
+ #   have perfect forward secrecy - if the server's key is
+ 
+ #   compromised, captures of past or future traffic must be
+ 
+ #   considered compromised, too.
+ 
+ #SSLCipherSuite RC4-SHA:AES128-SHA:HIGH:MEDIUM:!aNULL:!MD5
+ 
+ #SSLHonorCipherOrder on
+ 
+  
+ #   Server Certificate:
+ 
+ # Point SSLCertificateFile at a PEM encoded certificate.  If
+ 
+ # the certificate is encrypted, then you will be prompted for a
+ 
+ # pass phrase.  Note that a kill -HUP will prompt again.  A new
+ 
+ # certificate can be generated using the genkey(1) command.
+ 
+ SSLCertificateFile /etc/pki/tls/certs/localhost.crt
+ 
+  
+ #   Server Private Key:
+ 
+ #   If the key is not combined with the certificate, use this
+ 
+ #   directive to point at the key file.  Keep in mind that if
+ 
+ #   you've both a RSA and a DSA private key you can configure
+ 
+ #   both in parallel (to also allow the use of DSA ciphers, etc.)
+ 
+ SSLCertificateKeyFile /etc/pki/tls/private/localhost.key
+ 
+  
+ #   Server Certificate Chain:
+ 
+ #   Point SSLCertificateChainFile at a file containing the
+ 
+ #   concatenation of PEM encoded CA certificates which form the
+ 
+ #   certificate chain for the server certificate. Alternatively
+ 
+ #   the referenced file can be the same as SSLCertificateFile
+ 
+ #   when the CA certificates are directly appended to the server
+ 
+ #   certificate for convinience.
+ 
+ #SSLCertificateChainFile /etc/pki/tls/certs/server-chain.crt
+ 
+  
+ #   Certificate Authority (CA):
+ 
+ #   Set the CA certificate verification path where to find CA
+ 
+ #   certificates for client authentication or alternatively one
+ 
+ #   huge file containing all of them (file must be PEM encoded)
+ 
+ #SSLCACertificateFile /etc/pki/tls/certs/ca-bundle.crt
+ 
+  
+ #   Client Authentication (Type):
+ 
+ #   Client certificate verification type and depth.  Types are
+ 
+ #   none, optional, require and optional_no_ca.  Depth is a
+ 
+ #   number which specifies how deeply to verify the certificate
+ 
+ #   issuer chain before deciding the certificate is not valid.
+ 
+ #SSLVerifyClient require
+ 
+ #SSLVerifyDepth  10
+ 
+  
+ #   Access Control:
+ 
+ #   With SSLRequire you can do per-directory access control based
+ 
+ #   on arbitrary complex boolean expressions containing server
+ 
+ #   variable checks and other lookup directives.  The syntax is a
+ 
+ #   mixture between C and Perl.  See the mod_ssl documentation
+ 
+ #   for more details.
+ 
+ #<Location />
+ 
+ #SSLRequire (    %{SSL_CIPHER} !~ m/^(EXP|NULL)/ \
+ 
+ #[12Cand %{SSL_CLIENT_S_DN_O} eq "Snake Oil, Ltd." \
+ 
+ #[12Cand %{SSL_CLIENT_S_DN_OU} in {"Staff", "CA", "Dev"} \
+ 
+ #[12Cand %{TIME_WDAY} >= 1 and %{TIME_WDAY} <= 5 \
+[?25h[?0c[46;1H[45;1H[44;1H[43;1H[42;1H[41;1H[40;1H[39;1H[38;1H[37;1H[36;1H[35;1H[34;1H[33;1H[32;1H[31;1H[30;1H[29;1H[28;1H[27;1H[26;1H[25;1H[24;1H[23;1H[22;1H[21;1H[20;1H[19;1H[18;1H[17;1H[16;1H[15;1H[14;1H[13;1H[12;1H[11;1H[10;1H[9;1H[8;1H[7;1H[6;1H[5;1H[4;1H[3;1H[2;1H[1;1H[?25l[?1c[1;47r[1;1H[L[1;48r[1;1H#   Server Certificate:
+  #SSLHonorCipherOrder on
+ #SSLCipherSuite RC4-SHA:AES128-SHA:HIGH:MEDIUM:!aNULL:!MD5
+ #   considered compromised, too.
+ #   compromised, captures of past or future traffic must be
+ #   have perfect forward secrecy - if the server's key is
+ #   (as in the example below), most connections will no longer
+ #   Caveat: by giving precedence to RC4-SHA and AES128-SHA
+ #   to the SSLCipherSuite list, and enable SSLHonorCipherOrder.
+ #   optimized ciphers. In this case, prepend those ciphers
+ #   you might want to force clients to specific, performance
+ #   If speed is your main concern (on busy HTTPS servers e.g.),
+ #   Speed-optimized SSL Cipher configuration:
+  SSLCipherSuite HIGH:3DES:!aNULL:!MD5:!SEED:!IDEA
+ #   See the mod_ssl documentation for a complete list.
+ #   List the ciphers that the client is permitted to negotiate.
+ #   SSL Cipher Suite:
+  SSLProtocol all -SSLv2 -SSLv3
+ # connect.  Disable SSLv2 access by default:
+ # List the enable protocol levels with which clients will be able to
+ #   SSL Protocol support:
+  SSLEngine on
+ #   Enable/Disable SSL for this virtual host.
+ #   SSL Engine Switch:
+  LogLevel warn
+ TransferLog logs/ssl_access_log
+ ErrorLog logs/ssl_error_log
+ # is not inherited from httpd.conf.
+ # Use separate log files for the SSL virtual host; note that LogLevel
+  #ServerName www.example.com:443
+ #DocumentRoot "/var/www/html"
+ # General setup for the virtual host, inherited from global configuration
+  <VirtualHost _default_:443>
+  ##
+ ## SSL Virtual Host Context
+ ##
+  #SSLCryptoDevice ubsec
+[?25h[?0c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l[?1c[1;47r[47;1H
+ # the certificate is encrypted, then you will be prompted for a
+ 
+ # pass phrase.  Note that a kill -HUP will prompt again.  A new
+ 
+ # certificate can be generated using the genkey(1) command.
+ 
+ SSLCertificateFile /etc/pki/tls/certs/localhost.crt
+ 
+ [?25h[?0c[46;1H[45;1H[44;1H[43;1H[42;1H[41;1H[40;1H[39;1H[38;1H[37;1H[36;1H[35;1H[34;1H[33;1H[32;1H[31;1H[30;1H[29;1H[28;1H[27;1H[26;1H[25;1H[24;1H[23;1H[22;1H[21;1H[20;1H[19;1H[18;1H[17;1H[16;1H[15;1H[14;1H[13;1H[12;1H[11;1H[10;1H[9;1H[8;1H[7;1H[6;1H[5;1H[4;1H[3;1H[2;1H[1;1H[?25l[?1c[1;47r[1;1H[L[1;48r[1;1H##
+ ## SSL Virtual Host Context
+ ##
+  #SSLCryptoDevice ubsec
+ SSLCryptoDevice builtin
+ # # your accelerator is functioning properly.
+ # server does not start, consult the error logs and ensure
+ # engine names.  NOTE: If you enable an accelerator and the
+ # accelerators. Use "openssl engine -v" to list supported
+ # Use "SSLCryptoDevice" to enable any supported hardware
+ #  #SSLRandomSeed connect file:/dev/urandom 512
+ #SSLRandomSeed connect file:/dev/random  512
+ #SSLRandomSeed startup file:/dev/random  512
+ SSLRandomSeed connect builtin
+ SSLRandomSeed startup file:/dev/urandom  256
+ #   Manual for more details.
+ #   block. So, if available, use this one instead. Read the mod_ssl User
+ #   platforms additionally provide a /dev/urandom device which doesn't
+ #   it requires to make more entropy available). But usually those
+ #   because it would lead to very long connection times (as long as
+ #   is available. This means you then cannot use the /dev/random device
+ #   WARNING! On some platforms /dev/random blocks if not enough entropy
+ #   SSL library. The seed data should be of good random quality.
+ #   Configure one or more sources to seed the PRNG of the
+[?25h[?0c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l[?1c[1;47r[47;1H
+ # connect.  Disable SSLv2 access by default:
+ 
+ SSLProtocol all -SSLv2 -SSLv3
+ 
+  
+ #   SSL Cipher Suite:
+ 
+ #   List the ciphers that the client is permitted to negotiate.
+ 
+ #   See the mod_ssl documentation for a complete list.
+ 
+ SSLCipherSuite HIGH:3DES:!aNULL:!MD5:!SEED:!IDEA
+ 
+  
+ #   Speed-optimized SSL Cipher configuration:
+ 
+ #   If speed is your main concern (on busy HTTPS servers e.g.),
+ 
+ #   you might want to force clients to specific, performance
+ 
+ #   optimized ciphers. In this case, prepend those ciphers
+ 
+ #   to the SSLCipherSuite list, and enable SSLHonorCipherOrder.
+
+[?25l[?1c[1;47r[47;1H
+ #   Caveat: by giving precedence to RC4-SHA and AES128-SHA
+ 
+ #   (as in the example below), most connections will no longer
+ 
+ #   have perfect forward secrecy - if the server's key is
+ 
+ #   compromised, captures of past or future traffic must be
+ 
+ #   considered compromised, too.
+ 
+ #SSLCipherSuite RC4-SHA:AES128-SHA:HIGH:MEDIUM:!aNULL:!MD5
+ 
+ #SSLHonorCipherOrder on
+ 
+  
+ #   Server Certificate:
+ 
+ # Point SSLCertificateFile at a PEM encoded certificate.  If
+ 
+ # the certificate is encrypted, then you will be prompted for a
+ 
+ # pass phrase.  Note that a kill -HUP will prompt again.  A new
+ 
+ # certificate can be generated using the genkey(1) command.
+ 
+ SSLCertificateFile /etc/pki/tls/certs/localhost.crt
+ 
+  
+ #   Server Private Key:
+ 
+ #   If the key is not combined with the certificate, use this
+ 
+ #   directive to point at the key file.  Keep in mind that if
+ 
+ #   you've both a RSA and a DSA private key you can configure
+ 
+ #   both in parallel (to also allow the use of DSA ciphers, etc.)
+ 
+ SSLCertificateKeyFile /etc/pki/tls/private/localhost.key
+ 
+  
+ #   Server Certificate Chain:
+ 
+ #   Point SSLCertificateChainFile at a file containing the
+ 
+ #   concatenation of PEM encoded CA certificates which form the
+ 
+ #   certificate chain for the server certificate. Alternatively
+ 
+ #   the referenced file can be the same as SSLCertificateFile
+ 
+ #   when the CA certificates are directly appended to the server
+ 
+ #   certificate for convinience.
+ 
+ #SSLCertificateChainFile /etc/pki/tls/certs/server-chain.crt
+ 
+  
+ #   Certificate Authority (CA):
+ 
+ #   Set the CA certificate verification path where to find CA
+ 
+ #   certificates for client authentication or alternatively one
+ 
+ #   huge file containing all of them (file must be PEM encoded)
+ 
+ #SSLCACertificateFile /etc/pki/tls/certs/ca-bundle.crt
+ 
+  
+ #   Client Authentication (Type):
+ 
+ #   Client certificate verification type and depth.  Types are
+[?25h[?0c[46;1H[45;1H[44;1H[43;1H[42;1H[41;1H[40;1H[39;1H[38;1H[37;1H[36;1H[35;1H[34;1H[33;1H[32;1H[31;1H[30;1H[29;1H[28;1H[27;1H[26;1H[25;1H[24;1H[23;1H[22;1H[21;1H[20;1H[19;1H[18;1H[17;1H[16;1H[15;1H[14;1H[13;1H[12;1H[11;1H[10;1H[9;1H[8;1H[7;1H[6;1H[5;1H[4;1H[3;1H[2;1H[1;1H[?25l[?1c[1;47r[1;1H[L[1;48r[1;1H#   List the ciphers that the client is permitted to negotiate.
+ #   SSL Cipher Suite:
+  SSLProtocol all -SSLv2 -SSLv3
+ # connect.  Disable SSLv2 access by default:
+ # List the enable protocol levels with which clients will be able to
+ #   SSL Protocol support:
+ [?25h[?0c
+
+
+
+[4;1H#
+SSLProtocol all -SSL[?25l[?1c[48;1H[1m-- INSERT --[5;21H[?25h[?0c[0mv2 -SSLv3[?25l[?1c[5;29H[K[5;29H[?25h[?0c[?25l[?1c[5;28H[K[5;28H[?25h[?0c[?25l[?1c[5;27H[K[5;27H[?25h[?0c[?25l[?1c[5;26H[K[5;26H[?25h[?0c[?25l[?1c[5;25H[K[5;25H[?25h[?0c[?25l[?1c[5;24H[K[5;24H[?25h[?0c[?25l[?1c[?25h[?0c[?25l[?1c[5;22H[K[5;22H[?25h[?0c[?25l[?1c[5;21H[K[5;21H[?25h[?0c[?25l[?1c[5;20H[K[5;20H[?25h[?0c[?25l[?1c[5;19H[K[5;19H[?25h[?0c[?25l[?1c[5;18H[K[5;18H[?25h[?0c[?25l[?1c[5;17H[K[5;17H[?25h[?0c[?25l[?1c[?25h[?0c[?25l[?1c[5;15H[K[5;15H[?25h[?0c[?25l[?1c[5;14H[K[5;14H[?25h[?0c[?25l[?1c[5;13H[K[5;13H[?25h[?0c[?25l[?1c+[?25h[?0c[?25l[?1cT[?25h[?0c[?25l[?1cL[?25h[?0c[?25l[?1cS[?25h[?0c[?25l[?1cv[?25h[?0c[?25l[?1c1[?25h[?0c[?25l[?1c.[?25h[?0c[?25l[?1c2[?25h[?0c
+[7;21H[8;21H[9;21H[10;21H
+[12;21H[13;21H[14;21H[15;21H[16;21H[17;21H[18;21H[19;21H[20;21H[21;21H[22;21H[23;21H
+[25;21H[26;21H[27;21H[28;21H[29;21H[30;21Hetc/pki/tls/certs/localhost[?25l[?1c.crt[30;51H[K[30;47H[?25h[?0c[?25l[?1c.crt[30;50H[K[30;46H[?25h[?0c[?25l[?1c.crt[30;49H[K[30;45H[?25h[?0c[?25l[?1c.crt[30;48H[K[30;44H[?25h[?0c[?25l[?1c.crt[30;47H[K[30;43H[?25h[?0c[?25l[?1c.crt[30;46H[K[30;42H[?25h[?0c[?25l[?1c.crt[30;45H[K[30;41H[?25h[?0c[?25l[?1c.crt[30;44H[K[30;40H[?25h[?0c[?25l[?1c.crt[30;43H[K[30;39H[?25h[?0c[?25l[?1cs.crt[?25h[?0c[?25l[?1ce.crt[?25h[?0c[?25l[?1cr.crt[?25h[?0c[?25l[?1cv.crt[?25h[?0c[?25l[?1ce.crt[?25h[?0c[?25l[?1cr.crt[?25h[?0c
+[32;24H[33;45H[34;45H[35;45H[36;45H[37;45Hocalhotls/private[?25l[?1ce/localhost.key[37;56H[K[37;41H[?25h[?0c[?25l[?1ce/localhost.key[37;55H[K[37;40H[?25h[?0c[?25l[?1ce/localhost.key[37;54H[K[37;39H[?25h[?0ce[?25l[?1c/localhost.key[37;53H[K[37;39H[?25h[?0c[?25l[?1c/localhost.key[37;52H[K[37;38H[?25h[?0c[?25l[?1c/localhost.key[37;51H[K[37;37H[?25h[?0c[?25l[?1c/localhost.key[37;50H[K[37;36H[?25h[?0c[?25l[?1cc/localhost.key[37;37H[?25h[?0c[?25l[?1ce/localhost.key[37;38H[?25h[?0c[?25l[?1cr/localhost.key[37;39H[?25h[?0c[?25l[?1ct/localhost.key[37;40H[?25h[?0c[?25l[?1cs/localhost.key[37;41H[?25h[?0c/localhost[?25l[?1c.key[37;54H[K[37;50H[?25h[?0c[?25l[?1c.key[37;53H[K[37;49H[?25h[?0c[?25l[?1c.key[37;52H[K[37;48H[?25h[?0c[?25l[?1c.key[37;51H[K[37;47H[?25h[?0c[?25l[?1c.key[37;50H[K[37;46H[?25h[?0c[?25l[?1c.key[37;49H[K[37;45H[?25h[?0c[?25l[?1c.key[37;48H[K[37;44H[?25h[?0c[?25l[?1c.key[37;47H[K[37;43H[?25h[?0c[?25l[?1c.key[37;46H[K[37;42H[?25h[?0c[?25l[?1cs.key[?25h[?0c[?25l[?1ce.key[?25h[?0c[?25l[?1cr.key[?25h[?0c[?25l[?1cv.key[?25h[?0c[?25l[?1ce.key[?25h[?0c[?25l[?1cr.key[?25h[?0c[36;48H[35;48H[34;48H[33;48H[32;24H[31;1H[30;48H[29;48H[28;48H[27;48H[26;48H[25;24H[24;1H[23;25H[22;48H[21;33H[20;48H[19;48H[18;48H[17;48H[16;48H[15;48H[14;48H[13;48H[12;46H[11;1H[10;48H[9;48H[8;48H[7;22H[6;1H[5;21H[4;45H[3;48H[2;26H[1;1H[?25l[?1c[1;47r[1;1H[L[1;48r[1;1HSSLEngine on #   Enable/Disable SSL for this virtual host. #   SSL Engine Switch:  LogLevel warn TransferLog logs/ssl_access_log ErrorLog logs/ssl_error_log # is not inherited from httpd.conf. # Use separate log files for the SSL virtual host; note that LogLevel[1;48H  #ServerName www.example.com:443 #DocumentRoot "/var/www/html" # General setup for the virtual host, inherited from global configuration[1;48H  <VirtualHost _default_:443>  ## ## SSL Virtual Host Context ##  #SSLCryptoDevice ubsec SSLCryptoDevice builtin # # your accelerator is functioning properly.  # server does not start, consult the error logs and ensure[1;48H # engine names.  NOTE: If you enable an accelerator and the[1;48H # accelerators. Use "openssl engine -v" to list supported[1;48H # Use "SSLCryptoDevice" to enable any supported hardware[1;48H #  #SSLRandomSeed connect file:/dev/urandom 512 #SSLRandomSeed connect file:/dev/random  512 #SSLRandomSeed startup file:/dev/random  512 SSLRandomSeed connect builtin SSLRandomSeed startup file:/dev/urandom  256 #   Manual for more details. #   block. So, if available, use this one instead. Read the mod_ssl User[1;48H #   platforms additionally provide a /dev/urandom device which doesn't[1;48H #   it requires to make more entropy available). But usually those[1;48H #   because it would lead to very long connection times (as long as[1;48H #   is available. This means you then cannot use the /dev/random device[1;48H #   WARNING! On some platforms /dev/random blocks if not enough entropy[1;48H #   SSL library. The seed data should be of good random quality.[1;48H #   Configure one or more sources to seed the PRNG of the[1;48H #   Pseudo Random Number Generator (PRNG):  SSLSessionCacheTimeout  300 SSLSessionCache[9Cshmcb:/run/httpd/sslcache(512000)[1;48H #   to use and second the expiring timeout (in seconds).[1;48H #   Configure the SSL Session Cache: First the mechanism[1;48H #   Inter-Process Session Cache:  SSLPassPhraseDialog exec:/usr/libexec/httpd-ssl-pass-dialog[1;48H #   terminal dialog) has to provide the pass phrase on stdout.[1;48H #   The filtering dialog program (`builtin' is a internal[1;48H #   Configure the pass phrase gathering process. #   Pass Phrase Dialog:  ## ##  the main server and all SSL-enabled virtual hosts.[1;48H ##  All SSL configuration in this context applies both to[1;48H ## ##  SSL Global Context ##  Listen 443 https # # the HTTPS port in addition. # When we also provide SSL we have to listen to the SSLCertificateKeyFile /etc/pki/tls/certs/server.key SSLCertificateFile /etc/pki/tls/certs/server.crt SSLProtocol +TLSv1.2[?25h[?0c[2;48H[3;48H.key[?25l[?1c[3;51H[K[3;51H[?25h[?0c[?25l[?1c[3;50H[K[3;50H[?25h[?0c[?25l[?1c[3;49H[K[3;49H[?25h[?0c[?25l[?1c[3;48H[K[3;48H[?25h[?0c[?25l[?1c[3;47H[K[3;47H[?25h[?0c[?25l[?1c[3;46H[K[3;46H[?25h[?0c[?25l[?1c[3;45H[K[3;45H[?25h[?0c[?25l[?1c[3;44H[K[3;44H[?25h[?0c[?25l[?1c[3;43H[K[3;43H[?25h[?0c[?25l[?1c[3;42H[K[3;42H[?25h[?0c[?25l[?1c[3;41H[K[3;41H[?25h[?0c[?25l[?1c[3;40H[K[3;40H[?25h[?0c[?25l[?1c[3;39H[K[3;39H[?25h[?0c[?25l[?1c[3;38H[K[3;38H[?25h[?0c[?25l[?1c[3;37H[K[3;37H[?25h[?0c[?25l[?1c[3;36H[K[3;36H[?25h[?0c[?25l[?1c[3;35H[K[3;35H[?25h[?0c[?25l[?1c[3;34H[K[3;34H[?25h[?0c[?25l[?1c[3;33H[K[3;33H[?25h[?0c[?25l[?1c[3;32H[K[3;32H[?25h[?0c[?25l[?1c[3;31H[K[3;31H[?25h[?0c[?25l[?1c[3;30H[K[3;30H[?25h[?0c[?25l[?1c[3;29H[K[3;29H[?25h[?0c[?25l[?1c[3;28H[K[3;28H[?25h[?0c[?25l[?1c[3;27H[K[3;27H[?25h[?0c[?25l[?1c[3;26H[K[3;26H[?25h[?0c[?25l[?1c[3;25H[K[3;25H[?25h[?0c[?25l[?1c[3;24H[K[3;24H[?25h[?0c[?25l[?1c[3;23H[K[3;23H[?25h[?0c[?25l[?1c[?25h[?0c[?25l[?1c[3;21H[K[3;21H[?25h[?0c[?25l[?1c[3;20H[K[3;20H[?25h[?0c[?25l[?1c[3;19H[K[3;19H[?25h[?0c[?25l[?1c[3;18H[K[3;18H[?25h[?0c[?25l[?1c[3;17H[K[3;17H[?25h[?0c[?25l[?1c[3;16H[K[3;16H[?25h[?0c[?25l[?1c[3;15H[K[3;15H[?25h[?0c[?25l[?1c[3;14H[K[3;14H[?25h[?0c[?25l[?1c[3;13H[K[3;13H[?25h[?0c[?25l[?1c[3;12H[K[3;12H[?25h[?0c[?25l[?1c[3;11H[K[3;11H[?25h[?0c[?25l[?1c[3;10H[K[3;10H[?25h[?0c[?25l[?1c[3;9H[K[3;9H[?25h[?0c[?25l[?1c[3;8H[K[3;8H[?25h[?0c[?25l[?1c[3;7H[K[3;7H[?25h[?0c[?25l[?1c[3;6H[K[3;6H[?25h[?0c[?25l[?1c[3;5H[K[3;5H[?25h[?0c[?25l[?1c[3;4H[K[3;4H[?25h[?0c[?25l[?1c[3;3H[K[3;3H[?25h[?0c[?25l[?1c[3;2H[K[3;2H[?25h[?0c[?25l[?1c[3;1H[K[3;1H[?25h[?0c[?25l[?1c[2;47r[47;1H
+[1;48r[2;1HSSLCertificateFile /etc/pki/tls/certs/server.crt[47;1H# server does not start, consult the error logs and ensure[2;49H[?25h[?0c[?25l[?1c[2;48H[K[2;48H[?25h[?0c[?25l[?1c[2;47H[K[2;47H[?25h[?0c[?25l[?1c[2;46H[K[2;46H[?25h[?0c[?25l[?1c[2;45H[K[2;45H[?25h[?0c[?25l[?1c[2;44H[K[2;44H[?25h[?0c[?25l[?1c[2;43H[K[2;43H[?25h[?0c[?25l[?1c[2;42H[K[2;42H[?25h[?0c[?25l[?1c[2;41H[K[2;41H[?25h[?0c[?25l[?1c[2;40H[K[2;40H[?25h[?0c[?25l[?1c[2;39H[K[2;39H[?25h[?0c[?25l[?1c[2;38H[K[2;38H[?25h[?0c[?25l[?1c[2;37H[K[2;37H[?25h[?0c[?25l[?1c[2;36H[K[2;36H[?25h[?0c[?25l[?1c[2;35H[K[2;35H[?25h[?0c[?25l[?1c[2;34H[K[2;34H[?25h[?0c[?25l[?1c[2;33H[K[2;33H[?25h[?0c[?25l[?1c[2;32H[K[2;32H[?25h[?0c[?25l[?1c[2;31H[K[2;31H[?25h[?0c[?25l[?1c[2;30H[K[2;30H[?25h[?0c[?25l[?1c[2;29H[K[2;29H[?25h[?0c[?25l[?1c[2;28H[K[2;28H[?25h[?0c[?25l[?1c[2;27H[K[2;27H[?25h[?0c[?25l[?1c[2;26H[K[2;26H[?25h[?0c[?25l[?1c[2;25H[K[2;25H[?25h[?0c[?25l[?1c[2;24H[K[2;24H[?25h[?0c[?25l[?1c[2;23H[K[2;23H[?25h[?0c[?25l[?1c[2;22H[K[2;22H[?25h[?0c[?25l[?1c[2;21H[K[2;21H[?25h[?0c[?25l[?1c[2;20H[K[2;20H[?25h[?0c[?25l[?1c[?25h[?0c[?25l[?1c[2;18H[K[2;18H[?25h[?0c[?25l[?1c[2;17H[K[2;17H[?25h[?0c[?25l[?1c[2;16H[K[2;16H[?25h[?0c[?25l[?1c[2;15H[K[2;15H[?25h[?0c[?25l[?1c[2;14H[K[2;14H[?25h[?0c[?25l[?1c[2;13H[K[2;13H[?25h[?0c[?25l[?1c[2;12H[K[2;12H[?25h[?0c[?25l[?1c[2;11H[K[2;11H[?25h[?0c[?25l[?1c[2;10H[K[2;10H[?25h[?0c[?25l[?1c[2;9H[K[2;9H[?25h[?0c[?25l[?1c[2;8H[K[2;8H[?25h[?0c[?25l[?1c[2;7H[K[2;7H[?25h[?0c[?25l[?1c[2;6H[K[2;6H[?25h[?0c[?25l[?1c[2;5H[K[2;5H[?25h[?0c[?25l[?1c[2;4H[K[2;4H[?25h[?0c[?25l[?1c[2;3H[K[2;3H[?25h[?0c[?25l[?1c[2;2H[K[2;2H[?25h[?0c[?25l[?1c[2;1H[K[2;1H 
+[1;48r[1;1HSSLProtocol +TLSv1.2[47;1H# your accelerator is functioning properly.[1;21H[?25h[?0c[?25l[?1c[1;20H[K[1;20H[?25h[?0c[?25l[?1c[1;19H[K[1;19H[?25h[?0c[?25l[?1c[1;18H[K[1;18H[?25h[?0c[?25l[?1c[1;17H[K[1;17H[?25h[?0c[?25l[?1c[1;16H[K[1;16H[?25h[?0c[?25l[?1c[1;15H[K[1;15H[?25h[?0c[?25l[?1c[1;14H[K[1;14H[?25h[?0c[?25l[?1c[1;13H[K[1;13H[?25h[?0c[?25l[?1c[?25h[?0c[?25l[?1c[1;11H[K[1;11H[?25h[?0c[?25l[?1c[1;10H[K[1;10H[?25h[?0c[?25l[?1c[1;9H[K[1;9H[?25h[?0c[?25l[?1c[1;8H[K[1;8H[?25h[?0c[?25l[?1c[1;7H[K[1;7H[?25h[?0c[?25l[?1c[1;6H[K[1;6H[?25h[?0c[?25l[?1c[1;5H[K[1;5H[?25h[?0c[?25l[?1c[1;4H[K[1;4H[?25h[?0c[?25l[?1c[1;3H[K[1;3H[?25h[?0c[?25l[?1c[1;2H[K[1;2H[?25h[?0c[?25l[?1c[1;1H[K[1;1H[?25h[?0c
+[?25l[?1c[1;47r[47;1H
+ #[1;1H[?25h[?0c[48;1H[K[1;1H[?25l[?1c[?25h[?0c[?25l[?1c[48;1H:[?25h[?0cwq
+[?25l[?1c"ssl.conf" 216L, 9424C written
+[?25h[?0c
+
+[root@localhost conf.d]# systemcll[K[Ktl restart httpd
+[1;39mEnter SSL pass phrase for localhost.localdomain:443 (RSA) : [0m****
+Job for httpd.service failed because the control process exited with error code. See "systemctl status httpd.service" and "journalctl -xe" for details.
+[root@localhost conf.d]# systemctl restart httpd
+[1;39mEnter SSL pass phrase for localhost.localdomain:443 (RSA) : [0m********
+Job for httpd.service failed because the control process exited with error code. See "systemctl status httpd.service" and "journalctl -xe" for details.
+[root@localhost conf.d]# systemctl restart httpd
+[1;39mEnter SSL pass phrase for localhost.localdomain:443 (RSA) : [0m*******
+[root@localhost conf.d]# systemctl restart httpd[Kexit
+exit
+
+Script done on Thu 23 May 2019 08:02:08 PM JST

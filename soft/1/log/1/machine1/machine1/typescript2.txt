@@ -1,0 +1,7 @@
+Script started on Thu 16 May 2019 01:57:09 PM JST
+[root@localhost ~]# hostname icesc12.ice.nuie.nagoya-u.ac.jp
+[root@localhost ~]# hostname
+icesc12.ice.nuie.nagoya-u.ac.jp
+[root@localhost ~]# exit
+
+Script done on Thu 16 May 2019 01:58:35 PM JST

@@ -1,0 +1,28 @@
+Script started on Thu 16 May 2019 02:31:56 PM JST
+[root@icesc12 ~]# nmcli c m enp1s0 ipv4.addresses 192.168.100.12/24
+[root@icesc12 ~]# nmcli c m enp1s0 ipv4.dns 10.10.1.2
+[root@icesc12 ~]# nmcli c m enp1s0 ipv4.dns-search "ice.nuie.nagoya-u.ac.jp"
+[root@icesc12 ~]# nmcli c m enp1s0 gateway 192.168.100.1
+[root@icesc12 ~]# nmcli c m enp1s0 connection.autoconnect yes
+[root@icesc12 ~]# nmcli c m enp1s0 ipv4.method manual
+[root@icesc12 ~]# nmcli c m enp2s0 ipv4.addresses 192.168.150.1/24
+[root@icesc12 ~]# nmcli c m enp2s0 ipv4.method manual
+[root@icesc12 ~]# nmcli c m enp2s0 connection.autoconnect yes
+[root@icesc12 ~]# nmcli c m enp3s0 ipv4.addresses 192.168.200.1/24
+[root@icesc12 ~]# nmcli c m enp3s0 ipv4.method manual
+[root@icesc12 ~]# nmcli c m enp3s0 connection.autoconnect yes
+[root@icesc12 ~]# nmcli c down enp1s0
+Connection 'enp1s0' successfully deactivated (D-Bus active path: /org/freedesktop/NetworkManager/ActiveConnection/13)
+[root@icesc12 ~]# nmcli c down enp2s0
+Connection 'enp2s0' successfully deactivated (D-Bus active path: /org/freedesktop/NetworkManager/ActiveConnection/20)
+[root@icesc12 ~]# nmcli c down enp3s0
+Connection 'enp3s0' successfully deactivated (D-Bus active path: /org/freedesktop/NetworkManager/ActiveConnection/21)
+[root@icesc12 ~]# nmcli c up enp1s0
+Connection successfully activated (D-Bus active path: /org/freedesktop/NetworkManager/ActiveConnection/24)
+[root@icesc12 ~]# nmcli c up enp2s0
+Connection successfully activated (D-Bus active path: /org/freedesktop/NetworkManager/ActiveConnection/25)
+[root@icesc12 ~]# nmcli c up enp3s0
+Connection successfully activated (D-Bus active path: /org/freedesktop/NetworkManager/ActiveConnection/26)
+[root@icesc12 ~]# exit
+
+Script done on Thu 16 May 2019 02:34:12 PM JST

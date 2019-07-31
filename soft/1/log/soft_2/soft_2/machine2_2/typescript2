@@ -1,0 +1,16 @@
+Script started on Thu 23 May 2019 02:36:39 PM JST
+[root@www2 machine2_2]# ssh root@192.168.200.199[K[K00
+ssh: connect to host 192.168.200.100 port 22: Connection timed out
+[root@www2 machine2_2]# curl http;//[K[K[K://192.168.200.100
+curl: (7) Failed connect to 192.168.200.100:80; Connection timed out
+[root@www2 machine2_2]# curl http://192.168.200.100s://192.168.200.100
+curl: (7) Failed connect to 192.168.200.100:443; Connection timed out
+[root@www2 machine2_2]# ping -c 5 192.168.200.100
+PING 192.168.200.100 (192.168.200.100) 56(84) bytes of data.
+
+--- 192.168.200.100 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4000ms
+
+[root@www2 machine2_2]# exit
+
+Script done on Thu 23 May 2019 02:45:11 PM JST

@@ -1,0 +1,39 @@
+Script started on Thu 23 May 2019 03:03:49 PM JST
+[root@www2 ~]# cd /etc/pki/tls/certs
+[root@www2 certs]# openssl genrsa -aes128 1024 > server.key
+Generating RSA private key, 1024 bit long modulus
+..........++++++
+......++++++
+e is 65537 (0x10001)
+Enter pass phrase:
+Verifying - Enter pass phrase:
+[root@www2 certs]# openssl rsa -in server.key -out server.key
+Enter pass phrase for server.key:
+writing RSA key
+[root@www2 certs]# openssl req -utf8 -new -key server.key -out server.csr
+You are about to be asked to enter information that will be incorporated
+into your certificate request.
+What you are about to enter is what is called a Distinguished Name or a DN.
+There are quite a few fields but you can leave some blank
+For some fields there will be a default value,
+If you enter '.', the field will be left blank.
+-----
+Country Name (2 letter code) [XX]:JP
+State or Province Name (full name) []:Aichi
+Locality Name (eg, city) [Default City]:Chikusa
+Organization Name (eg, company) [Default Company Ltd]:Nagoya University
+Organizational Unit Name (eg, section) []:School of Informatics
+Common Name (eg, your name or your server's hostname) []:Group2a
+Email Address []:
+
+Please enter the following 'extra' attributes
+to be sent with your certificate request
+A challenge password []:    
+An optional company name []:
+[root@www2 certs]# openssl x509 -in server.csr -out server.crt -days 365 -req -signkey server.key
+Signature ok
+subject=/C=JP/ST=Aichi/L=Chikusa/O=Nagoya University/OU=School of Informatics/CN=Group2a
+Getting Private key
+[root@www2 certs]# exit
+
+Script done on Thu 23 May 2019 03:08:20 PM JST

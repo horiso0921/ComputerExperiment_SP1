@@ -1,0 +1,26 @@
+スクリプトは 2019年05月23日 14時29分46秒
+ に開始しました]777;notify;Command completed;ssh kw0791975@ssh.ice.nuie.nagoya-u.ac.jp]0;ice@icesc00:~/machine3]7;file://icesc00.ice.nuie.nagoya-u.ac.jp/home/ice/machine3[?1034h[ice@icesc00 machine3]$ ssh root@192.168.200.1
+The authenticity of host '192.168.200.1 (192.168.200.1)' can't be established.
+ECDSA key fingerprint is SHA256:eBllOzomFB5bjEw6a+oPkte5cI0KGxFs1kvpuiX2Jno.
+ECDSA key fingerprint is MD5:35:18:05:e5:87:41:19:01:5e:97:92:7c:05:4b:25:76.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.200.1' (ECDSA) to the list of known hosts.
+root@192.168.200.1's password: 
+Last login: Thu May 23 14:04:56 2019
+]0;root@icesc12:~[?1034h[root@icesc12 ~]# ログアウト
+Connection to 192.168.200.1 closed.
+]777;notify;Command completed;ssh root@192.168.200.1]0;ice@icesc00:~/machine3]7;file://icesc00.ice.nuie.nagoya-u.ac.jp/home/ice/machine3[ice@icesc00 machine3]$ ping -c 5 192.168.200.1
+PING 192.168.200.1 (192.168.200.1) 56(84) bytes of data.
+64 bytes from 192.168.200.1: icmp_seq=1 ttl=64 time=0.320 ms
+64 bytes from 192.168.200.1: icmp_seq=2 ttl=64 time=0.280 ms
+64 bytes from 192.168.200.1: icmp_seq=3 ttl=64 time=0.253 ms
+64 bytes from 192.168.200.1: icmp_seq=4 ttl=64 time=0.267 ms
+64 bytes from 192.168.200.1: icmp_seq=5 ttl=64 time=0.288 ms
+
+--- 192.168.200.1 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4000ms
+rtt min/avg/max/mdev = 0.253/0.281/0.320/0.029 ms
+]777;notify;Command completed;ping -c 5 192.168.200.1]0;ice@icesc00:~/machine3]7;file://icesc00.ice.nuie.nagoya-u.ac.jp/home/ice/machine3[ice@icesc00 machine3]$ exit
+
+スクリプトは 2019年05月23日 14時30分26秒
+ に終了しました

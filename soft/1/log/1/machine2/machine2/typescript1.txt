@@ -1,0 +1,111 @@
+Script started on Thu 16 May 2019 01:55:24 PM JST
+[root@localhost ~]# uname -r
+3.10.0-862.el7.x86_64
+[root@localhost ~]# cat /etc/fstab 
+
+#
+# /etc/fstab
+# Created by anaconda on Sat Apr  6 00:42:18 2019
+#
+# Accessible filesystems, by reference, are maintained under '/dev/disk'
+# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info
+#
+/dev/mapper/centos-root /                       xfs     defaults        0 0
+UUID=5eb200c5-354e-419c-9306-bdcc507c72c5 /boot                   xfs     defaults        0 0
+/dev/mapper/centos-home /home                   xfs     defaults        0 0
+/dev/mapper/centos-swap swap                    swap    defaults        0 0
+[root@localhost ~]# fdisk -l
+
+Disk /dev/sda: 250.1 GB, 250059350016 bytes, 488397168 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disk label type: dos
+Disk identifier: 0x0002caf3
+
+   Device Boot      Start         End      Blocks   Id  System
+/dev/sda1   *        2048     2099199     1048576   83  Linux
+/dev/sda2         2099200   488396799   243148800   8e  Linux LVM
+
+Disk /dev/mapper/centos-root: 53.7 GB, 53687091200 bytes, 104857600 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/mapper/centos-swap: 8321 MB, 8321499136 bytes, 16252928 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/mapper/centos-home: 187.0 GB, 186969489408 bytes, 365174784 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+[root@localhost ~]# df
+Filesystem              1K-blocks    Used Available Use% Mounted on
+/dev/mapper/centos-root  52403200 1007240  51395960   2% /
+devtmpfs                  3913236       0   3913236   0% /dev
+tmpfs                     3925932       0   3925932   0% /dev/shm
+tmpfs                     3925932    9012   3916920   1% /run
+tmpfs                     3925932       0   3925932   0% /sys/fs/cgroup
+/dev/sda1                 1038336  146056    892280  15% /boot
+/dev/mapper/centos-home 182498240   32944 182465296   1% /home
+tmpfs                      785188       0    785188   0% /run/user/0
+[root@localhost ~]# lvdisplay
+  --- Logical volume ---
+  LV Path                /dev/centos/swap
+  LV Name                swap
+  VG Name                centos
+  LV UUID                PohTZH-fMlu-Lf0h-Mdhh-Z2xs-I2QH-ZM8ush
+  LV Write Access        read/write
+  LV Creation host, time localhost, 2019-04-06 00:42:14 +0900
+  LV Status              available
+  # open                 2
+  LV Size                7.75 GiB
+  Current LE             1984
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:1
+   
+  --- Logical volume ---
+  LV Path                /dev/centos/home
+  LV Name                home
+  VG Name                centos
+  LV UUID                XYwPiS-jXOD-IKEh-Jzzo-NDvs-qfED-uV8ABr
+  LV Write Access        read/write
+  LV Creation host, time localhost, 2019-04-06 00:42:14 +0900
+  LV Status              available
+  # open                 1
+  LV Size                <174.13 GiB
+  Current LE             44577
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:2
+   
+  --- Logical volume ---
+  LV Path                /dev/centos/root
+  LV Name                root
+  VG Name                centos
+  LV UUID                Oz554A-DomL-OGcW-B3u7-yAir-UU6R-Fa3bE1
+  LV Write Access        read/write
+  LV Creation host, time localhost, 2019-04-06 00:42:16 +0900
+  LV Status              available
+  # open                 1
+  LV Size                50.00 GiB
+  Current LE             12800
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:0
+   
+[root@localhost ~]# exit
+
+Script done on Thu 16 May 2019 01:55:50 PM JST

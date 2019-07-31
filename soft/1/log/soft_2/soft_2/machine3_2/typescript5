@@ -1,0 +1,31 @@
+スクリプトは 2019年05月23日 14時55分28秒
+ に開始しました]777;notify;Command completed;ping -c 5 192.168.200.1]0;ice@icesc00:~/machine3]7;file://icesc00.ice.nuie.nagoya-u.ac.jp/home/ice/machine3[?1034h[ice@icesc00 machine3]$ ssh 192.[K[K[K[Kroot[@[K[K@192.168.150.2
+root@192.168.150.2's password: 
+Last login: Thu May 23 14:34:19 2019 from 192.168.200.100
+]0;root@www2:~[?1034h[root@www2 ~]# ログアウト
+Connection to 192.168.150.2 closed.
+]777;notify;Command completed;ssh root@192.168.150.2]0;ice@icesc00:~/machine3]7;file://icesc00.ice.nuie.nagoya-u.ac.jp/home/ice/machine3[ice@icesc00 machine3]$ ping -c 192.168.150.2
+Usage: ping [-aAbBdDfhLnOqrRUvV64] [-c count] [-i interval] [-I interface]
+            [-m mark] [-M pmtudisc_option] [-l preload] [-p pattern] [-Q tos]
+            [-s packetsize] [-S sndbuf] [-t ttl] [-T timestamp_option]
+            [-w deadline] [-W timeout] [hop1 ...] destination
+Usage: ping -6 [-aAbBdDfhLnOqrRUvV] [-c count] [-i interval] [-I interface]
+             [-l preload] [-m mark] [-M pmtudisc_option]
+             [-N nodeinfo_option] [-p pattern] [-Q tclass] [-s packetsize]
+             [-S sndbuf] [-t ttl] [-T timestamp_option] [-w deadline]
+             [-W timeout] destination
+]777;notify;Command completed;ping -c 192.168.150.2]0;ice@icesc00:~/machine3]7;file://icesc00.ice.nuie.nagoya-u.ac.jp/home/ice/machine3[ice@icesc00 machine3]$ ping -c 192.168.150.25192.168.150.2 192.168.150.2
+PING 192.168.150.2 (192.168.150.2) 56(84) bytes of data.
+64 bytes from 192.168.150.2: icmp_seq=1 ttl=63 time=1.01 ms
+64 bytes from 192.168.150.2: icmp_seq=2 ttl=63 time=0.995 ms
+64 bytes from 192.168.150.2: icmp_seq=3 ttl=63 time=0.942 ms
+64 bytes from 192.168.150.2: icmp_seq=4 ttl=63 time=1.10 ms
+64 bytes from 192.168.150.2: icmp_seq=5 ttl=63 time=1.05 ms
+
+--- 192.168.150.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4004ms
+rtt min/avg/max/mdev = 0.942/1.022/1.108/0.055 ms
+]777;notify;Command completed;ping -c 5 192.168.150.2]0;ice@icesc00:~/machine3]7;file://icesc00.ice.nuie.nagoya-u.ac.jp/home/ice/machine3[ice@icesc00 machine3]$ exit
+
+スクリプトは 2019年05月23日 14時56分25秒
+ に終了しました

@@ -1,0 +1,52 @@
+Script started on Thu 23 May 2019 02:49:54 PM JST
+[root@www2 machine2_2]# systemctl status firewalld
+[1;32m●[0m firewalld.service - firewalld - dynamic firewall daemon
+   Loaded: loaded (/usr/lib/systemd/system/firewalld.service; enabled; vendor preset: enabled)
+   Active: [1;32mactive (running)[0m since Thu 2019-05-23 14:07:59 JST; 42min ago
+     Docs: man:firewalld(1)
+ Main PID: 760 (firewalld)
+   CGroup: /system.slice/firewalld.service
+           └─760 /usr/bin/python -Es /usr/sbin/firewalld --nofork --nopid
+
+May 23 14:07:58 www2.ice.nuie.nagoya-u.ac.jp systemd[1]: Starting firewalld - dynamic firewall daemon...
+May 23 14:07:59 www2.ice.nuie.nagoya-u.ac.jp systemd[1]: Started firewalld - dynamic firewall daemon.
+[root@www2 machine2_2]# firewa--[K[Kll-cmd ^^[K[K--list-all
+public (active)
+  target: default
+  icmp-block-inversion: no
+  interfaces: enp3s0
+  sources: 
+  services: ssh dhcpv6-client
+  ports: 
+  protocols: 
+  masquerade: no
+  forward-ports: 
+  source-ports: 
+  icmp-blocks: 
+  rich rules: 
+	
+[root@www2 machine2_2]# firewall-cmd --add-service=dhcpv6-client
+[91mWarning: ALREADY_ENABLED: 'dhcpv6-client' already in 'public'[00m
+success
+[root@www2 machine2_2]# firewall-cmd --add-service=http
+success
+[root@www2 machine2_2]# firewall-cmd --add-service=https
+success
+[root@www2 machine2_2]# firewall-cmd --list-all
+public (active)
+  target: default
+  icmp-block-inversion: no
+  interfaces: enp3s0
+  sources: 
+  services: ssh dhcpv6-client http https
+  ports: 
+  protocols: 
+  masquerade: no
+  forward-ports: 
+  source-ports: 
+  icmp-blocks: 
+  rich rules: 
+	
+[root@www2 machine2_2]# exit
+
+Script done on Thu 23 May 2019 02:51:41 PM JST

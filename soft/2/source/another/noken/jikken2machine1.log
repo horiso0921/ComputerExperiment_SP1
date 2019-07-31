@@ -1,0 +1,2167 @@
+Script started on Thu 23 May 2019 01:54:58 PM JST
+[root@localhost ~]# vi [K[K[Kcat test1.log[4Plvdisplay[K[K[K[K[K[K[K[K[Kvi /etc/sysctl.d/10-ipv4.conf
+[1;64r[?25h[?8c[?25h[?0c[27m[24m[0m[H[J[?25l[?1c[64;1H"/etc/sysctl.d/10-ipv4.conf" [New File][2;1H[1m[34m~                                                                                                                                                               [3;1H~                                                                                                                                                               [4;1H~                                                                                                                                                               [5;1H~                                                                                                                                                               [6;1H~                                                                                                                                                               [7;1H~                                                                                                                                                               [8;1H~                                                                                                                                                               [9;1H~                                                                                                                                                               [10;1H~                                                                                                                                                               [11;1H~                                                                                                                                                               [12;1H~                                                                                                                                                               [13;1H~                                                                                                                                                               [14;1H~                                                                                                                                                               [15;1H~                                                                                                                                                               [16;1H~                                                                                                                                                               [17;1H~                                                                                                                                                               [18;1H~                                                                                                                                                               [19;1H~                                                                                                                                                               [20;1H~                                                                                                                                                               [21;1H~                                                                                                                                                               [22;1H~                                                                                                                                                               [23;1H~                                                                                                                                                               [24;1H~                                                                                                                                                               [25;1H~                                                                                                                                                               [26;1H~                                                                                                                                                               [27;1H~                                                                                                                                                               [28;1H~                                                                                                                                                               [29;1H~                                                                                                                                                               [30;1H~                                                                                                                                                               [31;1H~                                                                                                                                                               [32;1H~                                                                                                                                                               [33;1H~                                                                                                                                                               [34;1H~                                                                                                                                                               [35;1H~                                                                                                                                                               [36;1H~                                                                                                                                                               [37;1H~                                                                                                                                                               [38;1H~                                                                                                                                                               [39;1H~                                                                                                                                                               [40;1H~                                                                                                                                                               [41;1H~                                                                                                                                                               [42;1H~                                                                                                                                                               [43;1H~                                                                                                                                                               [44;1H~                                                                                                                                                               [45;1H~                                                                                                                                                               [46;1H~                                                                                                                                                               [47;1H~                                                                                                                                                               [48;1H~                                                                                                                                                               [49;1H~                                                                                                                                                               [50;1H~                                                                                                                                                               [51;1H~                                                                                                                                                               [52;1H~                                                                                                                                                               [53;1H~                                                                                                                                                               [54;1H~                                                                                                                                                               [55;1H~                                                                                                                                                               [56;1H~                                                                                                                                                               [57;1H~                                                                                                                                                               [58;1H~                                                                                                                                                               [59;1H~                                                                                                                                                               [60;1H~                                                                                                                                                               [61;1H~                                                                                                                                                               [62;1H~                                                                                                                                                               [63;1H~                                                                                                                                                               [1;1H[?25h[?0c[?25l[?1c[0m[64;1H[1m-- INSERT --[0m[64;13H[K[1;1H[?25h[?0c[?25l[?1cn[?25h[?0c[?25l[?1ce[?25h[?0c[?25l[?1ct[?25h[?0c[?25l[?1c.[?25h[?0c[?25l[?1ci[?25h[?0c[?25l[?1cp[?25h[?0c[?25l[?1cv[?25h[?0c[?25l[?1c4[?25h[?0c[?25l[?1c.[?25h[?0c[?25l[?1ci[?25h[?0c[?25l[?1cp[?25h[?0c[?25l[?1c\[?25h[?0c[?25l[?1cf[?25h[?0c[?25l[?1co[?25h[?0c[?25l[?1cr[?25h[?0c[?25l[?1c[1;15H[K[1;15H[?25h[?0c[?25l[?1c[1;14H[K[1;14H[?25h[?0c[?25l[?1c[1;13H[K[1;13H[?25h[?0c[?25l[?1c[1;12H[K[1;12H[?25h[?0c[?25l[?1c_[?25h[?0c[?25l[?1cf[?25h[?0c[?25l[?1co[?25h[?0c[?25l[?1cr[?25h[?0c[?25l[?1cw[?25h[?0c[?25l[?1ca[?25h[?0c[?25l[?1cr[?25h[?0c[?25l[?1cd[?25h[?0c[?25l[?1c=[?25h[?0c[?25l[?1c1[?25h[?0c[?25l[?1cq[?25h[?0c[?25l[?1c[1;22H[K[1;22H[?25h[?0c[64;1H[K[1;21H[?25l[?1c[?25h[?0c[?25l[?1c[64;1H:[?25h[?0cwq
+[?25l[?1c"/etc/sysctl.d/10-ipv4.conf" [New] 1L, 22C written
+[?25h[?0c
+
+[root@localhost ~]# sysctl --system
+* Applying /usr/lib/sysctl.d/00-system.conf ...
+* Applying /usr/lib/sysctl.d/10-default-yama-scope.conf ...
+kernel.yama.ptrace_scope = 0
+* Applying /etc/sysctl.d/10-ipv4.conf ...
+net.ipv4.ip_forward = 1
+* Applying /usr/lib/sysctl.d/50-default.conf ...
+kernel.sysrq = 16
+kernel.core_uses_pid = 1
+net.ipv4.conf.default.rp_filter = 1
+net.ipv4.conf.all.rp_filter = 1
+net.ipv4.conf.default.accept_source_route = 0
+net.ipv4.conf.all.accept_source_route = 0
+net.ipv4.conf.default.promote_secondaries = 1
+net.ipv4.conf.all.promote_secondaries = 1
+fs.protected_hScript started on Thu 23 May 2019 02:09:28 PM JST
+[root@localhost ~]# systemctl stop firewalld
+[root@localhost ~]# systemctl disable firewalld
+[root@localhost ~]# yum install iptables-services
+Loaded plugins: fastestmirror
+Loading mirror speeds from cached hostfile
+ * base: mirrors.cat.net
+ * extras: mirrors.cat.net
+ * updates: mirrors.cat.net
+Package iptables-services-1.4.21-28.el7.x86_64 already installed and latest version
+Nothing to do
+[root@localhost ~]# ca[K[Kexit
+exit
+
+Script done on Thu 23 May 2019 02:11:08 PM JST
+Script started on Thu 23 May 2019 02:11:30 PM JST
+[root@localhost ~]# systemctl start iptables
+[root@localhost ~]# sya[Kstemctl status iptables
+[1;32m●[0m iptables.service - IPv4 firewall with iptables
+   Loaded: loaded (/usr/lib/systemd/system/iptables.service; disabled; vendor preset: disabled)
+   Active: [1;32mactive (exited)[0m since Thu 2019-05-23 14:11:51 JST; 16s ago
+  Process: 1628 ExecStart=/usr/libexec/iptables/iptables.init start (code=exited, status=0/SUCCESS)
+ Main PID: 1628 (code=exited, status=0/SUCCESS)
+
+May 23 14:11:51 localhost.localdomain systemd[1]: Starting IPv4 firewall with iptables...
+May 23 14:11:51 localhost.localdomain iptables.init[1628]: iptables: Applying firewall rules: [  OK  ]
+May 23 14:11:51 localhost.localdomain systemd[1]: Started IPv4 firewall with iptables.
+[root@localhost ~]# systemctl enable iptables
+Created symlink from /etc/systemd/system/basic.target.wants/iptables.service to /usr/lib/systemd/system/iptables.service.
+[root@localhost ~]# ssh root@[K[K[K[K[Kscp [K[K[K[K[K[K[K[Kscp t[Krpp[K[Koot [K@[K[K[K[K[Kmg573326[K[K[K[K[K[K[K[Kjy5853734@ssh.ice.nuie.nagoya-ua[K.ac.jp/[K:/pub1/jikken/cs-net/iptables-sample.sh ~ sh iptables-sample.sh[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+The authenticity of host 'ssh.ice.nuie.nagoya-u.ac.jp (10.11.1.12)' can't be established.
+RSA key fingerprint is SHA256:+TozKde2CBNcFKMvOG26EQ+IYfSz1kT3i4uIx2hIxSY.
+RSA key fingerprint is MD5:71:49:d0:01:1b:11:5c:2e:06:81:3d:92:65:01:3f:a3.
+Are you sure you want to continue connecting (yes/no)? y
+Please type 'yes' or 'no': yes
+Warning: Permanently added 'ssh.ice.nuie.nagoya-u.ac.jp,10.11.1.12' (RSA) to the list of known hosts.
+
+jy5853734@ssh.ice.nuie.nagoya-u.ac.jp's password: 
+
+^CKilled by signal 2.
+
+[root@localhost ~]# scp jy5853734@ssh.ice.nuie.nagoya-u.ac.jp:/pub1/jikken/cs-net/iptables-sample.sh ~[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@r[1@o[1@o[1@y[1P[1@t
+root@ssh.ice.nuie.nagoya-u.ac.jp's password: 
+Permission denied, please try again.
+
+root@ssh.ice.nuie.nagoya-u.ac.jp's password: 
+Permission denied, please try again.
+
+root@ssh.ice.nuie.nagoya-u.ac.jp's password: 
+[root@localhost ~]# scp root@ssh.ice.nuie.nagoya-u.ac.jp:/pub1/jikken/cs-net/iptables-sample.sh ~
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kscp root@ssh.ice.nuie.nagoya-u.ac.jp:/pub1/jikken/cs-net/iptables-sample.sh ~
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5@jy5853734[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+jy5853734@ssh.ice.nuie.nagoya-u.ac.jp's password: 
+^CKilled by signal 2.
+
+[root@localhost ~]# scp jy5853734@ssh.ice.nuie.nagoya-u.ac.jp:/pub1/jikken/cs-net/iptables-sample.sh ~[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@m[1@g[1@5[1@7[1@3[1@3[1@2[1@6[1@8
+mg5733268@ssh.ice.nuie.nagoya-u.ac.jp's password: 
+
+iptables-sample.sh                                                                                                              0%    0     0.0KB/s   --:-- ETA
+iptables-sample.sh                                                                                                            100% 3700   884.0KB/s   00:00    
+[root@localhost ~]# sh iptables-sample.sh
+    [root@localhost ~]# iptables -L -n
+    Chain INPUT (policy DROP)
+    target     prot opt source               destination         
+    ACCEPT     all  --  0.0.0.0/0            0.0.0.0/0           
+    ACCEPT     tcp  --  0.0.0.0/0            0.0.0.0/0            state NEW tcp dpt:22
+    ACCEPT     tcp  --  0.0.0.0/0            0.0.0.0/0            state NEW tcp dpt:22
+    ACCEPT     udp  --  0.0.0.0/0            0.0.0.0/0            state NEW udp dpt:67
+    ACCEPT     icmp --  0.0.0.0/0            0.0.0.0/0           
+    ACCEPT     udp  --  0.0.0.0/0            0.0.0.0/0            state NEW udp dpt:67
+    ACCEPT     icmp --  0.0.0.0/0            0.0.0.0/0           
+    ACCEPT     all  --  0.0.0.0/0            0.0.0.0/0            state RELATED,ESTABLISHED
+
+    Chain FORWARD (policy DROP)
+    target     prot opt source               destination         
+    ACCEPT     tcp  --  0.0.0.0/0            0.0.0.0/0            state NEW,ESTABLISHED tcp dpt:22
+    ACCEPT     icmp --  0.0.0.0/0            0.0.0.0/0           
+    ACCEPT     all  --  0.0.0.0/0            0.0.0.0/0            state RELATED,ESTABLISHED
+
+    Chain OUTPUT (policy DROP)
+    target     prot opt source               destination         
+    ACCEPT     all  --  0.0.0.0/0            0.0.0.0/0           
+    ACCEPT     tcp  --  0.0.0.0/0            0.0.0.0/0            state NEW tcp dpt:22
+    ACCEPT     tcp  --  0.0.0.0/0            0.0.0.0/0            state NEW tcp dpt:80
+    ACCEPT     tcp  --  0.0.0.0/0            0.0.0.0/0            state NEW tcp dpt:443
+    ACCEPT     udp  --  0.0.0.0/0            0.0.0.0/0            state NEW udp dpt:53
+    ACCEPT     icmp --  0.0.0.0/0            0.0.0.0/0           
+    ACCEPT     icmp --  0.0.0.0/0            0.0.0.0/0           
+    ACCEPT     tcp  --  0.0.0.0/0            0.0.0.0/0            state NEW tcp dpt:22
+    ACCEPT     all  --  0.0.0.0/0            0.0.0.0/0            state RELATED,ESTABLISHED
+[root@localhost ~]# iptable-save
+bash: iptable-save: command not found
+[root@localhost ~]# iptable-save
+bash: iptable-save: command not found
+[root@localhost ~]# iptable-save e-save[1Pe-save[C -save[C save^?save[2Psave[1Psave
+bash: iptable: command not found
+[root@localhost ~]# -a[K[Kiptable save
+bash: iptable: command not found
+[root@localhost ~]# iptable [K-saves
+bash: iptable-saves: command not found
+[root@localhost ~]# iptable-saves -saves
+bash: iptable: command not found
+[root@localhost ~]# iptable -saves[Ks -save
+iptables v1.4.21: no command specified
+Try `iptables -h' or 'iptables --help' for more information.
+[root@localhost ~]# iptables -save[C[C[C[C[1P-save
+# Generated by iptables-save v1.4.21 on Thu May 23 14:11:44 2019
+*nat
+:PREROUTING ACCEPT [0:0]
+:INPUT ACCEPT [0:0]
+:OUTPUT ACCEPT [0:0]
+:POSTROUTING ACCEPT [0:0]
+-A POSTROUTING -s 192.168.200.0/24 -o enp1s0 -j SNAT --to-source 192.168.100.12
+COMMIT
+# Completed on Thu May 23 14:11:44 2019
+# Generated by iptables-save v1.4.21 on Thu May 23 14:11:44 2019
+*filter
+:INPUT DROP [0:0]
+:FORWARD DROP [0:0]
+:OUTPUT DROP [0:0]
+-A INPUT -i lo -j ACCEPT
+-A INPUT -i enp1s0 -p tcp -m state --state NEW -m tcp --dport 22 -j ACCEPT
+-A INPUT -i enp3s0 -p tcp -m state --state NEW -m tcp --dport 22 -j ACCEPT
+-A INPUT -i enp3s0 -p udp -m state --state NEW -m udp --dport 67 -j ACCEPT
+-A INPUT -i enp3s0 -p icmp -j ACCEPT
+-A INPUT -i enp2s0 -p udp -m state --state NEW -m udp --dport 67 -j ACCEPT
+-A INPUT -i enp2s0 -p icmp -j ACCEPT
+-A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+-A FORWARD -i enp3s0 -o enp1s0 -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 22 -j ACCEPT
+-A FORWARD -i enp3s0 -o enp1s0 -p icmp -j ACCEPT
+-A FORWARD -i enp1s0 -o enp3s0 -m state --state RELATED,ESTABLISHED -j ACCEPT
+-A OUTPUT -o lo -j ACCEPT
+-A OUTPUT -o enp1s0 -p tcp -m state --state NEW -m tcp --dport 22 -j ACCEPT
+-A OUTPUT -o enp1s0 -p tcp -m state --state NEW -m tcp --dport 80 -j ACCEPT
+-A OUTPUT -o enp1s0 -p tcp -m state --state NEW -m tcp --dport 443 -j ACCEPT
+-A OUTPUT -o enp1s0 -p udp -m state --state NEW -m udp --dport 53 -j ACCEPT
+-A OUTPUT -o enp1s0 -p icmp -j ACCEPT
+-A OUTPUT -o enp3s0 -p icmp -j ACCEPT
+-A OUTPUT -o enp2s0 -p tcp -m state --state NEW -m tcp --dport 22 -j ACCEPT
+-A OUTPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+COMMIT
+# Completed on Thu May 23 14:11:44 2019
+[root@localhost ~]# scp iptables-sample.sh root@ice[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+anaconda-ks.cfg  [0m[01;32miptables-sample.sh[0m  jikkenlog2.log  test1.log  yamalog1.log
+[root@localhost ~]# yum info lynx
+
+
+[root@localhost ~]# yum install                                                                                                                 
+
+Complete!
+[root@localhost ~]# yum info bind-utils
+
+[root@localhost ~]# yum install bind-utils
+
+[root@localhost ~]# rpmm[K -ql bindutils-utils[C[C[C[C[C | grep /usr/bin
+[01;31m[K/usr/bin[m[K/dig
+[01;31m[K/usr/bin[m[K/host
+[01;31m[K/usr/bin[m[K/nslookup
+[01;31m[K/usr/bin[m[K/nsupdate
+[root@localhost ~]# ls
+anaconda-ks.cfg  [0m[01;32miptables-sample.sh[0m  jikkenlog2.log  test1.log  yamalog1.log
+[root@localhost ~]# cat iptables-sample.ss[Kh
+#!/bin/sh
+
+PATH=/sbin:/bin:/usr/bin:/usr/sbin
+
+## 変数の定義
+EXTERNAL_INTERFACE="enp1s0"       # 外側インタフェースの名前
+DMZ_INTERFACE="enp2s0"            # DMZ インタフェースの名前
+INTERNAL_INTERFACE="enp3s0"       # 内側インタフェースの名前
+
+# 外側インタフェースのIPアドレス
+IPADDR=`ip addr show $EXTERNAL_INTERFACE | \
+ sed -e 's/^.*inet \([^ \/]*\).*$/\1/p' -e d`
+# 内部ネットワーク・アドレス
+INTERNAL_LAN=`ip addr show $INTERNAL_INTERFACE | \
+ sed -e 's/^.*inet \([^ ]*\).*$/\1/p' -e d`
+
+# DMZネットワーク・アドレス
+DMZ_LAN=`ip addr show $DMZ_INTERFACE | \
+ sed -e 's/^.*inet \([^ ]*\).*$/\1/p' -e d`
+
+ANYWHERE="0.0.0.0/0"
+
+## 以下の設定を実行している間はパケットの転送を停止する
+echo 0 > /proc/sys/net/ipv4/ip_forward
+
+## すでに設定されているルールを消去する
+iptables -F
+iptables -F -t nat
+
+## ポリシーの初期設定 -> matchしない場合の扱い
+iptables -P INPUT DROP
+iptables -P OUTPUT DROP
+iptables -P FORWARD DROP
+
+## ループバック・インタフェースの入出力を許可する
+iptables -A INPUT -i lo -j ACCEPT
+iptables -A OUTPUT -o lo -j ACCEPT
+
+##############################################################################
+##
+## INPUTチェーンの設定（デフォルト拒否）
+##
+
+iptables -A INPUT -i $EXTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \
+    --dport 22 -j ACCEPT
+iptables -A INPUT -i $INTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \
+    --dport 22 -j ACCEPT
+iptables -A INPUT -i $INTERNAL_INTERFACE -p udp -m state --state NEW -m udp \
+    --dport 67 -j ACCEPT
+iptables -A INPUT -i $INTERNAL_INTERFACE -p icmp -j ACCEPT
+iptables -A INPUT -i $DMZ_INTERFACE -p udp -m state --state NEW -m udp \
+    --dport 67 -j ACCEPT
+iptables -A INPUT -i $DMZ_INTERFACE -p icmp -j ACCEPT
+iptables -A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+
+
+##############################################################################
+##
+## OUTPUTチェーンの設定（デフォルト拒否）
+##
+
+iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \
+    --dport 22 -j ACCEPT
+iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \
+    --dport 80 -j ACCEPT
+iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \
+    --dport 443 -j ACCEPT
+iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p udp -m state --state NEW -m udp \
+    --dport 53 -j ACCEPT
+iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p icmp -j ACCEPT
+iptables -A OUTPUT -o $INTERNAL_INTERFACE -p icmp -j ACCEPT
+iptables -A OUTPUT -o $DMZ_INTERFACE -p tcp -m state --state NEW -m tcp \
+    --dport 22 -j ACCEPT
+iptables -A OUTPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+
+
+########################################################Script started on Thu 23 May 2019 03:52:31 PM JST
+[root@localhost ~]# nmcli con sjow[K[K[Khow
+
+NAME    UUID                                  TYPE      DEVICE [m
+[32menp1s0[0m  [32m53ad581c-713c-414c-b4d1-e5a23ba31e89[0m  [32methernet[0m  [32menp1s0[0m [m
+[32menp2s0[0m  [32m2563e2e8-0058-4f8b-8e2b-7ed3c58e07a8[0m  [32methernet[0m  [32menp2s0[0m [m
+[32menp3s0[0m  [32ma9e180a3-0ced-474c-b1fb-04ab7651c702[0m  [32methernet[0m  [32menp3s0[0m [m
+enp1s0  9127422a-b943-47a6-8c1e-b63b5451126e  ethernet  --     [m
+enp2s0  5a6071a5-cb25-40b7-b39b-6031dae570c4  ethernet  --     [m
+enp2s0  819df032-dd6f-4ea0-a0b7-4930ceb0d31f  ethernet  --     [m
+enp3s0  e5baa2c8-70ac-4bf9-baf3-340736ef527b  ethernet  --     [m
+enp3s0  5b93b11d-e766-41ed-8c95-158f71acdc23  ethernet  --     [m
+enp4s0  df446490-1735-40a5-a4eb-f282220509a4  ethernet  --     [m
+
+[K[root@localhost ~]# sample[C[C[C[C[K[K[K[K[K[Kls
+anaconda-ks.cfg  [0m[01;32miptables-sample.sh[0m  jikkenlog2.log  test1.log  yamalog1.log
+[root@localhost ~]# h[Ksh iptables-sample.sh 
+[root@localhost ~]# sh iptables-sample.sh 
+[root@localhost ~]# sh iptables-sample.sh 
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Ksh iptables-sample.sh 
+iptables: Invalid argument. Run `dmesg' for more information.
+[root@localhost ~]# sh iptables-sample.sh 
+iptables: Invalid argument. Run `dmesg' for more information.
+[root@localhost ~]# sh iptables-sample.sh 
+iptables: Invalid argument. Run `dmesg' for more information.
+[root@localhost ~]# systemctl status dhcpd
+[1;32m●[0m dhcpd.service - DHCPv4 Server Daemon
+   Loaded: loaded (/usr/lib/systemd/system/dhcpd.service; enabled; vendor preset: disabled)
+   Active: [1;32mactive (running)[0m since Thu 2019-05-23 15:52:01 JST; 38min ago
+     Docs: man:dhcpd(8)
+           man:dhcpd.conf(5)
+ Main PID: 1328 (dhcpd)
+   Status: "Dispatching packets..."
+   CGroup: /system.slice/dhcpd.service
+           └─1328 /usr/sbin/dhcpd -f -cf /etc/dhcp/dhcpd.conf -user dhcpd -group dhcpd --no-pid
+
+May 23 15:52:05 localhost.localdomain dhcpd[1328]: DHCPREQUEST for 192.168.200.100 from 94:c6:91:a9:04:a9 (icesc00) via enp3s0
+May 23 15:52:05 localhost.localdomain dhcpd[1328]: DHCPACK on 192.168.200.100 to 94:c6:91:a9:04:a9 (icesc00) via enp3s0
+May 23 15:52:15 localhost.localdomain dhcpd[1328]: DHCPDISCOVER from 94:c6:91:a8:c9:54 via enp2s0
+May 23 15:52:16 localhost.localdomain dhcpd[1328]: DHCPOFFER on 192.168.150.100 to 94:c6:91:a8:c9:54 via enp2s0
+May 23 15:52:16 localhost.localdomain dhcpd[1328]: DHCPREQUEST for 192.168.150.100 (192.168.150.1) from 94:c6:91:a8:c9:54 via enp2s0
+May 23 15:52:16 localhost.localdomain dhcpd[1328]: DHCPACK on 192.168.150.100 to 94:c6:91:a8:c9:54 via enp2s0
+May 23 16:15:33 localhost.localdomain dhcpd[1328]: DHCPREQUEST for 192.168.150.100 from 94:c6:91:a8:c9:54 via enp2s0
+May 23 16:15:33 localhost.localdomain dhcpd[1328]: DHCPACK on 192.168.150.100 to 94:c6:91:a8:c9:54 via enp2s0
+May 23 16:20:45 localhost.localdomain dhcpd[1328]: DHCPREQUEST for 192.168.200.100 from 94:c6:91:a9:04:a9 (icesc00) via enp3s0
+May 23 16:20:45 localhost.localdomain dhcpd[1328]: DHCPACK on 192.168.200.100 to 94:c6:91:a9:04:a9 (icesc00) via enp3s0
+[root@localhost ~]# systemctl status dhcpdh iptables-sample.sh 
+[root@localhost ~]# sh iptables-sample.sh 
+[root@localhost ~]# sh iptables-sample.sh 
+[root@localhost ~]# sh iptables-sample.sh 
+[root@localhost ~]# sh iptables-sample.sh 
+[root@localhost ~]# sh iptables-sample.sh 
+iptables v1.4.21: Bad state "ESTABLSIHED"
+Try `iptables -h' or 'iptables --help' for more information.
+[root@localhost ~]# sh iptables-sample.sh 
+iptables v1.4.21: Bad state "ESTABLSIHED"
+Try `iptables -h' or 'iptables --help' for more information.
+[root@localhost ~]# sh iptables-sample.sh 
+[root@localhost ~]# sh iptables-sample.sh 
+[root@localhost ~]# nslookup
+> ^C[root@localhost ~]# lynx hctp:[K[K[K[Kttp://www.google.[K.com/
+[1;64r[0;10m[4l[?7h[39;49m[39;49m[315m[40m[H[J[37m[40m[J[0;10m[39;49m[315m[40m[62d[0;10;1m[33m[44mGetting http://www.google.com/[K[0;10m[39;49m[315m[40m
+[0;10;1m[33m[44mLooking up www.google.com[K[0;10m[39;49m[315m[40m
+[0;10;1m[33m[44mMaking HTTP connection to www.google.com[0;10m[39;49m[315m[40m
+[0;10;1m[33m[44mSending HTTP request.[K[0;10m[39;49m[315m[40m
+[0;10;1m[33m[44mHTTP request sent; waiting for response.[0;10m[39;49m[315m[40m[5G[0;10;1m[33m[44m/1.0 200 OK[K[0;10m[39;49m[315m[40m
+[0;10;1m[33m[44mwww.google.com cookie: 1P_JAR=2019-05-23-07 Allow? (Y/N/Always/neVer)[0;10m[39;49m[315m[40m
+[0;10;1m[33m[44mAllowing this cookie.[K[0;10m[39;49m[315m[40m
+[0;10;1m[33m[44mwww.google.com cookie: N=184=R5zg2_TNA9hWa3TTAObgkVSFZtus3-5NAQAu9ylhHIT7I-15m72_4fhY7PY3xA2fHkd0m2hTpWNz5k2cnb5iWi_MPy7hA-CEOfRbj4 Allow? (Y/N/Always/neVer)[0;10m[39;49m[315m[40m
+[0;10;1m[33m[44mAllowing this cookie.[K[0;10m[39;49m[315m[40m
+[0;10;1m[33m[44mRead 720 bytes of data, 12 bytes/sec.[0;10m[39;49m[315m[40m
+[0;10;1m[33m[44mData transfer complete[K[0;10m[39;49m[315m[40m[1;155H[35m[40mGoogle[3;4H[31m[40m検索[37m[40m [32m[40m画像[37m[40m [32m[40mマップ[37m[40m [32m[40mPlay[37m[40m [32m[40mYouTube[37m[40m [32m[40mニュース[37m[40m [32m[40mGmail[37m[40m [32m[40mドライブ[37m[40m [32m[40mもっと見る »
+[4Gウェブ履歴[37m[40m | [32m[40m設定[37m[40m | [32m[40mログイン
+
+[4G[33m[40mGoogle
+
+[4G[0;10;1m[37m[40m  _______________________________________________________
+[4GGoogle 検索  I'm Feeling Lucky    [0;10m[32m[40m検索オプション
+[4G[0;10;1m[37m[40m   [0;10m[32m[40m言語ツール
+
+[4G[37m[40mGoogle 検索は次の言語でもご利用いただけます: [32m[40mEnglish
+
+[4G広告掲載[37m[40m     [32m[40mビジネス ソリューション[37m[40m     [32m[40mGoogle について[37m[40m     [32m[40mGoogle.co.jp[16;65H[37m[40m© 2019 - [32m[40mプライバシー[37m[40m - [32m[40m規約[64;160H[0;10m[39;49m[315m[40m[63;3H[37m[40mArrow keys: Up and Down to move.  Right to follow a link; Left to go back.
+ H)elp O)ptions P)rint G)o M)ain screen Q)uit /=search [delete]=history list [0;10m[39;49m[315m[40m
+[62d[0;10;1m[33m[44m(NORMAL LINK) Use right-arrow or <return> to activate.[0;10m[39;49m[315m[40m[3;9H[0;10;1m[33m[40m画像[64;160H[0;10m[39;49m[315m[40m
+[37m[40m[J[0;10m[39;49m[315m[40m[39;49m[K[64;1H
+
+
+Exiting via interrupt: 2
+
+[root@localhost ~]# iptables-save > /etc/sysconfig/iptables
+[root@localhost ~]# ping[K[K[K[Kping https://www.google.com
+ping: https://www.google.com: Name or service not known
+[root@localhost ~]# ping https://www.google.com/
+ping: https://www.google.com/: Name or service not known
+[root@localhost ~]# ping https://www.google.com/
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kping google.com/
+ping: google.com/: Name or service not known
+[root@localhost ~]# ping google.com/wgoogle.com/wgoogle.com/wgoogle.com/.google.com/[1Poogle.com/[C[1Pgle.com/[1Pgle.com/[1Ple.com/[1Pe.com/[1P.com/m.com/i.com/c.com/r.com/o.com/s.com/o.com/f.com/t.com/[C[C[C[C[K
+PING e13678.dspb.akamaiedge.net (23.41.22.6) 56(84) bytes of data.
+64 bytes from a23-41-22-6.deploy.static.akamaitechnologies.com (23.41.22.6): icmp_seq=1 ttl=56 time=5.05 ms
+64 bytes from a23-41-22-6.deploy.static.akamaitechnologies.com (23.41.22.6): icmp_seq=2 ttl=56 time=4.93 ms
+64 bytes from a23-41-22-6.deploy.static.akamaitechnologies.com (23.41.22.6): icmp_seq=3 ttl=56 time=4.65 ms
+64 bytes from a23-41-22-6.deploy.static.akamaitechnologies.com (23.41.22.6): icmp_seq=4 ttl=56 time=4.55 ms
+64 bytes from a23-41-22-6.deploy.static.akamaitechnologies.com (23.41.22.6): icmp_seq=5 ttl=56 time=4.65 ms
+64 bytes from a23-41-22-6.deploy.static.akamaitechnologies.com (23.41.22.6): icmp_seq=6 ttl=56 time=4.65 ms
+64 bytes from a23-41-22-6.deploy.static.akamaitechnologies.com (23.41.22.6): icmp_seq=7 ttl=56 time=4.60 ms
+^C
+--- e13678.dspb.akamaiedge.net ping statistics ---
+7 packets transmitted, 7 received, 0% packet loss, time 6009ms
+rtt min/avg/max/mdev = 4.558/4.732/5.055/0.176 ms
+[root@localhost ~]# ssh -l mg5733268@ice,[K.nuie.nagoya-u.ac.jp
+usage: ssh [-1246AaCfGgKkMNnqsTtVvXxYy] [-b bind_address] [-c cipher_spec]
+           [-D [bind_address:]port] [-E log_file] [-e escape_char]
+           [-F configfile] [-I pkcs11] [-i identity_file]
+           [-J [user@]host[:port]] [-L address] [-l login_name] [-m mac_spec]
+           [-O ctl_cmd] [-o option] [-p port] [-Q query_option] [-R address]
+           [-S ctl_path] [-W host:port] [-w local_tun[:remote_tun]]
+           [user@]hostname [command]
+[root@localhost ~]# ssh -l mg5733268@ice.nuie.nagoya-u.ac.jp[C[1Pice.nuie.nagoya-u.ac.jp ice.nuie.nagoya-u.ac.jpsice.nuie.nagoya-u.ac.jpsice.nuie.nagoya-u.ac.jphice.nuie.nagoya-u.ac.jp.ice.nuie.nagoya-u.ac.jp
+mg5733268@ssh.ice.nuie.nagoya-u.ac.jp's password: 
+Last login: Sun Jun 10 19:02:14 2018 from 133.6.54.182
+
+#----------------------------------------------
+New system is available
+#----------------------------------------------
+ssh.ice.nuie.nagoya-u.ac.jp{mg5733268}29: exit
+
+logout
+Connection to ssh.ice.nuie.nagoya-u.ac.jp closed.
+
+[root@localhost ~]# nslookup all
+Server:		10.10.1.2
+Address:	10.10.1.2#53
+
+** server can't find all: NXDOMAIN
+
+[root@localhost ~]# nslookup
+> ^C[root@localhost ~]# nslookup www.mico[Krosoft.com
+Server:		10.10.1.2
+Address:	10.10.1.2#53
+
+Non-authoritative answer:
+www.microsoft.com	canonical name = www.microsoft.com-c-3.edgekey.net.
+www.microsoft.com-c-3.edgekey.net	canonical name = www.microsoft.com-c-3.edgekey.net.globalredir.akadns.net.
+www.microsoft.com-c-3.edgekey.net.globalredir.akadns.net	canonical name = e13678.dspb.akamaiedge.net.
+Name:	e13678.dspb.akamaiedge.net
+Address: 23.41.22.6
+
+[root@localhost ~]# ip addr
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: enp1s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 00:e0:67:12:2d:b4 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.100.16/24 brd 192.168.100.255 scope global noprefixroute enp1s0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::1a08:bb64:b6fa:6306/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+3: enp2s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 00:e0:67:12:2d:b5 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.150.1/24 brd 192.168.150.255 scope global noprefixroute enp2s0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::7105:2b44:d672:1d35/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+4: enp3s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 00:e0:67:12:2d:b6 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.200.1/24 brd 192.168.200.255 scope global noprefixroute enp3s0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::529e:6ff3:921e:e220/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+5: enp4s0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc pfifo_fast state DOWN group default qlen 1000
+    link/ether 00:e0:67:12:2d:b7 brd ff:ff:ff:ff:ff:ff
+[root@localhost ~]# ip addrnslookup www.microsoft.com[K allssh -l mg5733268 ssh.ice.nuie.nagoya-u.ac.jp[4P@ice.nuie.nagoya-u.ac.jp
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Pping www.microsoft.com[6Pgoogle.com/https://www.google.com/[K
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ciptables-save > /etc/sysconfig/iptables
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Plynx http://www.google.com/
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnslookup[Ksh iptables-sample.sh ystemctl status dhcpdh iptables-sample.sh 
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Knmcli con show[8Prebootsysctl --systemcat /etc/sysctl.d/10-ipv4.conf
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcat iptables-sample.sh
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Krpm -ql bind-utils | grep /usr/bin
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pyum install bind-utils[3Pfo[C[C[C[C[C[C[C[C[C[C[C[3Pstall lynx[3Pfo[C[C[C[C[Cls[Kiptables-save -save -saves[1P-saves[1P save-saves -savess -save[1P-savels[Kyum info lynx[3@stall[C[C[C[C[Cfo bind-utils[3@stall[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kxat[K[K[Kls
+anaconda-ks.cfg  [0m[01;32miptables-sample.sh[0m  jikkenlog2.log  test1.log  yamalog1.log
+[root@localhost ~]# cat iptables-sample.sh
+#!/bin/sh
+
+PATH=/sbin:/bin:/usr/bin:/usr/sbin
+
+## 変数の定義
+EXTERNAL_INTERFACE="enp1s0"       # 外側インタフェースの名前
+DMZ_INTERFACE="enp2s0"            # DMZ インタフェースの名前
+INTERNAL_INTERFACE="enp3s0"       # 内側インタフェースの名前
+
+# 外側インタフェースのIPアドレス
+IPADDR=`ip addr show $EXTERNAL_INTERFACE | \
+ sed -e 's/^.*inet \([^ \/]*\).*$/\1/p' -e d`
+# 内部ネットワーク・アドレス
+INTERNAL_LAN=`ip addr show $INTERNAL_INTERFACE | \
+ sed -e 's/^.*inet \([^ ]*\).*$/\1/p' -e d`
+
+# DMZネットワーク・アドレス
+DMZ_LAN=`ip addr show $DMZ_INTERFACE | \
+ sed -e 's/^.*inet \([^ ]*\).*$/\1/p' -e d`
+
+ANYWHERE="0.0.0.0/0"
+
+## 以下の設定を実行している間はパケットの転送を停止する
+echo 0 > /proc/sys/net/ipv4/ip_forward
+
+## すでに設定されているルールを消去する
+iptables -F
+iptables -F -t nat
+
+## ポリシーの初期設定 -> matchしない場合の扱い
+iptables -P INPUT DROP
+iptables -P OUTPUT DROP
+iptables -P FORWARD DROP
+
+## ループバック・インタフェースの入出力を許可する
+iptables -A INPUT -i lo -j ACCEPT
+iptables -A OUTPUT -o lo -j ACCEPT
+
+##############################################################################
+##
+## INPUTチェーンの設定（デフォルト拒否）
+##
+
+iptables -A INPUT -i $EXTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \
+    --dport 22 -j ACCEPT
+iptables -A INPUT -i $INTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \
+    --dport 22 -j ACCEPT
+iptables -A INPUT -i $INTERNAL_INTERFACE -p udp -m state --state NEW -m udp \
+    --dport 67 -j ACCEPT
+iptables -A INPUT -i $INTERNAL_INTERFACE -p icmp -j ACCEPT
+iptables -A INPUT -i $DMZ_INTERFACE -p udp -m state --state NEW -m udp \
+    --dport 67 -j ACCEPT
+iptables -A INPUT -i $DMZ_INTERFACE -p icmp -j ACCEPT
+iptables -A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+
+
+##############################################################################
+##
+## OUTPUTチェーンの設定（デフォルト拒否）
+##
+
+iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \
+    --dport 22 -j ACCEPT
+iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \
+    --dport 80 -j ACCEPT
+iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \
+    --dport 443 -j ACCEPT
+iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p udp -m state --state NEW -m udp \
+    --dport 53 -j ACCEPT
+iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p icmp -j ACCEPT
+iptables -A OUTPUT -o $INTERNAL_INTERFACE -p icmp -j ACCEPT
+iptables -A OUTPUT -o $DMZ_INTERFACE -p tcp -m state --state NEW -m tcp \
+    --dport 22 -j ACCEPT
+iptables -A OUTPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+
+
+##############################################################################
+##
+## FORWARDチェーンの設定（デフォルト拒否）
+##
+
+iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 22 -j ACCEPT
+iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 22 -j ACCEPT
+
+
+iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p udp -m state --state NEW,ESTABLISHED -m udp --dport 53 -j ACCEPT
+iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 80 -j ACCEPT
+iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 443 -j ACCEPT
+iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p icmp -j ACCEPT
+iptables -A FORWARD -i $EXTERNAL_INTERFACE -o $DMZ_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 80 -j ACCEPT
+iptables -A FORWARD -i $EXTERNAL_INTERFACE -o $DMZ_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 443 -j ACCEPT
+iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 22 -j ACCEPT
+iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -p udp -m state --state NEW,ESTABLISHED -m udp --dport 53 -j ACCEPT
+iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 80 -j ACCEPT
+iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 443 -j ACCEPT
+iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -p icmp -j ACCEPT
+iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p icmp -j ACCEPT
+iptables -A FORWARD -i $INTERNAL_INTERFACE -o $DMZ_INTERFACE -m state --state RELATED,ESTABLISHED -j ACCEPT
+
+iptables -A FORWARD -i $DMZ_INTERFACE -o $INTERNAL_INTERFACE -m state --state RELATED,ESTABLISHED -j ACCEPT
+iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -m state --state RELATED,ESTABLISHED -j ACCEPT
+iptables -A FORWARD -i $EXTERNAL_INTERFACE -o $DMZ_INTERFACE -m state --state RELATED,ESTABLISHED -j ACCEPT
+iptables -A FORWARD -i $EXTERNAL_INTERFACE -o $INTERNAL_INTERFACE -m state --state RELATED,ESTABLISHED -j ACCEPT
+##############################################################################
+##
+## NATの設定
+##
+
+iptables -A POSTROUTING -t nat -s $INTERNAL_LAN -o $EXTERNAL_INTERFACE -j SNAT \
+    --to-source $IPADDR
+
+iptables -A POSTROUTING -t nat -s $DMZ_LAN -o $EXTERNAL_INTERFACE -j SNAT \
+    --to-source $IPADDR
+
+
+iptables -A PREROUTING -t nat -p tcp --dport 80 -i $EXTERNAL_INTERFACE -j DNAT --to-destination 192.168.150.2
+iptables -A PREROUTING -t nat -p tcp --dport 443 -i $EXTERNAL_INTERFACE -j DNAT --to-destination 192.168.150.2
+
+##############################################################################
+##
+## 設定の保存
+##
+#/etc/init.d/iptables save active
+
+## パケットの転送を開始する
+echo 1 > /proc/sys/net/ipv4/ip_forward
+
+exit 0
+[root@localhost ~]# cat iptables-sample.sh
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ksystemctrl lo[K[Khtt[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksh[K[Kcat iptables-sample.sh
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kip addrnslookup www.microsoft.com[K allssh -l mg5733268 ssh.ice.nuie.nagoya-u.ac.jp[4P@ice.nuie.nagoya-u.ac.jp
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Pping www.microsoft.com[6Pgoogle.com/https://www.google.com/[K
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ciptables-save > /etc/sysconfig/iptables
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Plynx http://www.google.com/
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnslookup[Ksh iptables-sample.sh ystemctl status dhcpdh iptables-sample.sh 
+iptables-sample.sh: line 74: ptables: command not found
+iptables v1.4.21: option "-j" requires an argument
+Try `iptables -h' or 'iptables --help' for more information.
+[root@localhost ~]# cat iptables-sample.sh
+#!/bin/sh
+
+PATH=/sbin:/bin:/usr/bin:/usr/sbin
+
+## 変数の定義
+EXTERNAL_INTERFACE="enp1s0"       # 外側インタフェースの名前
+DMZ_INTERFACE="enp2s0"            # DMZ インタフェースの名前
+INTERNAL_INTERFACE="enp3s0"       # 内側インタフェースの名前
+
+# 外側インタフェースのIPアドレス
+IPADDR=`ip addr show $EXTERNAL_INTERFACE | \
+ sed -e 's/^.*inet \([^ \/]*\).*$/\1/p' -e d`
+# 内部ネットワーク・アドレス
+INTERNAL_LAN=`ip addr show $INTERNAL_INTERFACE | \
+ sed -e 's/^.*inet \([^ ]*\).*$/\1/p' -e d`
+
+# DMZネットワーク・アドレス
+DMZ_LAN=`ip addr show $DMZ_INTERFACE | \
+ sed -e 's/^.*inet \([^ ]*\).*$/\1/p' -e d`
+
+ANYWHERE="0.0.0.0/0"
+
+## 以下の設定を実行している間はパケットの転送を停止する
+echo 0 > /proc/sys/net/ipv4/ip_forward
+
+## すでに設定されているルールを消去する
+iptables -F
+iptables -F -t nat
+
+## ポリシーの初期設定 -> matchしない場合の扱い
+iptables -P INPUT DROP
+iptables -P OUTPUT DROP
+iptables -P FORWARD DROP
+
+## ループバック・インタフェースの入出力を許可する
+iptables -A INPUT -i lo -j ACCEPT
+iptables -A OUTPUT -o lo -j ACCEPT
+
+##############################################################################
+##
+## INPUTチェーンの設定（デフォルト拒否）
+##
+
+iptables -A INPUT -i $EXTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \
+    --dport 22 -j ACCEPT
+iptables -A INPUT -i $INTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \
+    --dport 22 -j ACCEPT
+iptables -A INPUT -i $INTERNAL_INTERFACE -p udp -m state --state NEW -m udp \
+    --dport 67 -j ACCEPT
+iptables -A INPUT -i $INTERNAL_INTERFACE -p icmp -j ACCEPT
+iptables -A INPUT -i $DMZ_INTERFACE -p udp -m state --state NEW -m udp \
+    --dport 67 -j ACCEPT
+iptables -A INPUT -i $DMZ_INTERFACE -p icmp -j ACCEPT
+iptables -A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+
+
+##############################################################################
+##
+## OUTPUTチェーンの設定（デフォルト拒否）
+##
+
+iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \
+    --dport 22 -j ACCEPT
+iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \
+    --dport 80 -j ACCEPT
+iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \
+    --dport 443 -j ACCEPT
+iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p udp -m state --state NEW -m udp \
+    --dport 53 -j ACCEPT
+iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p icmp -j ACCEPT
+iptables -A OUTPUT -o $INTERNAL_INTERFACE -p icmp -j ACCEPT
+iptables -A OUTPUT -o $DMZ_INTERFACE -p tcp -m state --state NEW -m tcp \
+    --dport 22 -j ACCEPT
+ptables -A OUTPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+
+
+##############################################################################
+##
+## FORWARDチェーンの設定（デフォルト拒否）
+##
+
+iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 22 -j ACCEPT
+
+iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p udp -m state --state NEW,ESTABLISHED -m udp --dport 53 -j ACCEPT
+iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 80 -j ACCEPT
+iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 443 -j ACCEPT
+iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p icmp -j              
+iptables -A FORWARD -i $EXTERNAL_INTERFACE -o $DMZ_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 80 -j ACCEPT
+iptables -A FORWARD -i $EXTERNAL_INTERFACE -o $DMZ_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 443 -j ACCEPT
+iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 22 -j ACCEPT
+iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -p udp -m state --state NEW,ESTABLISHED -m udp --dport 53 -j ACCEPT
+iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 80 -j ACCEPT
+iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 443 -j ACCEPT
+iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -p icmp -j ACCEPT
+iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p icmp -j ACCEPT
+iptables -A FORWARD -i $INTERNAL_INTERFACE -o $DMZ_INTERFACE -m state --state NEW,ESTABLISHED -j ACCEPT
+
+iptables -A FORWARD -i $DMZ_INTERFACE -o $INTERNAL_INTERFACE -m state --state RELATED,ESTABLISHED -j ACCEPT
+iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -m state --state RELATED,ESTABLISHED -j ACCEPT
+iptables -A FORWARD -i $EXTERNAL_INTERFACE -o $DMZ_INTERFACE -m state --state RELATED,ESTABLISHED -j ACCEPT
+iptables -A FORWARD -i $EXTERNAL_INTERFACE -o $INTERNAL_INTERFACE -m state --state RELATED,ESTABLISHED -j ACCEPT
+##############################################################################
+##
+## NATの設定
+##
+
+iptables -A POSTROUTING -t nat -s $INTERNAL_LAN -o $EXTERNAL_INTERFACE -j SNAT \
+    --to-source $IPADDR
+
+iptables -A POSTROUTING -t nat -s $DMZ_LAN -o $EXTERNAL_INTERFACE -j SNAT \
+    --to-source $IPADDR
+
+
+iptables -A PREROUTING -t nat -p tcp --dport 80 -i $EXTERNAL_INTERFACE -j DNAT --to-destination 192.168.150.2
+iptables -A PREROUTING -t nat -p tcp --dport 443 -i $EXTERNAL_INTERFACE -j DNAT --to-destination 192.168.150.2
+
+##############################################################################
+##
+## 設定の保存
+##
+#/etc/init.d/iptables save active
+
+## パケットの転送を開始する
+echo 1 > /proc/sys/net/ipv4/ip_forward
+
+exit 0
+[root@localhost ~]# cat iptables-sample.sh
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csh iptables-sample.sh 
+iptables-sample.sh: line 74: ptables: command not found
+iptables v1.4.21: option "-j" requires an argument
+Try `iptables -h' or 'iptables --help' for more information.
+[root@localhost ~]# sh iptables-sample.sh 
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ksh iptables-sample.sh 
+iptables-sample.sh: line 74: ptables: command not found
+iptables v1.4.21: option "-j" requires an argument
+Try `iptables -h' or 'iptables --help' for more information.
+[root@localhost ~]# sh iptables-sample.sh 
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Klssh iptables-sample.sh 
+iptables-sample.sh: line 74: ptables: command not found
+iptables v1.4.21: option "-j" requires an argument
+Try `iptables -h' or 'iptables --help' for more information.
+[root@localhost ~]# ls
+anaconda-ks.cfg  [0m[01;32miptables-sample.sh[0m  jikkenlog2.log  test1.log  yamalog1.log
+[root@localhost ~]# cp iptables-sample.hs[K[Ksh iptables-sample.sh [1@2
+[root@localhost ~]# ls
+anaconda-ks.cfg  [0m[01;32miptables-sample2.sh[0m  [01;32miptables-sample.sh[0m  jikkenlog2.log  test1.log  yamalog1.log
+[root@localhost ~]# vi [1Plscp iptables-sample.sh iptables-sample2.sh [C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@v[1@i[1P[1P[1@v[1@i
+[1;64r[?25h[?8c[?25h[?0c[27m[24m[0m[H[J[?25l[?1c[64;1H"iptables-sample2.sh" 126L, 5789C[1;1H#!/bin/sh
+
+PATH=/sbin:/bin:/usr/bin:/usr/sbin
+
+## 変数の定義
+EXTERNAL_INTERFACE="enp1s0"[7C# 外側インタフェースの名前
+DMZ_INTERFACE="enp2s0"[12C# DMZ インタフェースの名前
+INTERNAL_INTERFACE="enp3s0"[7C# 内側インタフェースの名前
+
+# 外側インタフェースのIPアドレス
+IPADDR=`ip addr show $EXTERNAL_INTERFACE | \
+ sed -e 's/^.*inet \([^ \/]*\).*$/\1/p' -e d`
+# 内部ネットワーク・アドレス
+INTERNAL_LAN=`ip addr show $INTERNAL_INTERFACE | \
+ sed -e 's/^.*inet \([^ ]*\).*$/\1/p' -e d`
+
+# DMZネットワーク・アドレス
+DMZ_LAN=`ip addr show $DMZ_INTERFACE | \
+ sed -e 's/^.*inet \([^ ]*\).*$/\1/p' -e d`
+
+ANYWHERE="0.0.0.0/0"
+
+## 以下の設定を実行している間はパケットの転送を停止する
+echo 0 > /proc/sys/net/ipv4/ip_forward
+
+## すでに設定されているルールを消去する
+iptables -F
+iptables -F -t nat
+
+## ポリシーの初期設定 -> matchしない場合の扱い
+iptables -P INPUT DROP
+iptables -P OUTPUT DROP
+iptables -P FORWARD DROP
+
+## ループバック・インタフェースの入出力を許可する
+iptables -A INPUT -i lo -j ACCEPT
+iptables -A OUTPUT -o lo -j ACCEPT
+
+##############################################################################
+##
+## INPUTチェーンの設定（デフォルト拒否）
+##
+
+iptables -A INPUT -i $EXTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \
+    --dport 22 -j ACCEPT
+iptables -A INPUT -i $INTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \
+    --dport 22 -j ACCEPT
+iptables -A INPUT -i $INTERNAL_INTERFACE -p udp -m state --state NEW -m udp \
+    --dport 67 -j ACCEPT
+iptables -A INPUT -i $INTERNAL_INTERFACE -p icmp -j ACCEPT
+iptables -A INPUT -i $DMZ_INTERFACE -p udp -m state --state NEW -m udp \
+    --dport 67 -j ACCEPT
+iptables -A INPUT -i $DMZ_INTERFACE -p icmp -j ACCEPT
+iptables -A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+
+
+##############################################################################
+##
+## OUTPUTチェーンの設定（デフォルト拒否）
+##
+
+iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \
+    --dport 22 -j ACCEPT[1;1H[?25h[?0c[30;1H[29;1H[28;1H[27;1H
+
+
+[?25l[?1c[1;63r[63;1H
+ iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \[64;1H[K[63;1H 
+ 5H--dport 80 -j ACCEPT
+ 
+ iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \
+ 
+ 5H--dport 443 -j ACCEPT
+ 
+ iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p udp -m state --state NEW -m udp \
+ 
+ 5H--dport 53 -j ACCEPT
+ 
+ iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p icmp -j ACCEPT
+ 
+ iptables -A OUTPUT -o $INTERNAL_INTERFACE -p icmp -j ACCEPT
+ 
+ iptables -A OUTPUT -o $DMZ_INTERFACE -p tcp -m state --state NEW -m tcp \
+ 
+ 5H--dport 22 -j ACCEPT
+ 
+ ptables -A OUTPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+ 
+ [?25h[?0c[62;1H[?25l[?1c
+
+[1m-- INSERT --[62;1H[?25h[?0c[?25l[?1c[0miptables -A OUTPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+i[?25h[?0c
+[?25l[?1c[1;63r[63;1H
+  
+ ##############################################################################
+# 
+ ## 
+ ## FORWARDチェーンの設定（デフォルト拒否）
+# 
+ ## 
+  
+ iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 22 -j ACCEPT
+i 
+  
+ iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p udp -m state --state NEW,ESTABLISHED -m udp --dport 53 -j ACCEPT
+i 
+ iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 80 -j ACCEPT
+i 
+ iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 443 -j ACCEPT
+i 
+ iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p icmp -j
+i 
+ iptables -A FORWARD -i $EXTERNAL_INTERFACE -o $DMZ_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 80 -j ACCEPT
+i 
+ iptables -A FORWARD -i $EXTERNAL_INTERFACE -o $DMZ_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 443 -j ACCEPT
+i 
+ iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 22 -j ACCEPT
+i 
+ iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -p udp -m state --state NEW,ESTABLISHED -m udp --dport 53 -j ACCEPT
+i 
+ iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 80 -j ACCEPT
+i 
+ iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 443 -j ACCEPT
+i 
+ iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -p icmp -j ACCEPT
+i 
+ iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p icmp -j ACCEPT
+i 
+ iptables -A FORWARD -i $INTERNAL_INTERFACE -o $DMZ_INTERFACE -m state --state NEW,ESTABLISHED -j ACCEPT
+i 
+  
+ iptables -A FORWARD -i $DMZ_INTERFACE -o $INTERNAL_INTERFACE -m state --state RELATED,ESTABLISHED -j ACCEPT
+i 
+ iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -m state --state RELATED,ESTABLISHED -j ACCEPT
+i 
+ iptables -A FORWARD -i $EXTERNAL_INTERFACE -o $DMZ_INTERFACE -m state --state RELATED,ESTABLISHED -j ACCEPT
+i 
+ iptables -A FORWARD -i $EXTERNAL_INTERFACE -o $INTERNAL_INTERFACE -m state --state RELATED,ESTABLISHED -j ACCEPT
+i 
+ ##############################################################################
+# 
+ ## 
+ ## NATの設定
+#[?25h[?0c[62;2H[61;2H[60;2H[59;2H[58;2H[57;2H[56;1H[55;2H[54;2H[53;2H[52;2H[51;2H[50;2H[49;2H[48;2H[47;2H[46;2H[45;2H[44;2H[43;2H[42;1H[64;1H[K[42;1H[?25l[?1c[?25h[?0c[?25l[?1c[64;1H:[?25h[?0cqw[?25l[?1c[64;3H[K[64;3H[?25h[?0c[?25l[?1c[64;2H[K[64;2H[?25h[?0cwq
+[?25l[?1c"iptables-sample2.sh" 126L, 5790C written
+[?25h[?0c
+
+[root@localhost ~]# vi iptables-sample2.sh 
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcp iptables-sample.sh iptables-sample2.sh 
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Ksh iptables-sample.sh [1@2
+iptables v1.4.21: option "-j" requires an argument
+Try `iptables -h' or 'iptables --help' for more information.
+[root@localhost ~]# sh iptables-sample2.sh 
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvi[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[1;64r[?25h[?8c[?25h[?0c[27m[24m[0m[H[J[?25l[?1c[64;1H"iptables-sample2.sh" 126L, 5790C[1;1H#!/bin/sh
+
+PATH=/sbin:/bin:/usr/bin:/usr/sbin
+
+## 変数の定義
+EXTERNAL_INTERFACE="enp1s0"[7C# 外側インタフェースの名前
+DMZ_INTERFACE="enp2s0"[12C# DMZ インタフェースの名前
+INTERNAL_INTERFACE="enp3s0"[7C# 内側インタフェースの名前
+
+# 外側インタフェースのIPアドレス
+IPADDR=`ip addr show $EXTERNAL_INTERFACE | \
+ sed -e 's/^.*inet \([^ \/]*\).*$/\1/p' -e d`
+# 内部ネットワーク・アドレス
+INTERNAL_LAN=`ip addr show $INTERNAL_INTERFACE | \
+ sed -e 's/^.*inet \([^ ]*\).*$/\1/p' -e d`
+
+# DMZネットワーク・アドレス
+DMZ_LAN=`ip addr show $DMZ_INTERFACE | \
+ sed -e 's/^.*inet \([^ ]*\).*$/\1/p' -e d`
+
+ANYWHERE="0.0.0.0/0"
+
+## 以下の設定を実行している間はパケットの転送を停止する
+echo 0 > /proc/sys/net/ipv4/ip_forward
+
+## すでに設定されているルールを消去する
+iptables -F
+iptables -F -t nat
+
+## ポリシーの初期設定 -> matchしない場合の扱い
+iptables -P INPUT DROP
+iptables -P OUTPUT DROP
+iptables -P FORWARD DROP
+
+## ループバック・インタフェースの入出力を許可する
+iptables -A INPUT -i lo -j ACCEPT
+iptables -A OUTPUT -o lo -j ACCEPT
+
+##############################################################################
+##
+## INPUTチェーンの設定（デフォルト拒否）
+##
+
+iptables -A INPUT -i $EXTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \
+    --dport 22 -j ACCEPT
+iptables -A INPUT -i $INTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \
+    --dport 22 -j ACCEPT
+iptables -A INPUT -i $INTERNAL_INTERFACE -p udp -m state --state NEW -m udp \
+    --dport 67 -j ACCEPT
+iptables -A INPUT -i $INTERNAL_INTERFACE -p icmp -j ACCEPT
+iptables -A INPUT -i $DMZ_INTERFACE -p udp -m state --state NEW -m udp \
+    --dport 67 -j ACCEPT
+iptables -A INPUT -i $DMZ_INTERFACE -p icmp -j ACCEPT
+iptables -A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+
+
+##############################################################################
+##
+## OUTPUTチェーンの設定（デフォルト拒否）
+##
+
+iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \
+    --dport 22 -j ACCEPT[1;1H[?25h[?0c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[46;1H
+[?25l[?1c[64;1H[K[64;1H:[?25h[?0cwq
+[?25l[?1c"iptables-sample2.sh" 126L, 5790C written
+[?25h[?0c
+
+[root@localhost ~]# vi iptables-sample2.sh 
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvi[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+iptables v1.4.21: option "-j" requires an argument
+Try `iptables -h' or 'iptables --help' for more information.
+[root@localhost ~]# sh iptables-sample2.sh 
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvi[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[1;64r[?25h[?8c[?25h[?0c[27m[24m[0m[H[J[?25l[?1c[64;1H"iptables-sample2.sh" 126L, 5790C[1;1H#!/bin/sh
+
+PATH=/sbin:/bin:/usr/bin:/usr/sbin
+
+## 変数の定義
+EXTERNAL_INTERFACE="enp1s0"[7C# 外側インタフェースの名前
+DMZ_INTERFACE="enp2s0"[12C# DMZ インタフェースの名前
+INTERNAL_INTERFACE="enp3s0"[7C# 内側インタフェースの名前
+
+# 外側インタフェースのIPアドレス
+IPADDR=`ip addr show $EXTERNAL_INTERFACE | \
+ sed -e 's/^.*inet \([^ \/]*\).*$/\1/p' -e d`
+# 内部ネットワーク・アドレス
+INTERNAL_LAN=`ip addr show $INTERNAL_INTERFACE | \
+ sed -e 's/^.*inet \([^ ]*\).*$/\1/p' -e d`
+
+# DMZネットワーク・アドレス
+DMZ_LAN=`ip addr show $DMZ_INTERFACE | \
+ sed -e 's/^.*inet \([^ ]*\).*$/\1/p' -e d`
+
+ANYWHERE="0.0.0.0/0"
+
+## 以下の設定を実行している間はパケットの転送を停止する
+echo 0 > /proc/sys/net/ipv4/ip_forward
+
+## すでに設定されているルールを消去する
+iptables -F
+iptables -F -t nat
+
+## ポリシーの初期設定 -> matchしない場合の扱い
+iptables -P INPUT DROP
+iptables -P OUTPUT DROP
+iptables -P FORWARD DROP
+
+## ループバック・インタフェースの入出力を許可する
+iptables -A INPUT -i lo -j ACCEPT
+iptables -A OUTPUT -o lo -j ACCEPT
+
+##############################################################################
+##
+## INPUTチェーンの設定（デフォルト拒否）
+##
+
+iptables -A INPUT -i $EXTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \
+    --dport 22 -j ACCEPT
+iptables -A INPUT -i $INTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \
+    --dport 22 -j ACCEPT
+iptables -A INPUT -i $INTERNAL_INTERFACE -p udp -m state --state NEW -m udp \
+    --dport 67 -j ACCEPT
+iptables -A INPUT -i $INTERNAL_INTERFACE -p icmp -j ACCEPT
+iptables -A INPUT -i $DMZ_INTERFACE -p udp -m state --state NEW -m udp \
+    --dport 67 -j ACCEPT
+iptables -A INPUT -i $DMZ_INTERFACE -p icmp -j ACCEPT
+iptables -A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+
+
+##############################################################################
+##
+## OUTPUTチェーンの設定（デフォルト拒否）
+##
+
+iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \
+    --dport 22 -j ACCEPT[1;1H[?25h[?0c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l[?1c[1;63r[63;1H
+ iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \[64;1H[K[63;1H 
+ 5H--dport 80 -j ACCEPT
+ 
+ iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \
+ 
+ 5H--dport 443 -j ACCEPT
+ 
+ iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p udp -m state --state NEW -m udp \
+ 
+ 5H--dport 53 -j ACCEPT
+ 
+ iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p icmp -j ACCEPT
+ 
+ iptables -A OUTPUT -o $INTERNAL_INTERFACE -p icmp -j ACCEPT
+ 
+ iptables -A OUTPUT -o $DMZ_INTERFACE -p tcp -m state --state NEW -m tcp \
+ 
+ 5H--dport 22 -j ACCEPT
+ 
+ iptables -A OUTPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+ 
+  
+  
+ ##############################################################################
+ 
+ ##
+ 
+ ## FORWARDチェーンの設定（デフォルト拒否）
+ 
+ ##
+ 
+  
+ iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 22 -j ACCEPT
+ 
+  
+ iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p udp -m state --state NEW,ESTABLISHED -m udp --dport 53 -j ACCEPT
+ 
+ iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 80 -j ACCEPT
+ 
+ iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 443 -j ACCEPT
+ 
+ iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p icmp -j
+ 
+ iptables -A FORWARD -i $EXTERNAL_INTERFACE -o $DMZ_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 80 -j ACCEPT
+ 
+ iptables -A FORWARD -i $EXTERNAL_INTERFACE -o $DMZ_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 443 -j ACCEPT
+ 
+ iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 22 -j ACCEPT
+ 
+ iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -p udp -m state --state NEW,ESTABLISHED -m udp --dport 53 -j ACCEPT
+ 
+ iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 80 -j ACCEPT
+ 
+ iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 443 -j ACCEPT
+ 
+ iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -p icmp -j ACCEPT
+ 
+ iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p icmp -j ACCEPT
+ 
+ iptables -A FORWARD -i $INTERNAL_INTERFACE -o $DMZ_INTERFACE -m state --state NEW,ESTABLISHED -j ACCEPT
+ 
+  
+ iptables -A FORWARD -i $DMZ_INTERFACE -o $INTERNAL_INTERFACE -m state --state RELATED,ESTABLISHED -j ACCEPT
+ 
+ iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -m state --state RELATED,ESTABLISHED -j ACCEPT
+ 
+ iptables -A FORWARD -i $EXTERNAL_INTERFACE -o $DMZ_INTERFACE -m state --state RELATED,ESTABLISHED -j ACCEPT
+ 
+ iptables -A FORWARD -i $EXTERNAL_INTERFACE -o $INTERNAL_INTERFACE -m state --state RELATED,ESTABLISHED -j ACCEPT
+ 
+ ##############################################################################
+ 
+ ##
+ 
+ ## NATの設定
+[?25h[?0c[62;1H[61;1H[60;1H[59;1H[58;1H[57;1H[56;1H[55;1H[54;1H[53;1H[52;1H[51;1H[50;1H[49;1H
+
+
+
+
+
+
+[55;1Hiptables -A FORWARD -i $INTERNAL_INTERFACE -o $DMZ_INTERFACE -m state --state NEWEW[?25l[?1c[64;1H[1m-- INSERT --[55;82H[?25h[?0c[?25l[?1c[0m#iptables -A FORWARD -i $INTERNAL_INTERFACE -o $DMZ_INTERFACE -m state --state NEW,ESTABLISHED -j ACCEPT
+#[?25h[?0c[?25l[?1c:iptables -A FORWARD -i $INTERNAL_INTERFACE -o $DMZ_INTERFACE -m state --state NEW,ESTABLISHED -j ACCEPT
+#:[?25h[?0c[?25l[?1ciptables -A FORWARD -i $INTERNAL_INTERFACE -o $DMZ_INTERFACE -m state --state NEW,ESTABLISHED -j ACCEPT[55;105H[K[55;2H[?25h[?0c[64;1H[K[55;1H[?25l[?1c[?25h[?0c[?25l[?1c[64;1H:[?25h[?0cwq
+[?25l[?1c"iptables-sample2.sh" 126L, 5791C written
+[?25h[?0c
+
+[root@localhost ~]# vi iptables-sample2.sh 
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+iptables v1.4.21: option "-j" requires an argument
+Try `iptables -h' or 'iptables --help' for more information.
+[root@localhost ~]# sh iptables-sample2.sh 
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvi[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[1;64r[?25h[?8c[?25h[?0c[27m[24m[0m[H[J[?25l[?1c[64;1H"iptables-sample2.sh" 126L, 5791C[1;1H#!/bin/sh
+
+PATH=/sbin:/bin:/usr/bin:/usr/sbin
+
+## 変数の定義
+EXTERNAL_INTERFACE="enp1s0"[7C# 外側インタフェースの名前
+DMZ_INTERFACE="enp2s0"[12C# DMZ インタフェースの名前
+INTERNAL_INTERFACE="enp3s0"[7C# 内側インタフェースの名前
+
+# 外側インタフェースのIPアドレス
+IPADDR=`ip addr show $EXTERNAL_INTERFACE | \
+ sed -e 's/^.*inet \([^ \/]*\).*$/\1/p' -e d`
+# 内部ネットワーク・アドレス
+INTERNAL_LAN=`ip addr show $INTERNAL_INTERFACE | \
+ sed -e 's/^.*inet \([^ ]*\).*$/\1/p' -e d`
+
+# DMZネットワーク・アドレス
+DMZ_LAN=`ip addr show $DMZ_INTERFACE | \
+ sed -e 's/^.*inet \([^ ]*\).*$/\1/p' -e d`
+
+ANYWHERE="0.0.0.0/0"
+
+## 以下の設定を実行している間はパケットの転送を停止する
+echo 0 > /proc/sys/net/ipv4/ip_forward
+
+## すでに設定されているルールを消去する
+iptables -F
+iptables -F -t nat
+
+## ポリシーの初期設定 -> matchしない場合の扱い
+iptables -P INPUT DROP
+iptables -P OUTPUT DROP
+iptables -P FORWARD DROP
+
+## ループバック・インタフェースの入出力を許可する
+iptables -A INPUT -i lo -j ACCEPT
+iptables -A OUTPUT -o lo -j ACCEPT
+
+##############################################################################
+##
+## INPUTチェーンの設定（デフォルト拒否）
+##
+
+iptables -A INPUT -i $EXTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \
+    --dport 22 -j ACCEPT
+iptables -A INPUT -i $INTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \
+    --dport 22 -j ACCEPT
+iptables -A INPUT -i $INTERNAL_INTERFACE -p udp -m state --state NEW -m udp \
+    --dport 67 -j ACCEPT
+iptables -A INPUT -i $INTERNAL_INTERFACE -p icmp -j ACCEPT
+iptables -A INPUT -i $DMZ_INTERFACE -p udp -m state --state NEW -m udp \
+    --dport 67 -j ACCEPT
+iptables -A INPUT -i $DMZ_INTERFACE -p icmp -j ACCEPT
+iptables -A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+
+
+##############################################################################
+##
+## OUTPUTチェーンの設定（デフォルト拒否）
+##
+
+iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \
+    --dport 22 -j ACCEPT[1;1H[?25h[?0c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[29;1H[28;1H[27;1H[26;1H[25;1H[24;1H[23;1H[22;1H[21;1H[20;1H[19;1H[18;1H[17;1H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[50;1H[49;1H
+
+
+
+
+iptables -A INPUT -m state --state RELATED,ESTABLISHED -j [?25l[?1c[64;1H[1m-- INSERT --[0m[64;13H[K[54;55H[?25h[?0c [?25l[?1c-j ACCEPT[54;64H[K[54;55H[?25h[?0c[?25l[?1c -j ACCEPT[54;56H[?25h[?0c[53;54H[?25l[?1c-j ACCEPT[53;53H[K[53;44H[?25h[?0c[?25l[?1c -j ACCEPT[53;45H[?25h[?0c[52;25H[53;23H[54;23H
+
+[57;23H
+##[59;22H
+##
+[62;23H[63;23H[?25l[?1c[1;63r[63;1H
+ iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \[63;23H 
+ 5H--dport 80 -j ACCEPT 
+ iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \[63;23H 
+ 5H--dport 443 -j ACCEPT 
+ iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p udp -m state --state NEW -m udp \[63;23H 
+ 5H--dport 53 -j ACCEPT 
+ iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p icmp -j ACCEPT[63;23H 
+ iptables -A OUTPUT -o $INTERNAL_INTERFACE -p icmp -j ACCEPT[63;23H 
+ iptables -A OUTPUT -o $DMZ_INTERFACE -p tcp -m state --state NEW -m tcp \[63;23H 
+ 5H--dport 22 -j ACCEPT 
+ iptables -A OUTPUT -m state --state RELATED,ESTABLISHED -j ACCEPT[63;23H 
+  
+  
+ ##############################################################################[63;23H 
+ ## 
+ ## FORWARDチェーンの設定（デフォルト拒否）[63;23H 
+ ## 
+  
+ iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 22 -j ACCEPT[63;23H 
+  
+ iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p udp -m state --state NEW,ESTABLISHED -m udp --dport 53 -j ACCEPT[63;23H 
+ iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 80 -j ACCEPT[63;23H 
+ iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 443 -j ACCEPT[63;23H 
+ iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p icmp -j[63;23H 
+ iptables -A FORWARD -i $EXTERNAL_INTERFACE -o $DMZ_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 80 -j ACCEPT[63;23H 
+ iptables -A FORWARD -i $EXTERNAL_INTERFACE -o $DMZ_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 443 -j ACCEPT[63;23H 
+ iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 22 -j ACCEPT[63;23H 
+ iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -p udp -m state --state NEW,ESTABLISHED -m udp --dport 53 -j ACCEPT[63;23H 
+ iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 80 -j ACCEPT[63;23H 
+ iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 443 -j ACCEPT[63;23H 
+ iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -p icmp -j ACCEPT[63;23H 
+ iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p icmp -j ACCEPT[63;23H[?25h[?0c[62;23H[61;23H[60;23H[59;23H[58;23H[57;23H[56;23H[55;23H $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p icmp -[?25l[?1c j[?25h[?0c[?25l[?1cj [?25h[?0cj[?25l[?1c [?25h[?0c[?25l[?1cA[?25h[?0c[?25l[?1cC[?25h[?0c[?25l[?1cC[?25h[?0c[?25l[?1cE[?25h[?0c[?25l[?1cP[?25h[?0c[?25l[?1cT[?25h[?0c[64;1H[K[55;83H[?25l[?1c[?25h[?0c[?25l[?1c[64;1H:[?25h[?0cwq
+[?25l[?1c"iptables-sample2.sh" 126L, 5798C written
+[?25h[?0c
+
+[root@localhost ~]# vi iptables-sample2.sh 
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[root@localhost ~]# sh iptables-sample2.sh 
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvi[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[1;64r[?25h[?8c[?25h[?0c[27m[24m[0m[H[J[?25l[?1c[64;1H"iptables-sample2.sh" 126L, 5798C[1;1H#!/bin/sh
+
+PATH=/sbin:/bin:/usr/bin:/usr/sbin
+
+## 変数の定義
+EXTERNAL_INTERFACE="enp1s0"[7C# 外側インタフェースの名前
+DMZ_INTERFACE="enp2s0"[12C# DMZ インタフェースの名前
+INTERNAL_INTERFACE="enp3s0"[7C# 内側インタフェースの名前
+
+# 外側インタフェースのIPアドレス
+IPADDR=`ip addr show $EXTERNAL_INTERFACE | \
+ sed -e 's/^.*inet \([^ \/]*\).*$/\1/p' -e d`
+# 内部ネットワーク・アドレス
+INTERNAL_LAN=`ip addr show $INTERNAL_INTERFACE | \
+ sed -e 's/^.*inet \([^ ]*\).*$/\1/p' -e d`
+
+# DMZネットワーク・アドレス
+DMZ_LAN=`ip addr show $DMZ_INTERFACE | \
+ sed -e 's/^.*inet \([^ ]*\).*$/\1/p' -e d`
+
+ANYWHERE="0.0.0.0/0"
+
+## 以下の設定を実行している間はパケットの転送を停止する
+echo 0 > /proc/sys/net/ipv4/ip_forward
+
+## すでに設定されているルールを消去する
+iptables -F
+iptables -F -t nat
+
+## ポリシーの初期設定 -> matchしない場合の扱い
+iptables -P INPUT DROP
+iptables -P OUTPUT DROP
+iptables -P FORWARD DROP
+
+## ループバック・インタフェースの入出力を許可する
+iptables -A INPUT -i lo -j ACCEPT
+iptables -A OUTPUT -o lo -j ACCEPT
+
+##############################################################################
+##
+## INPUTチェーンの設定（デフォルト拒否）
+##
+
+iptables -A INPUT -i $EXTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \
+    --dport 22 -j ACCEPT
+iptables -A INPUT -i $INTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \
+    --dport 22 -j ACCEPT
+iptables -A INPUT -i $INTERNAL_INTERFACE -p udp -m state --state NEW -m udp \
+    --dport 67 -j ACCEPT
+iptables -A INPUT -i $INTERNAL_INTERFACE -p icmp -j ACCEPT
+iptables -A INPUT -i $DMZ_INTERFACE -p udp -m state --state NEW -m udp \
+    --dport 67 -j ACCEPT
+iptables -A INPUT -i $DMZ_INTERFACE -p icmp -j ACCEPT
+iptables -A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+
+
+##############################################################################
+##
+## OUTPUTチェーンの設定（デフォルト拒否）
+##
+
+iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \
+    --dport 22 -j ACCEPT[1;1H[?25h[?0c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l[?1c[1;63r[63;1H
+ iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \[64;1H[K[63;1H 
+ 5H--dport 80 -j ACCEPT
+ 
+ iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \
+ 
+ 5H--dport 443 -j ACCEPT
+ 
+ iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p udp -m state --state NEW -m udp \
+ 
+ 5H--dport 53 -j ACCEPT
+ 
+ iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p icmp -j ACCEPT
+ 
+ iptables -A OUTPUT -o $INTERNAL_INTERFACE -p icmp -j ACCEPT
+ 
+ iptables -A OUTPUT -o $DMZ_INTERFACE -p tcp -m state --state NEW -m tcp \
+ 
+ 5H--dport 22 -j ACCEPT
+ 
+ iptables -A OUTPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+ 
+  
+  
+ ##############################################################################
+ 
+ ##
+ 
+ ## FORWARDチェーンの設定（デフォルト拒否）
+ 
+ ##
+ 
+  
+ iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 22 -j ACCEPT
+ 
+  
+ iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p udp -m state --state NEW,ESTABLISHED -m udp --dport 53 -j ACCEPT
+ 
+ iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 80 -j ACCEPT
+ 
+ iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 443 -j ACCEPT
+ 
+ iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p icmp -j ACCEPT
+ 
+ iptables -A FORWARD -i $EXTERNAL_INTERFACE -o $DMZ_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 80 -j ACCEPT
+ 
+ iptables -A FORWARD -i $EXTERNAL_INTERFACE -o $DMZ_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 443 -j ACCEPT
+ 
+ iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 22 -j ACCEPT
+ 
+ iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -p udp -m state --state NEW,ESTABLISHED -m udp --dport 53 -j ACCEPT
+ 
+ iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 80 -j ACCEPT
+ 
+ iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 443 -j ACCEPT
+ 
+ iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -p icmp -j ACCEPT
+ 
+ iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p icmp -j ACCEPT
+ 
+ #iptables -A FORWARD -i $INTERNAL_INTERFACE -o $DMZ_INTERFACE -m state --state NEW,ESTABLISHED -j ACCEPT
+ 
+  
+ iptables -A FORWARD -i $DMZ_INTERFACE -o $INTERNAL_INTERFACE -m state --state RELATED,ESTABLISHED -j ACCEPT
+ 
+ iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -m state --state RELATED,ESTABLISHED -j ACCEPT
+ 
+ iptables -A FORWARD -i $EXTERNAL_INTERFACE -o $DMZ_INTERFACE -m state --state RELATED,ESTABLISHED -j ACCEPT
+ 
+ iptables -A FORWARD -i $EXTERNAL_INTERFACE -o $INTERNAL_INTERFACE -m state --state RELATED,ESTABLISHED -j ACCEPT
+ 
+ ##############################################################################
+ 
+ ##
+ 
+ ## NATの設定
+ 
+ ##
+ 
+  
+ iptables -A POSTROUTING -t nat -s $INTERNAL_LAN -o $EXTERNAL_INTERFACE -j SNAT \
+ 
+ 5H--to-source $IPADDR
+[?25h[?0c[62;1H[61;1H[60;1H[59;1H[58;1H[57;1H[56;1H[?25l[?1c[64;1H:[?25h[?0cwq
+[?25l[?1c"iptables-sample2.sh" 126L, 5798C written
+[?25h[?0c
+
+[root@localhost ~]# vi iptables-sample2.sh 
+[1;64r[?25h[?8c[?25h[?0c[27m[24m[0m[H[J[?25l[?1c[64;1H"iptables-sample2.sh" 126L, 5798C[1;1H#!/bin/sh
+
+PATH=/sbin:/bin:/usr/bin:/usr/sbin
+
+## 変数の定義
+EXTERNAL_INTERFACE="enp1s0"[7C# 外側インタフェースの名前
+DMZ_INTERFACE="enp2s0"[12C# DMZ インタフェースの名前
+INTERNAL_INTERFACE="enp3s0"[7C# 内側インタフェースの名前
+
+# 外側インタフェースのIPアドレス
+IPADDR=`ip addr show $EXTERNAL_INTERFACE | \
+ sed -e 's/^.*inet \([^ \/]*\).*$/\1/p' -e d`
+# 内部ネットワーク・アドレス
+INTERNAL_LAN=`ip addr show $INTERNAL_INTERFACE | \
+ sed -e 's/^.*inet \([^ ]*\).*$/\1/p' -e d`
+
+# DMZネットワーク・アドレス
+DMZ_LAN=`ip addr show $DMZ_INTERFACE | \
+ sed -e 's/^.*inet \([^ ]*\).*$/\1/p' -e d`
+
+ANYWHERE="0.0.0.0/0"
+
+## 以下の設定を実行している間はパケットの転送を停止する
+echo 0 > /proc/sys/net/ipv4/ip_forward
+
+## すでに設定されているルールを消去する
+iptables -F
+iptables -F -t nat
+
+## ポリシーの初期設定 -> matchしない場合の扱い
+iptables -P INPUT DROP
+iptables -P OUTPUT DROP
+iptables -P FORWARD DROP
+
+## ループバック・インタフェースの入出力を許可する
+iptables -A INPUT -i lo -j ACCEPT
+iptables -A OUTPUT -o lo -j ACCEPT
+
+##############################################################################
+##
+## INPUTチェーンの設定（デフォルト拒否）
+##
+
+iptables -A INPUT -i $EXTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \
+    --dport 22 -j ACCEPT
+iptables -A INPUT -i $INTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \
+    --dport 22 -j ACCEPT
+iptables -A INPUT -i $INTERNAL_INTERFACE -p udp -m state --state NEW -m udp \
+    --dport 67 -j ACCEPT
+iptables -A INPUT -i $INTERNAL_INTERFACE -p icmp -j ACCEPT
+iptables -A INPUT -i $DMZ_INTERFACE -p udp -m state --state NEW -m udp \
+    --dport 67 -j ACCEPT
+iptables -A INPUT -i $DMZ_INTERFACE -p icmp -j ACCEPT
+iptables -A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+
+
+##############################################################################
+##
+## OUTPUTチェーンの設定（デフォルト拒否）
+##
+
+iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \
+    --dport 22 -j ACCEPT[1;1H[?25h[?0c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l[?1c[1;63r[63;1H
+ iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \[64;1H[K[63;1H 
+ 5H--dport 80 -j ACCEPT
+ 
+ iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \
+ 
+ 5H--dport 443 -j ACCEPT
+ 
+ iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p udp -m state --state NEW -m udp \
+ 
+ 5H--dport 53 -j ACCEPT
+ 
+ iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p icmp -j ACCEPT
+ 
+ iptables -A OUTPUT -o $INTERNAL_INTERFACE -p icmp -j ACCEPT
+ 
+ iptables -A OUTPUT -o $DMZ_INTERFACE -p tcp -m state --state NEW -m tcp \
+ 
+ 5H--dport 22 -j ACCEPT
+ 
+ iptables -A OUTPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+ 
+  
+  
+ ##############################################################################
+ 
+ ##
+ 
+ ## FORWARDチェーンの設定（デフォルト拒否）
+ 
+ ##
+ 
+  
+ iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 22 -j ACCEPT
+ 
+  
+ iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p udp -m state --state NEW,ESTABLISHED -m udp --dport 53 -j ACCEPT
+ 
+ iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 80 -j ACCEPT
+ 
+ iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 443 -j ACCEPT
+ 
+ iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p icmp -j ACCEPT
+ 
+ iptables -A FORWARD -i $EXTERNAL_INTERFACE -o $DMZ_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 80 -j ACCEPT
+ 
+ iptables -A FORWARD -i $EXTERNAL_INTERFACE -o $DMZ_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 443 -j ACCEPT
+ 
+ iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 22 -j ACCEPT
+ 
+ iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -p udp -m state --state NEW,ESTABLISHED -m udp --dport 53 -j ACCEPT
+ 
+ iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 80 -j ACCEPT
+ 
+ iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 443 -j ACCEPT
+ 
+ iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -p icmp -j ACCEPT
+ 
+ iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p icmp -j ACCEPT
+ 
+ #iptables -A FORWARD -i $INTERNAL_INTERFACE -o $DMZ_INTERFACE -m state --state NEW,ESTABLISHED -j ACCEPT
+ 
+  
+ iptables -A FORWARD -i $DMZ_INTERFACE -o $INTERNAL_INTERFACE -m state --state RELATED,ESTABLISHED -j ACCEPT
+ 
+ iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -m state --state RELATED,ESTABLISHED -j ACCEPT
+ 
+ iptables -A FORWARD -i $EXTERNAL_INTERFACE -o $DMZ_INTERFACE -m state --state RELATED,ESTABLISHED -j ACCEPT
+ 
+ iptables -A FORWARD -i $EXTERNAL_INTERFACE -o $INTERNAL_INTERFACE -m state --state RELATED,ESTABLISHED -j ACCEPT
+ 
+ ##############################################################################
+ 
+ ##
+ 
+ ## NATの設定
+ 
+ ##
+ 
+  
+ iptables -A POSTROUTING -t nat -s $INTERNAL_LAN -o $EXTERNAL_INTERFACE -j SNAT \
+ 
+ 5H--to-source $IPADDR
+ 
+  
+ iptables -A POSTROUTING -t nat -s $DMZ_LAN -o $EXTERNAL_INTERFACE -j SNAT \
+ 
+ 5H--to-source $IPADDR
+[?25h[?0c[62;1H[61;1H[60;1H[59;1H[58;1H[57;1H[56;1H[55;1H[54;1H[53;1H[52;1H[51;1H[50;1H[49;1H[48;1H[47;1H
+#[?25l[?1c[64;1H[1m-- INSERT --[48;1H[?25h[?0c[0m#[?25l[?1ciptables -A FORWARD -i $INTERNAL_INTERFACE -o $DMZ_INTERFACE -m state --state NEW,ESTABLISHED -j ACCEPT[48;104H[K[48;1H[?25h[?0c[64;1H[K[48;1H[?25l[?1c[?25h[?0c[?25l[?1c[64;1H:[?25h[?0cwq
+[?25l[?1c"iptables-sample2.sh" 126L, 5797C written
+[?25h[?0c
+
+[root@localhost ~]# vi iptables-sample2.sh 
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[root@localhost ~]# sh iptables-sample2.sh 
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvi[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[1;64r[?25h[?8c[?25h[?0c[27m[24m[0m[H[J[?25l[?1c[64;1H"iptables-sample2.sh" 126L, 5797C[1;1H#!/bin/sh
+
+PATH=/sbin:/bin:/usr/bin:/usr/sbin
+
+## 変数の定義
+EXTERNAL_INTERFACE="enp1s0"[7C# 外側インタフェースの名前
+DMZ_INTERFACE="enp2s0"[12C# DMZ インタフェースの名前
+INTERNAL_INTERFACE="enp3s0"[7C# 内側インタフェースの名前
+
+# 外側インタフェースのIPアドレス
+IPADDR=`ip addr show $EXTERNAL_INTERFACE | \
+ sed -e 's/^.*inet \([^ \/]*\).*$/\1/p' -e d`
+# 内部ネットワーク・アドレス
+INTERNAL_LAN=`ip addr show $INTERNAL_INTERFACE | \
+ sed -e 's/^.*inet \([^ ]*\).*$/\1/p' -e d`
+
+# DMZネットワーク・アドレス
+DMZ_LAN=`ip addr show $DMZ_INTERFACE | \
+ sed -e 's/^.*inet \([^ ]*\).*$/\1/p' -e d`
+
+ANYWHERE="0.0.0.0/0"
+
+## 以下の設定を実行している間はパケットの転送を停止する
+echo 0 > /proc/sys/net/ipv4/ip_forward
+
+## すでに設定されているルールを消去する
+iptables -F
+iptables -F -t nat
+
+## ポリシーの初期設定 -> matchしない場合の扱い
+iptables -P INPUT DROP
+iptables -P OUTPUT DROP
+iptables -P FORWARD DROP
+
+## ループバック・インタフェースの入出力を許可する
+iptables -A INPUT -i lo -j ACCEPT
+iptables -A OUTPUT -o lo -j ACCEPT
+
+##############################################################################
+##
+## INPUTチェーンの設定（デフォルト拒否）
+##
+
+iptables -A INPUT -i $EXTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \
+    --dport 22 -j ACCEPT
+iptables -A INPUT -i $INTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \
+    --dport 22 -j ACCEPT
+iptables -A INPUT -i $INTERNAL_INTERFACE -p udp -m state --state NEW -m udp \
+    --dport 67 -j ACCEPT
+iptables -A INPUT -i $INTERNAL_INTERFACE -p icmp -j ACCEPT
+iptables -A INPUT -i $DMZ_INTERFACE -p udp -m state --state NEW -m udp \
+    --dport 67 -j ACCEPT
+iptables -A INPUT -i $DMZ_INTERFACE -p icmp -j ACCEPT
+iptables -A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+
+
+##############################################################################
+##
+## OUTPUTチェーンの設定（デフォルト拒否）
+##
+
+iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \
+ --dport 22 -j ACCEPT
+ iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \[64;1H[K[63;1H 
+ --dport 80 -j ACCEPT
+ iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW -m tcp \
+ --dport 443 -j ACCEPT
+ iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p udp -m state --state NEW -m udp \
+ --dport 53 -j ACCEPT
+ iptables -A OUTPUT -o $EXTERNAL_INTERFACE -p icmp -j ACCEPT
+ iptables -A OUTPUT -o $INTERNAL_INTERFACE -p icmp -j ACCEPT
+ iptables -A OUTPUT -o $DMZ_INTERFACE -p tcp -m state --state NEW -m tcp \
+ --dport 22 -j ACCEPT
+ iptables -A OUTPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+ 
+  
+  
+ ##############################################################################
+ ##
+ ## FORWARDチェーンの設定（デフォルト拒否）
+ ##
+ iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 22 -j ACCEPT
+ iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p udp -m state --state NEW,ESTABLISHED -m udp --dport 53 -j ACCEPT
+ iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 80 -j ACCEPT
+ iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 443 -j ACCEPT
+ iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p icmp -j ACCEPT
+ iptables -A FORWARD -i $EXTERNAL_INTERFACE -o $DMZ_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 80 -j ACCEPT
+ iptables -A FORWARD -i $EXTERNAL_INTERFACE -o $DMZ_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 443 -j ACCEPT
+ iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 22 -j ACCEPT
+ iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -p udp -m state --state NEW,ESTABLISHED -m udp --dport 53 -j ACCEPT
+ iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 80 -j ACCEPT
+ iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -p tcp -m state --state NEW,ESTABLISHED -m tcp --dport 443 -j ACCEPT
+ iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -p icmp -j ACCEPT
+ iptables -A FORWARD -i $INTERNAL_INTERFACE -o $EXTERNAL_INTERFACE -p icmp -j ACCEPT
+ iptables -A FORWARD -i $INTERNAL_INTERFACE -o $DMZ_INTERFACE -m state --state NEW,ESTABLISHED -j ACCEPT
+ iptables -A FORWARD -i $DMZ_INTERFACE -o $INTERNAL_INTERFACE -m state --state RELATED,ESTABLISHED -j ACCEPT
+ iptables -A FORWARD -i $DMZ_INTERFACE -o $EXTERNAL_INTERFACE -m state --state RELATED,ESTABLISHED -j ACCEPT
+ iptables -A FORWARD -i $EXTERNAL_INTERFACE -o $DMZ_INTERFACE -m state --state RELATED,ESTABLISHED -j ACCEPT
+ iptables -A FORWARD -i $EXTERNAL_INTERFACE -o $INTERNAL_INTERFACE -m state --state RELATED,ESTABLISHED -j ACCEPT
+ ##############################################################################
+ ##
+ ## NATの設定
+ ##  
+iptables -A POSTROUTING -t nat -s $INTERNAL_LAN -o $EXTERNAL_INTERFACE -j SNAT \ 
+5H--to-source $IPADDR
+  
+iptables -A POSTROUTING -t nat -s $DMZ_LAN -o $EXTERNAL_INTERFACE -j SNAT --to-source $IPADDR
+  
+iptables -A PREROUTING -t nat -p tcp --dport 80 -i $EXTERNAL_INTERFACE -j DNAT --to-destination 192.168.150.2
+iptables -A PREROUTING -t nat -p tcp --dport 443 -i $EXTERNAL_INTERFACE -j DNAT --to-destination 192.168.150.2
+   
+############################################################################## 
+##
+## 設定の保存 
+## 
+#/etc/init.d/iptables save active
+   
+## パケットの転送を開始する
+echo 1 > /proc/sys/net/ipv4/ip_forward
+exit 0
+
+
+[root@localhost ~]# iptables -L[KL -N -V[K[K[K[Kn -V
+iptables v1.4.21
+[root@localhost ~]# iptables -L -n -V[Kv
+Chain INPUT (policy DROP 0 packets, 0 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 ACCEPT     all  --  lo     *       0.0.0.0/0            0.0.0.0/0           
+    0     0 ACCEPT     tcp  --  enp1s0 *       0.0.0.0/0            0.0.0.0/0            state NEW tcp dpt:22
+    0     0 ACCEPT     tcp  --  enp3s0 *       0.0.0.0/0            0.0.0.0/0            state NEW tcp dpt:22
+    1   328 ACCEPT     udp  --  enp3s0 *       0.0.0.0/0            0.0.0.0/0            state NEW udp dpt:67
+    3   252 ACCEPT     icmp --  enp3s0 *       0.0.0.0/0            0.0.0.0/0           
+    0     0 ACCEPT     udp  --  enp2s0 *       0.0.0.0/0            0.0.0.0/0            state NEW udp dpt:67
+    0     0 ACCEPT     icmp --  enp2s0 *       0.0.0.0/0            0.0.0.0/0           
+    0     0 ACCEPT     all  --  *      *       0.0.0.0/0            0.0.0.0/0            state RELATED,ESTABLISHED
+
+Chain FORWARD (policy DROP 0 packets, 0 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 ACCEPT     tcp  --  enp3s0 enp1s0  0.0.0.0/0            0.0.0.0/0            state NEW,ESTABLISHED tcp dpt:22
+   36  2340 ACCEPT     udp  --  enp3s0 enp1s0  0.0.0.0/0            0.0.0.0/0            state NEW,ESTABLISHED udp dpt:53
+ 3950  210K ACCEPT     tcp  --  enp3s0 enp1s0  0.0.0.0/0            0.0.0.0/0            state NEW,ESTABLISHED tcp dpt:80
+   20  1455 ACCEPT     tcp  --  enp3s0 enp1s0  0.0.0.0/0            0.0.0.0/0            state NEW,ESTABLISHED tcp dpt:443
+    0     0 ACCEPT     icmp --  enp3s0 enp1s0  0.0.0.0/0            0.0.0.0/0           
+    9   540 ACCEPT     tcp  --  enp1s0 enp2s0  0.0.0.0/0            0.0.0.0/0            state NEW,ESTABLISHED tcp dpt:80
+    0     0 ACCEPT     tcp  --  enp1s0 enp2s0  0.0.0.0/0            0.0.0.0/0            state NEW,ESTABLISHED tcp dpt:443
+    0     0 ACCEPT     tcp  --  enp2s0 enp1s0  0.0.0.0/0            0.0.0.0/0            state NEW,ESTABLISHED tcp dpt:22
+    0     0 ACCEPT     udp  --  enp2s0 enp1s0  0.0.0.0/0            0.0.0.0/0            state NEW,ESTABLISHED udp dpt:53
+    0     0 ACCEPT     tcp  --  enp2s0 enp1s0  0.0.0.0/0            0.0.0.0/0            state NEW,ESTABLISHED tcp dpt:80
+    0     0 ACCEPT     tcp  --  enp2s0 enp1s0  0.0.0.0/0            0.0.0.0/0            state NEW,ESTABLISHED tcp dpt:443
+    0     0 ACCEPT     icmp --  enp2s0 enp1s0  0.0.0.0/0            0.0.0.0/0           
+    0     0 ACCEPT     icmp --  enp3s0 enp1s0  0.0.0.0/0            0.0.0.0/0           
+   37  2580 ACCEPT     all  --  enp3s0 enp2s0  0.0.0.0/0            0.0.0.0/0            state NEW,ESTABLISHED
+    0     0 ACCEPT     all  --  enp2s0 enp3s0  0.0.0.0/0            0.0.0.0/0            state RELATED,ESTABLISHED
+    0     0 ACCEPT     all  --  enp2s0 enp1s0  0.0.0.0/0            0.0.0.0/0            state RELATED,ESTABLISHED
+    0     0 ACCEPT     all  --  enp1s0 enp2s0  0.0.0.0/0            0.0.0.0/0            state RELATED,ESTABLISHED
+ 5539   12M ACCEPT     all  --  enp1s0 enp3s0  0.0.0.0/0            0.0.0.0/0            state RELATED,ESTABLISHED
+
+Chain OUTPUT (policy DROP 0 packets, 0 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 ACCEPT     all  --  *      lo      0.0.0.0/0            0.0.0.0/0           
+    0     0 ACCEPT     tcp  --  *      enp1s0  0.0.0.0/0            0.0.0.0/0            state NEW tcp dpt:22
+    0     0 ACCEPT     tcp  --  *      enp1s0  0.0.0.0/0            0.0.0.0/0            state NEW tcp dpt:80
+    0     0 ACCEPT     tcp  --  *      enp1s0  0.0.0.0/0            0.0.0.0/0            state NEW tcp dpt:443
+    0     0 ACCEPT     udp  --  *      enp1s0  0.0.0.0/0            0.0.0.0/0            state NEW udp dpt:53
+    9   792 ACCEPT     icmp --  *      enp1s0  0.0.0.0/0            0.0.0.0/0           
+   40  3868 ACCEPT     icmp --  *      enp3s0  0.0.0.0/0            0.0.0.0/0           
+    0     0 ACCEPT     tcp  --  *      enp2s0  0.0.0.0/0            0.0.0.0/0            state NEW tcp dpt:22
+    1   328 ACCEPT     all  --  *      *       0.0.0.0/0            0.0.0.0/0            state RELATED,ESTABLISHED
+[root@localhost ~]# ip addd[Kr
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: enp1s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 00:e0:67:12:2d:b4 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.100.16/24 brd 192.168.100.255 scope global noprefixroute enp1s0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::1a08:bb64:b6fa:6306/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+3: enp2s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 00:e0:67:12:2d:b5 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.150.1/24 brd 192.168.150.255 scope global noprefixroute enp2s0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::7105:2b44:d672:1d35/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+4: enp3s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 00:e0:67:12:2d:b6 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.200.1/24 brd 192.168.200.255 scope global noprefixroute enp3s0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::529e:6ff3:921e:e220/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+5: enp4s0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc pfifo_fast state DOWN group default qlen 1000
+    link/ether 00:e0:67:12:2d:b7 brd ff:ff:ff:ff:ff:ff
+[root@localhost ~]# ip route
+default via 192.168.100.1 dev enp1s0 proto static metric 100 
+192.168.100.0/24 dev enp1s0 proto kernel scope link src 192.168.100.16 metric 100 
+192.168.150.0/24 dev enp2s0 proto kernel scope link src 192.168.150.1 metric 101 
+192.168.200.0/24 dev enp3s0 proto kernel scope link src 192.168.200.1 metric 102 
+[root@localhost ~]# cat /etc/dhcp/dhcpd.conf
+#
+# DHCP Server Configuration file.
+#   see /usr/share/doc/dhcp*/dhcpd.conf.example
+#   see dhcpd.conf(5) man page
+#
+
+default-lease-time 3600;
+max-lease-time 86400;
+option domain-name-servers 10.10.1.2;
+option subnet-mask 255.255.255.0;
+
+subnet 192.168.150.0 netmask 255.255.255.0 {
+option routers 192.168.150.1;
+range 192.168.150.100 192.168.150.250;
+host ns{
+max-lease-time 2592000;
+hardware ethernet 94:C6:91:A9:07:2C;
+fixed-address 192.168.150.2;
+}
+}
+subnet 192.168.200.0 netmask 255.255.255.0{
+option routers 192.168.200.1;
+range 192.168.200.100 192.168.200.250;
+}
+
+[root@localhost ~]# vi /etc/dhcp/dhcpd.conf
+[1;64r[?25h[?8c[?25h[?0c[27m[24m[0m[H[J[?25l[?1c[64;1H"/etc/dhcp/dhcpd.conf" 25L, 571C[1;1H#
+# DHCP Server Configuration file.
+#   see /usr/share/doc/dhcp*/dhcpd.conf.example
+#   see dhcpd.conf(5) man page
+#
+
+default-lease-time 3600;
+max-lease-time 86400;
+option domain-name-servers 10.10.1.2;
+option subnet-mask 255.255.255.0;
+
+subnet 192.168.150.0 netmask 255.255.255.0 {
+option routers 192.168.150.1;
+range 192.168.150.100 192.168.150.250;
+host ns{
+max-lease-time 2592000;
+hardware ethernet 94:C6:91:A9:07:2C;
+fixed-address 192.168.150.2;
+}
+}
+subnet 192.168.200.0 netmask 255.255.255.0{
+option routers 192.168.200.1;
+range 192.168.200.100 192.168.200.250;
+}
+
+[1m[34m~                                                                                                                                                               [27;1H~                                                                                                                                                               [28;1H~                                                                                                                                                               [29;1H~                                                                                                                                                               [30;1H~                                                                                                                                                               [31;1H~                                                                                                                                                               [32;1H~                                                                                                                                                               [33;1H~                                                                                                                                                               [34;1H~                                                                                                                                                               [35;1H~                                                                                                                                                               [36;1H~                                                                                                                                                               [37;1H~                                                                                                                                                               [38;1H~                                                                                                                                                               [39;1H~                                                                                                                                                               [40;1H~                                                                                                                                                               [41;1H~                                                                                                                                                               [42;1H~                                                                                                                                                               [43;1H~                                                                                                                                                               [44;1H~                                                                                                                                                               [45;1H~                                                                                                                                                               [46;1H~                                                                                                                                                               [47;1H~                                                                                                                                                               [48;1H~                                                                                                                                                               [49;1H~                                                                                                                                                               [50;1H~                                                                                                                                                               [51;1H~                                                                                                                                                               [52;1H~                                                                                                                                                               [53;1H~                                                                                                                                                               [54;1H~                                                                                                                                                               [55;1H~                                                                                                                                                               [56;1H~                                                                                                                                                               [57;1H~                                                                                                                                                               [58;1H~                                                                                                                                                               [59;1H~                                                                                                                                                               [60;1H~                                                                                                                                                               [61;1H~                                                                                                                                                               [62;1H~                                                                                                                                                               [63;1H~                                                                                                                                                               [1;1H[?25h[?0c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[18;1H[17;1H[0mhardware ethernet 94:C6:91:A9:07:2[?25l[?1c[64;1H[1m-- INSERT --[0m[64;13H[K[17;35H[?25h[?0cC[?25l[?1c;[17;36H[K[17;35H[?25h[?0c[?25l[?1c;[17;35H[K[17;34H[?25h[?0c[?25l[?1c;[17;34H[K[17;33H[?25h[?0c[?25l[?1c;[17;33H[K[17;32H[?25h[?0c[?25l[?1c;[17;32H[K[17;31H[?25h[?0c[?25l[?1c;[17;31H[K[17;30H[?25h[?0c[?25l[?1c;[17;30H[K[17;29H[?25h[?0c[?25l[?1c8;[?25h[?0c[?25l[?1c:;[?25h[?0c[?25l[?1cC;[?25h[?0c[?25l[?1c9;[?25h[?0c[?25l[?1c:;[?25h[?0c[?25l[?1c5;[?25h[?0c[?25l[?1c4;[?25h[?0c[64;1H[K[17;35H[?25l[?1c[?25h[?0c[?25l[?1c[64;1H:[?25h[?0cwq
+[?25l[?1c"/etc/dhcp/dhcpd.conf" 25L, 571C written
+[?25h[?0c
+
+[root@localhost ~]# vi /etc/dhcp/dhcpd.conf
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@cat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Pip routecat /etc/dhcp/dhcpd.conf[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksytem[K[K[Kstemctrl[K[Kl restart
+Too few arguments.
+[root@localhost ~]# systemctl restart[C[Cdrestarthrestartcrestartprestart[1Prestart[1Prestart[1Prestart[1Prestart[C[C[C[C[C[C[C dhcpd
+[root@localhost ~]# systemctl status dhcpd
+[1;32m●[0m dhcpd.service - DHCPv4 Server Daemon
+   Loaded: loaded (/usr/lib/systemd/system/dhcpd.service; enabled; vendor preset: disabled)
+   Active: [1;32mactive (running)[0m since Thu 2019-05-23 19:35:48 JST; 15s ago
+     Docs: man:dhcpd(8)
+           man:dhcpd.conf(5)
+ Main PID: 3469 (dhcpd)
+   Status: "Dispatching packets..."
+   CGroup: /system.slice/dhcpd.service
+           └─3469 /usr/sbin/dhcpd -f -cf /etc/dhcp/dhcpd.conf -user dhcpd -group dhcpd --no-pid
+
+May 23 19:35:48 localhost.localdomain dhcpd[3469]: Sending on   LPF/enp2s0/00:e0:67:12:2d:b5/192.168.150.0/24
+May 23 19:35:48 localhost.localdomain dhcpd[3469]: 
+May 23 19:35:48 localhost.localdomain systemd[1]: Started DHCPv4 Server Daemon.
+May 23 19:35:48 localhost.localdomain dhcpd[3469]: [1;31mNo subnet declaration for enp1s0 (192.168.100.16).[0m
+May 23 19:35:48 localhost.localdomain dhcpd[3469]: [1;31m** Ignoring requests on enp1s0.  If this is not what[0m
+May 23 19:35:48 localhost.localdomain dhcpd[3469]: [1;31m   you want, please write a subnet declaration[0m
+May 23 19:35:48 localhost.localdomain dhcpd[3469]: [1;31m   in your dhcpd.conf file for the network segment[0m
+May 23 19:35:48 localhost.localdomain dhcpd[3469]: [1;31m   to which interface enp1s0 is attached. **[0m
+May 23 19:35:48 localhost.localdomain dhcpd[3469]: 
+May 23 19:35:48 localhost.localdomain dhcpd[3469]: Sending on   Socket/fallback/fallback-net
+[root@localhost ~]# sh [K[K[Kssh 192.168.150.2
+The authenticity of host '192.168.150.2 (192.168.150.2)' can't be established.
+ECDSA key fingerprint is SHA256:wMK7LqTajelGkHgjpgbwmZYXpbLSLUOiBBTgEghrTaU.
+ECDSA key fingerprint is MD5:20:6b:bb:31:66:e2:f5:dd:6e:e2:71:7d:b2:5a:37:03.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '192.168.150.2' (ECDSA) to the list of known hosts.
+
+root@192.168.150.2's password: 
+Last login: Thu May 23 17:29:52 2019 from 192.168.150.100
+
+[root@localhost ~]# ls
+anaconda-ks.cfg  nikai2.log  root@icesc16  yama.log
+[root@localhost ~]# get nikai2.log
+-bash: get: command not found
+[root@localhost ~]# sftp get nikai2.log
+ssh: Could not resolve hostname get: Name or service not known
+
+Couldn't read packet: Connection reset by peer
+
+[root@localhost ~]# sftp get nikai2.log[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P nikai2.log[1P nikai2.log[1P nikai2.logs nikai2.logc nikai2.logo nikai2.log[1P nikai2.logp nikai2.log[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
+logout
+Connection to 192.168.150.2 closed.
+
+[root@localhost ~]# iptables > save[K[K[K[K[K[Ksave > /etc/sysconfig/iptables
+Bad argument `save'
+Try `iptables -h' or 'iptables --help' for more information.
+[root@localhost ~]# iptables save > /etc/sysconfig/iptables[1@-
+iptables v1.4.21: no command specified
+Try `iptables -h' or 'iptables --help' for more information.
+[root@localhost ~]# iptables -save > /etc/sysconfig/iptables[1P
+[root@localhost ~]# exit
+exit
+
+Script done on Thu 23 May 2019 07:58:34 PM JST

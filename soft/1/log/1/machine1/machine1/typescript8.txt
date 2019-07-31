@@ -1,0 +1,8 @@
+Script started on Thu 16 May 2019 02:47:18 PM JST
+[root@icesc12 ~]# systemctl restart dhcpd
+[root@icesc12 ~]# chkconfig dhcpd
+Note: Forwarding request to 'systemctl is-enabled dhcpd.service'.
+disabled
+[root@icesc12 ~]# exit
+
+Script done on Thu 16 May 2019 02:47:40 PM JST

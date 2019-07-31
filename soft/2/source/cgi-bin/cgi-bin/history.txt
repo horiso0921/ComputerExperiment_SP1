@@ -1,0 +1,702 @@
+    1  uname -r
+    2  cat /etc/fstab 
+    3  fdisk -l
+    4  df
+    5  lvdisplay
+    6  hostname www2.ice.nuie.nagoya-u.ac.jp
+    7  hostname
+    8  cat /etc/sysconfig/selinux 
+    9  getenforce 
+   10  setenforce 0
+   11  nmcli device status
+   12  nmcli device show
+   13  nmcli connection show --active
+   14  nmcli c m enp3s0 ipv4.method auto
+   15  nmcli c enp3s0 connection.autoconnect yes
+   16  nmcli c m enp3s0 connection.autoconnect yes
+   17  systemctl network restart
+   18  systemctl restart network
+   19  nmcli c down enp3s0
+   20  nmcli c up enp3s0
+   21  cat /etc/resolv.conf
+   22  ip addr
+   23  ip route
+   24  ip neighbor
+   25  script
+   26  mv typescript typescript1
+   27  script
+   28  vi /etc/hostname
+   29  cat /etc/hostname > hostname
+   30  cat /etc/hostname
+   31  script
+   32  ls
+   33  mv typescript typescript2
+   34  vi /etc/sysconfig/seilnux
+   35  vi /etc/sysconfig/selinux 
+   36  cat /etc/sysconfig/selinux > selinux
+   37  script
+   38  ls
+   39  mv typescript typescript3
+   40  script
+   41  ls
+   42  mv typescript typescript4
+   43  systemctl status network.service ournalctl -xe
+   44  systemctl status network.service
+   45  nmcli c show enp3s0
+   46  man nmcli
+   47  nmcli connection help
+   48  nmcli c show enp3s0
+   49  script
+   50  ls
+   51  mv typescript typescript5
+   52  ifconfig -a
+   53  nmcli c show enp3s0
+   54  nmcli show devices
+   55  nmcli device show
+   56  script
+   57  ls
+   58  mv typescript typescript6
+   59  ip addr
+   60  ip route
+   61  dmesg
+   62  nmcli c show
+   63  nmcli devices show
+   64  nmcli device show
+   65  ls /dev/sdb*
+   66  ls /dev/
+   67  ls /mnt
+   68  dmesg | grep sdb
+   69  mount
+   70  cd /dev/sda1/HW1
+   71  mount
+   72  dmesg
+   73  mount
+   74  ls /dev
+   75  mount /dev/sdb1 /mnt
+   76  ls /mnt
+   77  cd /mnt
+   78  mkdir machine2
+   79  cd ~
+   80  ls
+   81  cp hostname /mnt/machine2/
+   82  cp selinux /mnt/machine2/
+   83  cp typescript1 /mnt/machine2/
+   84  cp typescript2 /mnt/machine2/
+   85  cp typescript3 /mnt/machine2/
+   86  cp typescript4 /mnt/machine2/
+   87  cp typescript5 /mnt/machine2/
+   88  cp typescript6 /mnt/machine2/
+   89  ls /mnt/machine2/
+   90  umount /mnt
+   91  poweroff
+   92  reboot
+   93  dig httpbin.org
+   94  curl http://httpbin.org/get
+   95  curl https://httpbin.org/get
+   96  ping -c 5 www.google.co.jp
+   97  ssh root@192.168.200.100
+   98  curl http://192.168.200.100
+   99  curl https://192.168.200.100
+  100  ping -c 5 192.168.200.100
+  101  systemctl status firewalld
+  102  firewall-cmd --list-all
+  103  firewall-cmd --add-service=dhcpv6-client
+  104  firewall-cmd --add-service=http
+  105  firewall-cmd --add-service=https
+  106  firewall-cmd --list-all
+  107  nmcli con down enp3s0
+  108  nmcli con up enp3s0
+  109  firewall-cmd --permanent --add-service=dhcpv6-client
+  110  firewall-cmd --permanent -add-service=http
+  111  firewall-cmd --permanent --add-service=http
+  112  firewall-cmd --permanent --add-service=https
+  113  firewall-cmd reload
+  114  systemctl restart firewalld
+  115  systemctl stop firewalld
+  116  yum info httpd
+  117  yum info mod_ssl
+  118  yum install httpd
+  119  yum install mod_ssl
+  120  cd /etc/pki/tls/certs
+  121  openssl genrsa -aes128 1024 > server.key
+  122  openssl rsa -in server.key -out server.key
+  123  openssl req -utf8 -new -key server.key -out server.csr
+  124  openssl x509 -in server.csr -out server.crt -days 365 -req -signkey server.key
+  125  systemctl restart httpd
+  126  systemctl enable httpd
+  127  yum install mod_wsgi
+  128  type dig
+  129  yum install bind-utils
+  130  ls
+  131  mkdir machine2_2
+  132  cd machine2_2/
+  133  script
+  134  mv typescript typescript1
+  135  ls
+  136  script
+  137  ls
+  138  mv typescript typescript2
+  139  ls
+  140  script
+  141  ls
+  142  mv typescript typescript3
+  143  ls
+  144  script
+  145  ls
+  146  mv typescript typescript4
+  147  ls
+  148  script
+  149  ls
+  150  mv typescript typescript5
+  151  script
+  152  ls
+  153  mv typescript typescript6
+  154  vi /etc/httpd/conf.d/ssl.conf
+  155  vi /etc/httpd/conf/httpd.conf
+  156  ls
+  157  script
+  158  ls
+  159  mv typescript typescript7
+  160  script
+  161  ls
+  162  mv typescript typescript8
+  163  cd ..
+  164  scp -r machine2_2 sk2818690@ssh.ice.nuie.nagoya-u.ac.jp:
+  165  history | grep mout
+  166  history | grep mount
+  167  mount /dev/sdb1 /mnt
+  168  cp -r machine2_2/ /mnt
+  169  umount /mnt
+  170  ls
+  -----------------------------------------------------------
+  171  mkdir machine2_3
+  172  cd machine2_3
+  173  script
+  174  mv typescript typescript1
+  175  vi /etc/httpd/conf.d/wsgi.conf
+  176  scp kw0791975@ssh.ice.nuie.nagoya-u.ac.jp:/pub1/jikken/cs-net/test_wsgi.py /var/www/cgi-bin/test_wsgi.py
+  177  vi /var/www/cgi-bin/test_wsgi.py
+  178  systemctl restart httpd
+  179  vi /etc/httpd/conf.d/wsgi.conf
+  180  vi /var/www/cgi-bin/test_wsgi.py
+  181  systemctl restart httpd
+  182  vi /var/www/cgi-bin/test_wsgi.py
+  183  python -v
+  184  python --version
+  185  python3 --version
+  186  poweroff
+  187  yum install https://centos7.iuscommunity.org/ius-release.rpm
+  188  yum install python37u python37u-libs python37u-devel python37u-pip
+  189  yum search python37
+  190  yum search python36
+  191  yum install python36u python36u-libs python36u-devel python36u-pip
+  192  python3.6 --version
+  193  python --version
+  194  python3
+  195  apt search python
+  196  type sqlite3
+  197  yum list python
+  198  yum list python\*
+  199  yum list python\* | less
+  200  ls
+  --------------------------------------------------------
+  201  mkdir machine2_4
+  202  cd machine2_4
+  203  script
+  204  mv typescript typescript1
+  205  poweroff
+  206  history | grep mount
+  207  mount /dev/sdb1 /mnt
+  208  ls /dev
+  209  dmesg
+  210  ls /dev
+  211  dmesg -wH
+  212  history | grep mount
+  213  mount /dev/sdb1 /mnt
+  214  cp -r /mnt/db .
+  215  umount /mnt
+  216  dmesg -wH
+  217  jsck
+  218  fsck
+  219  dmesg -wH
+  220  ls
+  221  mv db www
+  222  cd www
+  223  python --version
+  224  python3 --version
+  225  python3.6 init.py
+  226  ls
+  227  python3.6 login.py 
+  228  ifconfig -a
+  229  ip addr
+  230  python3.6 login.py 
+  231  vi /etc/httpd/conf.d/wsgi.conf
+  232  pwd
+  233  vi /etc/httpd/conf.d/wsgi.conf
+  234  systemctl restart httpd
+  235  cd ..
+  236  ls
+  237  mv -r www /var/www/cgi-bin
+  238  mv www /var/www/cgi-bin
+  239  ls
+  240  vi /etc/httpd/conf.d/wsgi.conf
+  241  systemctl restart httpd
+  242  cd /var/www/cgi-bin
+  243  ls
+  244  mv www ../
+  245  cd ..
+  246  ls
+  247  rm -rf cgi-bin
+  248  mv www cgi-bin
+  249  vi /etc/httpd/conf.d/wsgi.conf
+  250  type python
+  251  python --version
+  252  pip3.6 install mod_wsgi
+  253  pip3.6 install --upgrade pip
+  254  pip3.6 install mod_wsgi
+  255  yum install httpd-devel
+  256  pip3.6 install mod_wsgi
+  257  type gcc
+  258  yum install gcc
+  259  pip3.6 install mod_wsgi
+  260  python3.6 -c "import sys; print(sys.path)"
+  261  ls /usr/lib/python3.6/site-packages
+  262  ls /usr/lib64/python3.6/site-packages
+  263  vi /etc/httpd/conf.d
+  264  vi /etc/httpd/conf.d/wsgi.confH
+  265  systemctl restart httpd
+  266  systemctl status httpd
+  267  dmesg -wH
+  268  vi /etc/httpd/conf.d/wsgi.conf
+  269  ls /usr/lib64/python3.6/site-packages/mod_wsgi
+  270  ls /usr/lib64/python3.6/site-packages/mod_wsgi/server
+  271  vi /etc/httpd/conf.d/wsgi.conf
+  272  systemctl status httpd
+  273  systemctl restart httpd
+  274  vi /etc/httpd/conf.d/wsgi.conf
+  275  apachectl restart
+  276  vi /etc/httpd/conf.d/wsgi.conf
+  277  cat /var/log/httpd/error_log
+  278  vi /var/www/cgi-bin/login.py
+  279  systemctl restart httpd
+  280  cat /var/log/httpd/error_log
+  281  vi /var/www/cgi-bin/login.py
+  282  systemctl restart httpd
+  283  cat /var/log/httpd/error_log
+  284  vi /var/www/cgi-bin/login.py
+  285  dmesg -wH
+  286  mount /dev/sdb /mnt
+  287  cp -r /mnt/db /var/www/cgi-bin
+  288  ls /mnt
+  289  umount /mnt
+  290  history | grep mnt
+  291  mount /dev/sdb1 /mnt
+  292  cp -r /mnt/db /var/www/cgi-bin
+  293  ls /var/www/cgi-bin
+  294  ls /mnt/db
+  295  rm -rf /var/www/cgi-bin
+  296  cp -r /mnt/db /var/www/cgi-bin
+  297  rm -rf /var/www/cgi-bin
+  298  cp -r /mnt/db /var/www/cgi-bin
+  299  ls /var/www/cgi-bin
+  300  systemctl restart httpd
+  301  cat /var/log/httpd/error_log
+  302  umount /mnt
+  303  dmesg -wH
+  304  mount /dev/sdb1 /mnt
+  305  rm -rf /var/www/cgi-bin
+  306  cp -r /mnt/db /var/www/cgi-bin
+  307  systemctl restart httpd
+  308  cat /var/log/httpd/error_log
+  309  vi /var/www/cgi-bin/login.py
+  310  systemctl restart httpd
+  311  cat /var/log/httpd/error_log
+  312  vi /var/www/cgi-bin/session.py
+  313  vi /var/www/cgi-bin/user.py
+  314  cat /var/log/httpd/error_log
+  315  vi /var/www/cgi-bin/user.py
+  316  apachectl restart
+  317  systemctl httpd restart
+  318  systemctl restart httpd
+  319  cat /var/log/httpd/error_log
+  320  q
+  321  vi /etc/httpd/conf.d/wsgi.conf
+  322  reboot
+  323  cat /var/log/httpd/error_log
+  324  type python
+  325  rm /bin/python
+  326  type python3.6
+  327  ln -s /bin/python3.6 /bin
+  328  ln -s /bin/python3.6 /bin/python
+  329  python --version
+  330  systemctl restart httpd
+  331  cat /var/log/httpd/error_log
+  332  apatchectl restart
+  333  apachectl restart
+  334  cat /var/log/httpd/error_log
+  335  yum install libapache2-mod-wsgi-py3
+  336  yum
+  337  cat /bin/yum
+  338  ls /bin
+  339  cat /bin/python
+  340  /bin/bash
+  341  /bin/sh
+  342  /bin/yum
+  343  python /bin/yum
+  344  vi /bin/yum
+  345  rm -f /bin/python
+  346  ls /bin/python*
+  347  ln -s /bin/python2.7 /bin
+  348  ln -s /bin/python2.7 /bin/python
+  349  yum install libapache2-mod-wsgi-py3
+  350  yum install python36u-mod_wsgi
+  351  vi /etc/httpd/conf.modules.d/10-wsgi-python3.6.conf 
+  352  systemctl restart httpd
+  353  cat /var/log/httpd/error_log
+  354  vi /etc/httpd/conf.modules.d/10-wsgi-python3.6.conf 
+  355  systemctl restart httpd
+  356  cat /var/log/httpd/error_log
+  357  vi /var/www/cgi-bin/login.py
+  358  systemctl restart httpd
+  359  vi /var/www/cgi-bin/login.py
+  360  systemctl restart httpd
+  361  cat /var/log/httpd/error_log
+  362  vi /var/www/cgi-bin/login.py
+  363  systemctl restart httpd
+  364  cat /var/log/httpd/error_log
+  365  vi /var/www/cgi-bin/login.py
+  366  systemctl restart httpd
+  367  vi /etc/httpd/conf.modules.d/10-wsgi-python3.6.conf 
+  368  systemctl restart httpd
+  369  cd /var/www/cgi-bin
+  370  sqlite3 database.db 
+  371  rm database.db 
+  372  python3.6 init.py
+  373  sqlite3 database.db 
+  374  vi db.py
+  375  systemctl restart httpd
+  376  cat /var/log/httpd/error_log
+  377  less /var/log/httpd/error_log
+  378  vi db.py
+  379  less /var/log/httpd/error_log
+  380  vi db.py
+  381  ls
+  382  pwd
+  383  apachectl restart
+  384  cat /var/log/httpd/error_log
+  385  rm /var/log/httpd/error_log
+  386  cat /var/log/httpd/error_log
+  387  apachectl restart
+  388  cat /var/log/httpd/error_log
+  389  sqlite3 database.db 
+  390  ls -l
+  391  chmod 777 database.db 
+  392  ls -l
+  393  apachectl restart
+  394  cat /var/log/httpd/error_log
+  395  ls /
+  396  cp /var/log/httpd/error_log /mnt
+  397  umount /mnt
+  398  mount /dev/sdb1 /mnt
+  399  cp /var/log/httpd/error_log /mnt
+  400  umount /mnt
+  401  python3.6
+  402  sqlite3 database.db 
+  403  rm -f database.db 
+  404  python3.6 init.py 
+  405  pwd
+  406  vi db.py
+  407  ls -l
+  408  chmod 777 database.db 
+  409  ls -l
+  410  systemctl restart httpd
+  411  ls -l]
+  412  ls -l
+  413  cat /var/log/httpd/error_log
+  414  cd ..
+  415  ls -l
+  416  chmod 777 cgi-cin
+  417  chmod 777 cgi-bin
+  418  ls -l
+  419  systemctl restart httpd
+  420  cat /var/log/httpd/error_log
+  421  cd cgi-bin
+  422  ls
+  423  history | grep conf
+  424  vi /etc/httpd/conf.modules.d/10-wsgi
+  425  vi /etc/httpd/conf.modules.d/10-wsgi-python3.6.conf 
+  426  systemctl restart httpd
+  427  journalctl -xe
+  428  systemctl restart httpd
+  429  journalctl -xe
+  430  vi /etc/httpd/conf.modules.d/10-wsgi-python3.6.conf 
+  431  systemctl restart httpd
+  432  vi /etc/httpd/conf.modules.d/10-wsgi-python3.6.conf 
+  433  journalctl -xe
+  434  vi /etc/httpd/conf.modules.d/10-wsgi-python3.6.conf 
+  435  systemctl restart httpd
+  436  journalctl -xe
+  437  vi /etc/httpd/conf.modules.d/10-wsgi-python3.6.conf 
+  438  systemctl restart httpd
+  439  journalctl -xe
+  440  vi /etc/httpd/conf.modules.d/10-wsgi-python3.6.conf 
+  441  systemctl restart httpd
+  442  cat /var/log/httpd/error_log
+  443  vi /etc/httpd/conf.modules.d/10-wsgi-python3.6.conf 
+  444  systemctl restart httpd
+  445  cat /var/log/httpd/error_log
+  446  apachectl restart
+  447  cat /var/log/httpd/error_log
+  448  vi /etc/httpd/conf.modules.d/10-wsgi-python3.6.conf 
+  449  apachectl restart
+  450  cat /var/log/httpd/error_log
+  451  vi /etc/httpd/conf/http.conf
+  452  vi /etc/httpd/conf/httpd.conf
+  453  apachectl restart
+  454  cat /var/log/httpd/error_log
+  455  ls /var/www/cgi-bin
+  456  vi login.py
+  457  apachectl restart
+  458  vi login.py
+  459  vi /etc/httpd/conf.modules.d/10-wsgi-python3.6.conf 
+  460  reboot
+  461  vi /etc/httpd/conf.modules.d/10-wsgi-python3.6.conf 
+  462  apachectl restart
+  463  vi /etc/httpd/conf.modules.d/10-wsgi-python3.6.conf 
+  464  apachectl restart
+  465  vi /etc/httpd/conf.modules.d/10-wsgi-python3.6.conf 
+  466  apachectl restart
+  467  vi /etc/httpd/conf.modules.d/10-wsgi-python3.6.conf 
+  468  apachectl restart
+  469  vi /etc/httpd/conf.modules.d/10-wsgi-python3.6.conf 
+  470  apachectl restart
+  471  vi /etc/httpd/conf.modules.d/10-wsgi-python3.6.conf 
+  472  cd /var/www/cgi-bin
+  473  vi userpage.py
+  474  apachectl restart
+  475  cat /var/log/httpd/error_log
+  476  vi userpage.py
+  477  apachectl restart
+  478  cat /var/log/httpd/error_log
+  479  vi userpage.py
+  480  apachectl restart
+  481  rm -f /var/log/httpd/error_log
+  482  apachectl restart
+  483  cat /var/log/httpd/error_log
+  484  vi userpage.py
+  485  vi mypage.html
+  486  cat /var/log/httpd/error_log
+  487  vi userpage.py
+  488  apachectl restart
+  489  vi ~/.virc
+  490  vi userpage.py
+  491  mv ~/.virc ~/.vimrc
+  492  vi userpage.py
+  493  type vim
+  494  vi /etc/httpd/conf.modules.d/10-wsgi-python3.6.conf 
+  495  apachectl restart
+  496  vi /etc/httpd/conf.modules.d/10-wsgi-python3.6.conf 
+  497  apachectl restart
+  498  vi timeline.py 
+  499  apachectl restart
+  500  vi timeline.py 
+  501  vi tweet.py
+  502  apachectl restart
+  503  vi timeline.py 
+  504  apachectl restart
+  505  sqlite3 database.db 
+  506  vi userpage.py
+  507  apachectl restart
+  508  vi user.py
+  509  vi session.py
+  510  rm database.db 
+  511  python3.6 init.py 
+  512  apachectl restart
+  513  cat /var/log/httpd/error_log
+  514  vi user.py
+  515  vi session.py 
+  516  apachectl restart
+  517  cat /var/log/httpd/error_log
+  518  pip3.6 install bcrypt
+  519  apachectl restart
+  520  cat /var/log/httpd/error_log
+  521  chmod 777 database.db 
+  522  ls -l
+  523  cd ..
+  524  ls -l
+  525  cd cgi-bin/
+  526  apachectl restart
+  527  cat /var/log/httpd/error_log
+  528  chmod 777 .
+  529  chmod 777 database.db 
+  530  rm -f /var/log/httpd/error_log
+  531  apachectl restart
+  532  cat /var/log/httpd/error_log
+  533  sqlite3 database.db 
+  534  rm -f database.db 
+  535  python3.6 init.py 
+  536  chmod 777 database.db 
+  537  rm -f /var/log/httpd/error_log
+  538  apachectl restart
+  539  cat /var/log/httpd/error_log
+  540  vi init.py
+  541  rm -f database.db 
+  542  python3.6 init.py 
+  543  chmod 777 database.db 
+  544  apachectl restart
+  545  vi init.py
+  546  rm -f database.db 
+  547  python3.6 init.py 
+  548  chmod 777 database.db 
+  549  vi user.py
+  550  vi session.py 
+  551  apachectl restart
+  552  cat /var/log/httpd/error_log
+  553  vi user.py 
+  554  apachectl restart
+  555  cat /var/log/httpd/error_log
+  556  vi user.py 
+  557  vi session.py 
+  558  rm -f database.db 
+  559  python3.6 init.py 
+  560  chmod 777 database.db 
+  561  apachectl restart
+  562  cat /var/log/httpd/error_log
+  563  sqlite3 database.db 
+  564  ps
+  565  kill $!
+  566  kill 2358
+  567  python3.6
+  568  vi user.py 
+  569  apachectl restart
+  570  cat /var/log/httpd/error_log
+  571  vi user.py 
+  572  apachectl restart
+  573  sqlite3 database.db 
+  574  scp -r sk2818690@ssh.nuie.ice.nagoya-u.ac.jp:mycode/experiment/soft/soft2/scripts ~/userpage
+  575  scp -r sk2818690@ice.nagoya-u.ac.jp:mycode/experiment/soft/soft2/scripts ~/userpage
+  576  scp -r sk2818690@ice.nuie.nagoya-u.ac.jp:mycode/experiment/soft/soft2/scripts ~/userpage
+  577  scp -r sk2818690@ssh.ice.nuie.nagoya-u.ac.jp:mycode/experiment/soft/soft2/scripts ~/userpage
+  578  cp ~/userpage/{userpage.py, mypage.html, others_page.html} .
+  579  cd ~/userpage/
+  580  ls
+  581  cp mypage.html userpage.py others_page.html /var/www/cgi-bin/
+  582  cd /var/www/cgi-bin/
+  583  apachectl restart
+  584  vi mypage.html 
+  585  vi userpage.py
+  586  cat /var/log/httpd/error_log
+  587  vi userpage.py
+  588  apachectl restart
+  589  cat /var/log/httpd/error_log
+  590  ls
+  591  vi userpage.py
+  592  apachectl restart
+  593  vi userpage.py
+  594  apachectl restart
+  595  cat /var/log/httpd/error_log
+  596  3
+  597  mount /dev/sdb1 /mnt
+  598  cp /mnt/follow.py .
+  599  umount /mnt
+  600  apachectl restart
+  601  cat /var/log/httpd/error_log
+  602  rm /var/log/httpd/error_log
+  603  vi follow.py 
+  604  apachectl restart
+  605  cat /var/log/httpd/error_log
+  606  vi follow.py 
+  607  cat /var/log/httpd/error_log
+  608  cat /var/log/httpd/error_log | less
+  609  vi follow.py 
+  610  apachectl restart
+  611  vi follow.py 
+  612  apachectl restart
+  613  vi follow.py 
+  614  apachectl restart
+  615  vi follow.py 
+  616  apachectl restart
+  617  vi userpage.py
+  618  apachectl restart
+  619  vi userpage.py
+  620  vi session.py
+  621  cat /var/log/httpd/error_log
+  622  cat /var/log/httpd/error_log | grep delete
+  623  vi session.py
+  624  vi db.py
+  625  vi userpage.py
+  626  apachectl restart
+  627  3
+  628  vi userpage.py
+  629  cat /var/log/httpd/access_log
+  630  3
+  631  cat /var/log/httpd/access_log
+  632  vi userpage.py
+  633  apachectl restart
+  634  vi userpage.py
+  635  apachectl restart
+  636  vi userpage.py
+  637  apachectl restart
+  638  systemctl restart httpd
+  639  vi userpage.py
+  640  systemctl restart httpd
+  641  vi userpage.py
+  642  pwd
+  643  ls
+  644  history | grep conf
+  645  vi /etc/httpd/conf.modules.d/10-wsgi-python3.6.conf 
+  646  vi /var/www/cgi-bin/userpage.py
+  647  cat /var/log/httpd/error_log | grep delete
+  648  vi /var/www/cgi-bin/userpage.py
+  649  systemctl restart httpd
+  650  sqlite3 database.db 
+  651  vi session.py 
+  652  sqlite3 database.db 
+  653  rm -f /var/log/httpd/error_log
+  654  systemctl restart httpd
+  655  cat /var/log/httpd/error_log
+  656  cat /var/log/httpd/access_log
+  657  cat /var/log/httpd/error_log
+  658  cat /var/log/httpd/access_log
+  659  sqlite3 database.db 
+  660  vi userpage.py
+  661  systemctl restart httpd
+  662  cat /var/log/httpd/error_log
+  663  vi userpage.py
+  664  cat /var/log/httpd/access_log
+  665  lynx localhost:80
+  666  yum install lynx
+  667  lynx localhost:80
+  668  vi userpage.py
+  669  systemctl restart httpd
+  670  cat /var/log/httpd/access_log
+  671  vi userpage.py
+  672  ls
+  673  vm mypage.html 
+  674  vi mypage.html 
+  675  systemctl restart httpd
+  676* 
+  677  vi mypage.html 
+  678  vi userpage.py
+  679  vi mypage.html 
+  680  vi others_page.html 
+  681  systemctl restart httpd
+  682  cat /var/log/httpd/error_log
+  683  vi logout.py
+  684  history | grep conf
+  685  vi /etc/httpd/conf.modules.d/10-wsgi-python3.6.conf 
+  686  vi mypage.html 
+  687  vi others_page.html 
+  688  vi userpage.py 
+  689  systemctl restart httpd
+  690  cat /var/log/httpd/error_log
+  691  vi logout.py 
+  692  systemctl restart httpd
+  693  cat /var/log/httpd/access_log
+  694  vi logout.py 
+  695  systemctl restart httpd
+  696  cat /var/log/httpd/error_log
+  697  cat /var/log/httpd/error_log | tail
+  698  vi logout.py 
+  699  systemctl restart httpd
+  700  history > history.txt

@@ -1,0 +1,6 @@
+Script started on Thu 23 May 2019 01:49:36 PM JST
+[root@icesc12 machine1_2]# systemctl enable dhcpd
+Created symlink from /etc/systemd/system/multi-user.target.wants/dhcpd.service to /usr/lib/systemd/system/dhcpd.service.
+[root@icesc12 machine1_2]# exit
+
+Script done on Thu 23 May 2019 01:49:44 PM JST

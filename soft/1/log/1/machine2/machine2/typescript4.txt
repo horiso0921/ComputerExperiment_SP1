@@ -1,0 +1,6 @@
+Script started on Thu 16 May 2019 02:12:29 PM JST
+[root@www2 ~]# nmcli c m enp3s0 ipv4.method auto
+[root@www2 ~]# nmcli c m enp3s0 connection.autoconnect yes
+[root@www2 ~]# exit
+
+Script done on Thu 16 May 2019 02:14:27 PM JST

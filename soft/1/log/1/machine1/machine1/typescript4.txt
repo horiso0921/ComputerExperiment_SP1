@@ -1,0 +1,61 @@
+Script started on Thu 16 May 2019 02:05:04 PM JST
+[root@icesc12 ~]# nmcli device status
+DEVICE  TYPE      STATE         CONNECTION 
+enp1s0  ethernet  disconnected  --         
+enp2s0  ethernet  disconnected  --         
+enp3s0  ethernet  disconnected  --         
+enp4s0  ethernet  unavailable   --         
+lo      loopback  unmanaged     --         
+[root@icesc12 ~]# nmcli device show
+GENERAL.DEVICE:                         enp1s0
+GENERAL.TYPE:                           ethernet
+GENERAL.HWADDR:                         00:E0:67:12:2D:E4
+GENERAL.MTU:                            1500
+GENERAL.STATE:                          30 (disconnected)
+GENERAL.CONNECTION:                     --
+GENERAL.CON-PATH:                       --
+WIRED-PROPERTIES.CARRIER:               on
+
+GENERAL.DEVICE:                         enp2s0
+GENERAL.TYPE:                           ethernet
+GENERAL.HWADDR:                         00:E0:67:12:2D:E5
+GENERAL.MTU:                            1500
+GENERAL.STATE:                          30 (disconnected)
+GENERAL.CONNECTION:                     --
+GENERAL.CON-PATH:                       --
+WIRED-PROPERTIES.CARRIER:               on
+
+GENERAL.DEVICE:                         enp3s0
+GENERAL.TYPE:                           ethernet
+GENERAL.HWADDR:                         00:E0:67:12:2D:E6
+GENERAL.MTU:                            1500
+GENERAL.STATE:                          30 (disconnected)
+GENERAL.CONNECTION:                     --
+GENERAL.CON-PATH:                       --
+WIRED-PROPERTIES.CARRIER:               on
+
+GENERAL.DEVICE:                         enp4s0
+GENERAL.TYPE:                           ethernet
+GENERAL.HWADDR:                         00:E0:67:12:2D:E7
+GENERAL.MTU:                            1500
+GENERAL.STATE:                          20 (unavailable)
+GENERAL.CONNECTION:                     --
+GENERAL.CON-PATH:                       --
+WIRED-PROPERTIES.CARRIER:               off
+
+GENERAL.DEVICE:                         lo
+GENERAL.TYPE:                           loopback
+GENERAL.HWADDR:                         00:00:00:00:00:00
+GENERAL.MTU:                            65536
+GENERAL.STATE:                          10 (unmanaged)
+GENERAL.CONNECTION:                     --
+GENERAL.CON-PATH:                       --
+IP4.ADDRESS[1]:                         127.0.0.1/8
+IP4.GATEWAY:                            --
+IP6.ADDRESS[1]:                         ::1/128
+IP6.GATEWAY:                            --
+[root@icesc12 ~]# nmcli connection show  --active
+NAME  UUID  TYPE  DEVICE 
+[root@icesc12 ~]# exit
+
+Script done on Thu 16 May 2019 02:06:08 PM JST
